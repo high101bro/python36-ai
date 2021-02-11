@@ -1,0 +1,6 @@
+*.tar.gz
+*.whl
+*.rpm
+*.ps1
+packages.txt
+repo/**

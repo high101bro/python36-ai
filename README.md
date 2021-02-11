@@ -1,3 +1,3 @@
 ## Usage
 
-This is a Python3.6 image with AI/ML packages installed.
+Python3.6 image with AI/ML packages installed.
