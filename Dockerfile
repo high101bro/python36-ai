@@ -1,8 +1,7 @@
-ARG BASE_REGISTRY=registry1.dsop.io
+ARG BASE_REGISTRY=registry1.dso.mil
 ARG BASE_IMAGE=ironbank/redhat/python/python36
 ARG BASE_TAG=3.6
 FROM ${BASE_REGISTRY}/${BASE_IMAGE}:${BASE_TAG}
-#FROM python36:latest
 
 RUN mkdir /tmp/repo
 
@@ -47,9 +46,8 @@ RUN python3.6 -m pip install --upgrade --no-index --find-links /tmp/repo pip && 
         django \
         flask
 
-USER root
+# clean up
 RUN rm -rf /tmp/repo
-USER default
 
 HEALTHCHECK --interval=10s --timeout=1s CMD python.3.6 -c 'print("up")' || exit 1
 
