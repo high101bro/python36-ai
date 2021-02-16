@@ -1,0 +1,1359 @@
+[
+    {
+        "sha256:f0f8f385252c2af1d11da8add4ec423f06bac2d03968b85974bccce0d6ccf01c": {
+            "localhost:5000/python36-ai:latest": [
+                {
+                    "detail": {
+                        "policy": {
+                            "blacklisted_images": [],
+                            "comment": "Default bundle",
+                            "id": "2c53a13c-1765-11e8-82ef-23527761d060",
+                            "mappings": [
+                                {
+                                    "id": "c4f9bf74-dc38-4ddf-b5cf-00e9c0074611",
+                                    "image": {
+                                        "type": "tag",
+                                        "value": "*"
+                                    },
+                                    "name": "default",
+                                    "policy_id": "48e6f7d6-1765-11e8-b5f9-8b6f228548b6",
+                                    "registry": "*",
+                                    "repository": "*",
+                                    "whitelist_ids": [
+                                        "37fd763e-1765-11e8-add4-3b16c029ac5c"
+                                    ]
+                                }
+                            ],
+                            "name": "Default bundle",
+                            "policies": [
+                                {
+                                    "comment": "System default policy",
+                                    "id": "48e6f7d6-1765-11e8-b5f9-8b6f228548b6",
+                                    "name": "DefaultPolicy",
+                                    "rules": [
+                                        {
+                                            "action": "STOP",
+                                            "gate": "dockerfile",
+                                            "id": "ce7b8000-829b-4c27-8122-69cd59018400",
+                                            "params": [
+                                                {
+                                                    "name": "ports",
+                                                    "value": "22"
+                                                },
+                                                {
+                                                    "name": "type",
+                                                    "value": "blacklist"
+                                                }
+                                            ],
+                                            "trigger": "exposed_ports"
+                                        },
+                                        {
+                                            "action": "WARN",
+                                            "gate": "dockerfile",
+                                            "id": "312d9e41-1c05-4e2f-ad89-b7d34b0855bb",
+                                            "params": [
+                                                {
+                                                    "name": "instruction",
+                                                    "value": "HEALTHCHECK"
+                                                },
+                                                {
+                                                    "name": "check",
+                                                    "value": "not_exists"
+                                                }
+                                            ],
+                                            "trigger": "instruction"
+                                        },
+                                        {
+                                            "action": "WARN",
+                                            "gate": "vulnerabilities",
+                                            "id": "6b5c14e7-a6f7-48cc-99d2-959273a2c6fa",
+                                            "params": [
+                                                {
+                                                    "name": "max_days_since_sync",
+                                                    "value": "2"
+                                                }
+                                            ],
+                                            "trigger": "stale_feed_data"
+                                        },
+                                        {
+                                            "action": "WARN",
+                                            "gate": "vulnerabilities",
+                                            "id": "3e79ea94-18c4-4d26-9e29-3b9172a62c2e",
+                                            "params": [],
+                                            "trigger": "vulnerability_data_unavailable"
+                                        },
+                                        {
+                                            "action": "WARN",
+                                            "gate": "vulnerabilities",
+                                            "id": "6063fdde-b1c5-46af-973a-915739451ac4",
+                                            "params": [
+                                                {
+                                                    "name": "package_type",
+                                                    "value": "all"
+                                                },
+                                                {
+                                                    "name": "severity_comparison",
+                                                    "value": "="
+                                                },
+                                                {
+                                                    "name": "severity",
+                                                    "value": "medium"
+                                                }
+                                            ],
+                                            "trigger": "package"
+                                        },
+                                        {
+                                            "action": "STOP",
+                                            "gate": "vulnerabilities",
+                                            "id": "b30e8abc-444f-45b1-8a37-55be1b8c8bb5",
+                                            "params": [
+                                                {
+                                                    "name": "package_type",
+                                                    "value": "all"
+                                                },
+                                                {
+                                                    "name": "severity_comparison",
+                                                    "value": ">"
+                                                },
+                                                {
+                                                    "name": "severity",
+                                                    "value": "medium"
+                                                }
+                                            ],
+                                            "trigger": "package"
+                                        }
+                                    ],
+                                    "version": "1_0"
+                                }
+                            ],
+                            "version": "1_0",
+                            "whitelisted_images": [],
+                            "whitelists": [
+                                {
+                                    "comment": "Default global whitelist",
+                                    "id": "37fd763e-1765-11e8-add4-3b16c029ac5c",
+                                    "items": [],
+                                    "name": "Global Whitelist",
+                                    "version": "1_0"
+                                }
+                            ]
+                        },
+                        "result": {
+                            "bundle": {
+                                "blacklisted_images": [],
+                                "comment": "Default bundle",
+                                "id": "2c53a13c-1765-11e8-82ef-23527761d060",
+                                "mappings": [
+                                    {
+                                        "id": "c4f9bf74-dc38-4ddf-b5cf-00e9c0074611",
+                                        "image": {
+                                            "type": "tag",
+                                            "value": "*"
+                                        },
+                                        "name": "default",
+                                        "policy_id": "48e6f7d6-1765-11e8-b5f9-8b6f228548b6",
+                                        "registry": "*",
+                                        "repository": "*",
+                                        "whitelist_ids": [
+                                            "37fd763e-1765-11e8-add4-3b16c029ac5c"
+                                        ]
+                                    }
+                                ],
+                                "name": "Default bundle",
+                                "policies": [
+                                    {
+                                        "comment": "System default policy",
+                                        "id": "48e6f7d6-1765-11e8-b5f9-8b6f228548b6",
+                                        "name": "DefaultPolicy",
+                                        "rules": [
+                                            {
+                                                "action": "STOP",
+                                                "gate": "dockerfile",
+                                                "id": "ce7b8000-829b-4c27-8122-69cd59018400",
+                                                "params": [
+                                                    {
+                                                        "name": "ports",
+                                                        "value": "22"
+                                                    },
+                                                    {
+                                                        "name": "type",
+                                                        "value": "blacklist"
+                                                    }
+                                                ],
+                                                "trigger": "exposed_ports"
+                                            },
+                                            {
+                                                "action": "WARN",
+                                                "gate": "dockerfile",
+                                                "id": "312d9e41-1c05-4e2f-ad89-b7d34b0855bb",
+                                                "params": [
+                                                    {
+                                                        "name": "instruction",
+                                                        "value": "HEALTHCHECK"
+                                                    },
+                                                    {
+                                                        "name": "check",
+                                                        "value": "not_exists"
+                                                    }
+                                                ],
+                                                "trigger": "instruction"
+                                            },
+                                            {
+                                                "action": "WARN",
+                                                "gate": "vulnerabilities",
+                                                "id": "6b5c14e7-a6f7-48cc-99d2-959273a2c6fa",
+                                                "params": [
+                                                    {
+                                                        "name": "max_days_since_sync",
+                                                        "value": "2"
+                                                    }
+                                                ],
+                                                "trigger": "stale_feed_data"
+                                            },
+                                            {
+                                                "action": "WARN",
+                                                "gate": "vulnerabilities",
+                                                "id": "3e79ea94-18c4-4d26-9e29-3b9172a62c2e",
+                                                "params": [],
+                                                "trigger": "vulnerability_data_unavailable"
+                                            },
+                                            {
+                                                "action": "WARN",
+                                                "gate": "vulnerabilities",
+                                                "id": "6063fdde-b1c5-46af-973a-915739451ac4",
+                                                "params": [
+                                                    {
+                                                        "name": "package_type",
+                                                        "value": "all"
+                                                    },
+                                                    {
+                                                        "name": "severity_comparison",
+                                                        "value": "="
+                                                    },
+                                                    {
+                                                        "name": "severity",
+                                                        "value": "medium"
+                                                    }
+                                                ],
+                                                "trigger": "package"
+                                            },
+                                            {
+                                                "action": "STOP",
+                                                "gate": "vulnerabilities",
+                                                "id": "b30e8abc-444f-45b1-8a37-55be1b8c8bb5",
+                                                "params": [
+                                                    {
+                                                        "name": "package_type",
+                                                        "value": "all"
+                                                    },
+                                                    {
+                                                        "name": "severity_comparison",
+                                                        "value": ">"
+                                                    },
+                                                    {
+                                                        "name": "severity",
+                                                        "value": "medium"
+                                                    }
+                                                ],
+                                                "trigger": "package"
+                                            }
+                                        ],
+                                        "version": "1_0"
+                                    }
+                                ],
+                                "version": "1_0",
+                                "whitelisted_images": [],
+                                "whitelists": [
+                                    {
+                                        "comment": "Default global whitelist",
+                                        "id": "37fd763e-1765-11e8-add4-3b16c029ac5c",
+                                        "items": [],
+                                        "name": "Global Whitelist",
+                                        "version": "1_0"
+                                    }
+                                ]
+                            },
+                            "created_at": 1613189240,
+                            "evaluation_problems": [],
+                            "final_action": "stop",
+                            "final_action_reason": "policy_evaluation",
+                            "image_digest": "sha256:f0f8f385252c2af1d11da8add4ec423f06bac2d03968b85974bccce0d6ccf01c",
+                            "image_id": "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                            "last_modified": 1613189240,
+                            "matched_blacklisted_images_rule": false,
+                            "matched_mapping_rule": {
+                                "id": "c4f9bf74-dc38-4ddf-b5cf-00e9c0074611",
+                                "image": {
+                                    "type": "tag",
+                                    "value": "*"
+                                },
+                                "name": "default",
+                                "policy_id": "48e6f7d6-1765-11e8-b5f9-8b6f228548b6",
+                                "registry": "*",
+                                "repository": "*",
+                                "whitelist_ids": [
+                                    "37fd763e-1765-11e8-add4-3b16c029ac5c"
+                                ]
+                            },
+                            "matched_whitelisted_images_rule": false,
+                            "result": {
+                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8": {
+                                    "result": {
+                                        "final_action": "stop",
+                                        "header": [
+                                            "Image_Id",
+                                            "Repo_Tag",
+                                            "Trigger_Id",
+                                            "Gate",
+                                            "Trigger",
+                                            "Check_Output",
+                                            "Gate_Action",
+                                            "Whitelisted",
+                                            "Policy_Id"
+                                        ],
+                                        "row_count": 93,
+                                        "rows": [
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "41cb7cdf04850e33a11f80c42bf660b3",
+                                                "dockerfile",
+                                                "instruction",
+                                                "Dockerfile directive 'HEALTHCHECK' not found, matching condition 'not_exists' check",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2021-20197+binutils",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - binutils (CVE-2021-20197 - https://access.redhat.com/security/cve/CVE-2021-20197)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-8927+brotli",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - brotli (CVE-2020-8927 - https://access.redhat.com/security/cve/CVE-2020-8927)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-8285+curl",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - curl (CVE-2020-8285 - https://access.redhat.com/security/cve/CVE-2020-8285)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-8284+curl",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - curl (CVE-2020-8284 - https://access.redhat.com/security/cve/CVE-2020-8284)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-8286+curl",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - curl (CVE-2020-8286 - https://access.redhat.com/security/cve/CVE-2020-8286)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2021-3326+glibc",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - glibc (CVE-2021-3326 - https://access.redhat.com/security/cve/CVE-2021-3326)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2021-3326+glibc-common",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - glibc-common (CVE-2021-3326 - https://access.redhat.com/security/cve/CVE-2021-3326)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2021-3326+glibc-devel",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - glibc-devel (CVE-2021-3326 - https://access.redhat.com/security/cve/CVE-2021-3326)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2021-3326+glibc-headers",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - glibc-headers (CVE-2021-3326 - https://access.redhat.com/security/cve/CVE-2021-3326)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2021-3326+glibc-minimal-langpack",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - glibc-minimal-langpack (CVE-2021-3326 - https://access.redhat.com/security/cve/CVE-2021-3326)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-8832+kernel-headers",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-8832 - https://access.redhat.com/security/cve/CVE-2020-8832)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-12464+kernel-headers",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-12464 - https://access.redhat.com/security/cve/CVE-2020-12464)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-10741+kernel-headers",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-10741 - https://access.redhat.com/security/cve/CVE-2020-10741)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-13844+kernel-headers",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-13844 - https://access.redhat.com/security/cve/CVE-2020-13844)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-12114+kernel-headers",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-12114 - https://access.redhat.com/security/cve/CVE-2020-12114)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-14416+kernel-headers",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-14416 - https://access.redhat.com/security/cve/CVE-2020-14416)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-14356+kernel-headers",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-14356 - https://access.redhat.com/security/cve/CVE-2020-14356)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-28915+kernel-headers",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-28915 - https://access.redhat.com/security/cve/CVE-2020-28915)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-15802+kernel-headers",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-15802 - https://access.redhat.com/security/cve/CVE-2020-15802)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-25645+kernel-headers",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-25645 - https://access.redhat.com/security/cve/CVE-2020-25645)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-25284+kernel-headers",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-25284 - https://access.redhat.com/security/cve/CVE-2020-25284)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-25285+kernel-headers",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-25285 - https://access.redhat.com/security/cve/CVE-2020-25285)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-25212+kernel-headers",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-25212 - https://access.redhat.com/security/cve/CVE-2020-25212)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-27152+kernel-headers",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-27152 - https://access.redhat.com/security/cve/CVE-2020-27152)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-8694+kernel-headers",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-8694 - https://access.redhat.com/security/cve/CVE-2020-8694)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-26541+kernel-headers",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-26541 - https://access.redhat.com/security/cve/CVE-2020-26541)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2021-3178+kernel-headers",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2021-3178 - https://access.redhat.com/security/cve/CVE-2021-3178)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-25705+kernel-headers",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-25705 - https://access.redhat.com/security/cve/CVE-2020-25705)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-14351+kernel-headers",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-14351 - https://access.redhat.com/security/cve/CVE-2020-14351)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-15437+kernel-headers",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-15437 - https://access.redhat.com/security/cve/CVE-2020-15437)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-25704+kernel-headers",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-25704 - https://access.redhat.com/security/cve/CVE-2020-25704)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-16120+kernel-headers",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-16120 - https://access.redhat.com/security/cve/CVE-2020-16120)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-4788+kernel-headers",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-4788 - https://access.redhat.com/security/cve/CVE-2020-4788)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-29660+kernel-headers",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-29660 - https://access.redhat.com/security/cve/CVE-2020-29660)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-27786+kernel-headers",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-27786 - https://access.redhat.com/security/cve/CVE-2020-27786)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-25643+kernel-headers",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-25643 - https://access.redhat.com/security/cve/CVE-2020-25643)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-24394+kernel-headers",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-24394 - https://access.redhat.com/security/cve/CVE-2020-24394)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-14314+kernel-headers",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-14314 - https://access.redhat.com/security/cve/CVE-2020-14314)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-27777+kernel-headers",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-27777 - https://access.redhat.com/security/cve/CVE-2020-27777)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2019-20794+kernel-headers",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2019-20794 - https://access.redhat.com/security/cve/CVE-2019-20794)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-35508+kernel-headers",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-35508 - https://access.redhat.com/security/cve/CVE-2020-35508)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-27835+kernel-headers",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-27835 - https://access.redhat.com/security/cve/CVE-2020-27835)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-36158+kernel-headers",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-36158 - https://access.redhat.com/security/cve/CVE-2020-36158)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2021-0342+kernel-headers",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2021-0342 - https://access.redhat.com/security/cve/CVE-2021-0342)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-28974+kernel-headers",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-28974 - https://access.redhat.com/security/cve/CVE-2020-28974)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-0431+kernel-headers",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-0431 - https://access.redhat.com/security/cve/CVE-2020-0431)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-0404+kernel-headers",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-0404 - https://access.redhat.com/security/cve/CVE-2020-0404)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-0427+kernel-headers",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-0427 - https://access.redhat.com/security/cve/CVE-2020-0427)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2021-20194+kernel-headers",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2021-20194 - https://access.redhat.com/security/cve/CVE-2021-20194)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2021-3348+kernel-headers",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2021-3348 - https://access.redhat.com/security/cve/CVE-2021-3348)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-28196+krb5-libs",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - krb5-libs (CVE-2020-28196 - https://access.redhat.com/security/cve/CVE-2020-28196)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-8285+libcurl",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - libcurl (CVE-2020-8285 - https://access.redhat.com/security/cve/CVE-2020-8285)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-8284+libcurl",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - libcurl (CVE-2020-8284 - https://access.redhat.com/security/cve/CVE-2020-8284)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-8286+libcurl",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - libcurl (CVE-2020-8286 - https://access.redhat.com/security/cve/CVE-2020-8286)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-24977+libxml2",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - libxml2 (CVE-2020-24977 - https://access.redhat.com/security/cve/CVE-2020-24977)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-29363+p11-kit",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - p11-kit (CVE-2020-29363 - https://access.redhat.com/security/cve/CVE-2020-29363)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-29361+p11-kit",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - p11-kit (CVE-2020-29361 - https://access.redhat.com/security/cve/CVE-2020-29361)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-29362+p11-kit",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - p11-kit (CVE-2020-29362 - https://access.redhat.com/security/cve/CVE-2020-29362)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-29363+p11-kit-trust",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - p11-kit-trust (CVE-2020-29363 - https://access.redhat.com/security/cve/CVE-2020-29363)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-29361+p11-kit-trust",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - p11-kit-trust (CVE-2020-29361 - https://access.redhat.com/security/cve/CVE-2020-29361)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-29362+p11-kit-trust",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - p11-kit-trust (CVE-2020-29362 - https://access.redhat.com/security/cve/CVE-2020-29362)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-12723+perl-interpreter",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - perl-interpreter (CVE-2020-12723 - https://access.redhat.com/security/cve/CVE-2020-12723)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-10878+perl-interpreter",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - perl-interpreter (CVE-2020-10878 - https://access.redhat.com/security/cve/CVE-2020-10878)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-10543+perl-interpreter",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - perl-interpreter (CVE-2020-10543 - https://access.redhat.com/security/cve/CVE-2020-10543)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-12723+perl-libs",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - perl-libs (CVE-2020-12723 - https://access.redhat.com/security/cve/CVE-2020-12723)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-10878+perl-libs",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - perl-libs (CVE-2020-10878 - https://access.redhat.com/security/cve/CVE-2020-10878)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-10543+perl-libs",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - perl-libs (CVE-2020-10543 - https://access.redhat.com/security/cve/CVE-2020-10543)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-12723+perl-macros",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - perl-macros (CVE-2020-12723 - https://access.redhat.com/security/cve/CVE-2020-12723)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-10878+perl-macros",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - perl-macros (CVE-2020-10878 - https://access.redhat.com/security/cve/CVE-2020-10878)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-10543+perl-macros",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - perl-macros (CVE-2020-10543 - https://access.redhat.com/security/cve/CVE-2020-10543)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-26116+platform-python",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - platform-python (CVE-2020-26116 - https://access.redhat.com/security/cve/CVE-2020-26116)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-27619+platform-python",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - platform-python (CVE-2020-27619 - https://access.redhat.com/security/cve/CVE-2020-27619)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-26116+platform-python-devel",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - platform-python-devel (CVE-2020-26116 - https://access.redhat.com/security/cve/CVE-2020-26116)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-27619+platform-python-devel",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - platform-python-devel (CVE-2020-27619 - https://access.redhat.com/security/cve/CVE-2020-27619)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-26116+python3-libs",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - python3-libs (CVE-2020-26116 - https://access.redhat.com/security/cve/CVE-2020-26116)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-27619+python3-libs",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - python3-libs (CVE-2020-27619 - https://access.redhat.com/security/cve/CVE-2020-27619)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-24977+python3-libxml2",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - python3-libxml2 (CVE-2020-24977 - https://access.redhat.com/security/cve/CVE-2020-24977)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-13434+sqlite-libs",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - sqlite-libs (CVE-2020-13434 - https://access.redhat.com/security/cve/CVE-2020-13434)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-15358+sqlite-libs",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - sqlite-libs (CVE-2020-15358 - https://access.redhat.com/security/cve/CVE-2020-15358)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-13776+systemd",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - systemd (CVE-2020-13776 - https://access.redhat.com/security/cve/CVE-2020-13776)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-13776+systemd-libs",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - systemd-libs (CVE-2020-13776 - https://access.redhat.com/security/cve/CVE-2020-13776)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-13776+systemd-pam",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (rpm) - systemd-pam (CVE-2020-13776 - https://access.redhat.com/security/cve/CVE-2020-13776)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2019-25013+glibc",
+                                                "vulnerabilities",
+                                                "package",
+                                                "HIGH Vulnerability found in os package type (rpm) - glibc (CVE-2019-25013 - https://access.redhat.com/security/cve/CVE-2019-25013)",
+                                                "stop",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2019-25013+glibc-common",
+                                                "vulnerabilities",
+                                                "package",
+                                                "HIGH Vulnerability found in os package type (rpm) - glibc-common (CVE-2019-25013 - https://access.redhat.com/security/cve/CVE-2019-25013)",
+                                                "stop",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2019-25013+glibc-devel",
+                                                "vulnerabilities",
+                                                "package",
+                                                "HIGH Vulnerability found in os package type (rpm) - glibc-devel (CVE-2019-25013 - https://access.redhat.com/security/cve/CVE-2019-25013)",
+                                                "stop",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2019-25013+glibc-headers",
+                                                "vulnerabilities",
+                                                "package",
+                                                "HIGH Vulnerability found in os package type (rpm) - glibc-headers (CVE-2019-25013 - https://access.redhat.com/security/cve/CVE-2019-25013)",
+                                                "stop",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2019-25013+glibc-minimal-langpack",
+                                                "vulnerabilities",
+                                                "package",
+                                                "HIGH Vulnerability found in os package type (rpm) - glibc-minimal-langpack (CVE-2019-25013 - https://access.redhat.com/security/cve/CVE-2019-25013)",
+                                                "stop",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-29661+kernel-headers",
+                                                "vulnerabilities",
+                                                "package",
+                                                "HIGH Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-29661 - https://access.redhat.com/security/cve/CVE-2020-29661)",
+                                                "stop",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-28374+kernel-headers",
+                                                "vulnerabilities",
+                                                "package",
+                                                "HIGH Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-28374 - https://access.redhat.com/security/cve/CVE-2020-28374)",
+                                                "stop",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2020-0466+kernel-headers",
+                                                "vulnerabilities",
+                                                "package",
+                                                "HIGH Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-0466 - https://access.redhat.com/security/cve/CVE-2020-0466)",
+                                                "stop",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2021-3347+kernel-headers",
+                                                "vulnerabilities",
+                                                "package",
+                                                "HIGH Vulnerability found in os package type (rpm) - kernel-headers (CVE-2021-3347 - https://access.redhat.com/security/cve/CVE-2021-3347)",
+                                                "stop",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8",
+                                                "localhost:5000/python36-ai:latest",
+                                                "CVE-2021-26708+kernel-headers",
+                                                "vulnerabilities",
+                                                "package",
+                                                "HIGH Vulnerability found in os package type (rpm) - kernel-headers (CVE-2021-26708 - https://access.redhat.com/security/cve/CVE-2021-26708)",
+                                                "stop",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ]
+                                        ]
+                                    }
+                                },
+                                "policy_data": [],
+                                "policy_name": "",
+                                "whitelist_data": [],
+                                "whitelist_names": []
+                            },
+                            "status": "fail",
+                            "tag": "localhost:5000/python36-ai:latest",
+                            "user_id": "admin"
+                        }
+                    },
+                    "last_evaluation": "2021-02-13T04:07:20Z",
+                    "policyId": "2c53a13c-1765-11e8-82ef-23527761d060",
+                    "status": "fail"
+                }
+            ]
+        }
+    }
+]

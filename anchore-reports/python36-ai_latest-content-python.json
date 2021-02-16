@@ -1,0 +1,1898 @@
+{
+    "content": [
+        {
+            "cpes": [
+                "cpe:2.3:a:Cython:Cython:0.29.21:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-Cython:Cython:0.29.21:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:Cython:0.29.21:*:*:*:*:python:*:*",
+                "cpe:2.3:a:Cython:Cython:0.29.21:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-Cython:Cython:0.29.21:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:Cython:0.29.21:*:*:*:*:*:*:*"
+            ],
+            "license": "Apache",
+            "licenses": [
+                "Apache"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/pyximport",
+            "origin": "Robert Bradshaw, Stefan Behnel, Dag Seljebotn, Greg Ewing, et al. <cython-devel@python.org>",
+            "package": "Cython",
+            "type": "PYTHON",
+            "version": "0.29.21"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:Django:Django:1.11.29:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-Django:Django:1.11.29:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:Django:1.11.29:*:*:*:*:python:*:*",
+                "cpe:2.3:a:Django:Django:1.11.29:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-Django:Django:1.11.29:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:Django:1.11.29:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD",
+            "licenses": [
+                "BSD"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/bleach/_vendor/django",
+            "origin": "Django Software Foundation <foundation@djangoproject.com>",
+            "package": "Django",
+            "type": "PYTHON",
+            "version": "1.11.29"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:Django:Django:3.1.6:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-Django:Django:3.1.6:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:Django:3.1.6:*:*:*:*:python:*:*",
+                "cpe:2.3:a:Django:Django:3.1.6:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-Django:Django:3.1.6:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:Django:3.1.6:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD-3-Clause",
+            "licenses": [
+                "BSD-3-Clause"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/django",
+            "origin": "Django Software Foundation <foundation@djangoproject.com>",
+            "package": "Django",
+            "type": "PYTHON",
+            "version": "3.1.6"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:Flask:Flask:1.1.2:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-Flask:Flask:1.1.2:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:Flask:1.1.2:*:*:*:*:python:*:*",
+                "cpe:2.3:a:Flask:Flask:1.1.2:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-Flask:Flask:1.1.2:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:Flask:1.1.2:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD-3-Clause",
+            "licenses": [
+                "BSD-3-Clause"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/flask",
+            "origin": "Armin Ronacher <armin.ronacher@active-4.com>",
+            "package": "Flask",
+            "type": "PYTHON",
+            "version": "1.1.2"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:Jinja2:Jinja2:2.11.3:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-Jinja2:Jinja2:2.11.3:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:Jinja2:2.11.3:*:*:*:*:python:*:*",
+                "cpe:2.3:a:Jinja2:Jinja2:2.11.3:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-Jinja2:Jinja2:2.11.3:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:Jinja2:2.11.3:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD-3-Clause",
+            "licenses": [
+                "BSD-3-Clause"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/jinja2",
+            "origin": "Armin Ronacher <armin.ronacher@active-4.com>",
+            "package": "Jinja2",
+            "type": "PYTHON",
+            "version": "2.11.3"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:LunarCalendar:LunarCalendar:0.0.9:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-LunarCalendar:LunarCalendar:0.0.9:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:LunarCalendar:0.0.9:*:*:*:*:python:*:*",
+                "cpe:2.3:a:LunarCalendar:LunarCalendar:0.0.9:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-LunarCalendar:LunarCalendar:0.0.9:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:LunarCalendar:0.0.9:*:*:*:*:*:*:*"
+            ],
+            "license": "MIT",
+            "licenses": [
+                "MIT"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/lunarcalendar",
+            "origin": "wolfhong <hongxucai1991@gmail.com>",
+            "package": "LunarCalendar",
+            "type": "PYTHON",
+            "version": "0.0.9"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:MarkupSafe:MarkupSafe:1.1.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-MarkupSafe:MarkupSafe:1.1.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:MarkupSafe:1.1.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:MarkupSafe:MarkupSafe:1.1.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-MarkupSafe:MarkupSafe:1.1.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:MarkupSafe:1.1.1:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD-3-Clause",
+            "licenses": [
+                "BSD-3-Clause"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/markupsafe",
+            "origin": "Armin Ronacher <armin.ronacher@active-4.com>",
+            "package": "MarkupSafe",
+            "type": "PYTHON",
+            "version": "1.1.1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:Pillow:Pillow:8.1.0:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-Pillow:Pillow:8.1.0:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:Pillow:8.1.0:*:*:*:*:python:*:*",
+                "cpe:2.3:a:Pillow:Pillow:8.1.0:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-Pillow:Pillow:8.1.0:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:Pillow:8.1.0:*:*:*:*:*:*:*"
+            ],
+            "license": "HPND",
+            "licenses": [
+                "HPND"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/PIL",
+            "origin": "Alex Clark (PIL Fork Author) <aclark@python-pillow.org>",
+            "package": "Pillow",
+            "type": "PYTHON",
+            "version": "8.1.0"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:PyGObject:PyGObject:3.28.3:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-PyGObject:PyGObject:3.28.3:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:PyGObject:3.28.3:*:*:*:*:python:*:*",
+                "cpe:2.3:a:PyGObject:PyGObject:3.28.3:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-PyGObject:PyGObject:3.28.3:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:PyGObject:3.28.3:*:*:*:*:*:*:*"
+            ],
+            "license": "GNU LGPL",
+            "licenses": [
+                "GNU",
+                "LGPL"
+            ],
+            "location": "/usr/lib64/python3.6/site-packages/PyGObject",
+            "origin": "James Henstridge <james@daa.com.au>",
+            "package": "PyGObject",
+            "type": "PYTHON",
+            "version": "3.28.3"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:PyMeeus:PyMeeus:0.3.7:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-PyMeeus:PyMeeus:0.3.7:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:PyMeeus:0.3.7:*:*:*:*:python:*:*",
+                "cpe:2.3:a:PyMeeus:PyMeeus:0.3.7:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-PyMeeus:PyMeeus:0.3.7:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:PyMeeus:0.3.7:*:*:*:*:*:*:*"
+            ],
+            "license": "LGPLv3",
+            "licenses": [
+                "LGPLv3"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/pymeeus",
+            "origin": "Dagoberto Salazar <dagoberto.salazar@gmail.com>",
+            "package": "PyMeeus",
+            "type": "PYTHON",
+            "version": "0.3.7"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:Pygments:Pygments:2.7.4:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-Pygments:Pygments:2.7.4:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:Pygments:2.7.4:*:*:*:*:python:*:*",
+                "cpe:2.3:a:Pygments:Pygments:2.7.4:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-Pygments:Pygments:2.7.4:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:Pygments:2.7.4:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD License",
+            "licenses": [
+                "BSD",
+                "License"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/pygments",
+            "origin": "Georg Brandl <georg@python.org>",
+            "package": "Pygments",
+            "type": "PYTHON",
+            "version": "2.7.4"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:SecretStorage:SecretStorage:3.3.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-SecretStorage:SecretStorage:3.3.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:SecretStorage:3.3.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:SecretStorage:SecretStorage:3.3.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-SecretStorage:SecretStorage:3.3.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:SecretStorage:3.3.1:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD 3-Clause License",
+            "licenses": [
+                "BSD",
+                "3-Clause",
+                "License"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/secretstorage",
+            "origin": "Dmitry Shachnev <mitya57@gmail.com>",
+            "package": "SecretStorage",
+            "type": "PYTHON",
+            "version": "3.3.1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:SimpleWebSocketServer:SimpleWebSocketServer:0.1.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-SimpleWebSocketServer:SimpleWebSocketServer:0.1.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:SimpleWebSocketServer:0.1.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:SimpleWebSocketServer:SimpleWebSocketServer:0.1.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-SimpleWebSocketServer:SimpleWebSocketServer:0.1.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:SimpleWebSocketServer:0.1.1:*:*:*:*:*:*:*"
+            ],
+            "license": "UNKNOWN",
+            "licenses": [
+                "UNKNOWN"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/SimpleWebSocketServer",
+            "origin": "Dave Pallot <d.e.pallot@gmail.com>",
+            "package": "SimpleWebSocketServer",
+            "type": "PYTHON",
+            "version": "0.1.1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:Werkzeug:Werkzeug:1.0.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-Werkzeug:Werkzeug:1.0.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:Werkzeug:1.0.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:Werkzeug:Werkzeug:1.0.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-Werkzeug:Werkzeug:1.0.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:Werkzeug:1.0.1:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD-3-Clause",
+            "licenses": [
+                "BSD-3-Clause"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/werkzeug",
+            "origin": "Armin Ronacher <armin.ronacher@active-4.com>",
+            "package": "Werkzeug",
+            "type": "PYTHON",
+            "version": "1.0.1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:asgiref:asgiref:3.3.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-asgiref:asgiref:3.3.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:asgiref:3.3.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:asgiref:asgiref:3.3.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-asgiref:asgiref:3.3.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:asgiref:3.3.1:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD",
+            "licenses": [
+                "BSD"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/asgiref",
+            "origin": "Django Software Foundation <foundation@djangoproject.com>",
+            "package": "asgiref",
+            "type": "PYTHON",
+            "version": "3.3.1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:beautifulsoup4:beautifulsoup4:4.9.3:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-beautifulsoup4:beautifulsoup4:4.9.3:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:beautifulsoup4:4.9.3:*:*:*:*:python:*:*",
+                "cpe:2.3:a:beautifulsoup4:beautifulsoup4:4.9.3:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-beautifulsoup4:beautifulsoup4:4.9.3:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:beautifulsoup4:4.9.3:*:*:*:*:*:*:*"
+            ],
+            "license": "MIT",
+            "licenses": [
+                "MIT"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/bs4",
+            "origin": "Leonard Richardson <leonardr@segfault.org>",
+            "package": "beautifulsoup4",
+            "type": "PYTHON",
+            "version": "4.9.3"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:bleach:bleach:3.3.0:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-bleach:bleach:3.3.0:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:bleach:3.3.0:*:*:*:*:python:*:*",
+                "cpe:2.3:a:bleach:bleach:3.3.0:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-bleach:bleach:3.3.0:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:bleach:3.3.0:*:*:*:*:*:*:*"
+            ],
+            "license": "Apache Software License",
+            "licenses": [
+                "Apache",
+                "Software",
+                "License"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/bleach",
+            "origin": "Unknown",
+            "package": "bleach",
+            "type": "PYTHON",
+            "version": "3.3.0"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:certifi:certifi:2020.12.5:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-certifi:certifi:2020.12.5:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:certifi:2020.12.5:*:*:*:*:python:*:*",
+                "cpe:2.3:a:certifi:certifi:2020.12.5:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-certifi:certifi:2020.12.5:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:certifi:2020.12.5:*:*:*:*:*:*:*"
+            ],
+            "license": "MPL-2.0",
+            "licenses": [
+                "MPL-2.0"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/certifi",
+            "origin": "Kenneth Reitz <me@kennethreitz.com>",
+            "package": "certifi",
+            "type": "PYTHON",
+            "version": "2020.12.5"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:cffi:cffi:1.14.5:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-cffi:cffi:1.14.5:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:cffi:1.14.5:*:*:*:*:python:*:*",
+                "cpe:2.3:a:cffi:cffi:1.14.5:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-cffi:cffi:1.14.5:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:cffi:1.14.5:*:*:*:*:*:*:*"
+            ],
+            "license": "MIT",
+            "licenses": [
+                "MIT"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/cffi",
+            "origin": "Armin Rigo, Maciej Fijalkowski <python-cffi@googlegroups.com>",
+            "package": "cffi",
+            "type": "PYTHON",
+            "version": "1.14.5"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:chardet:chardet:4.0.0:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-chardet:chardet:4.0.0:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:chardet:4.0.0:*:*:*:*:python:*:*",
+                "cpe:2.3:a:chardet:chardet:4.0.0:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-chardet:chardet:4.0.0:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:chardet:4.0.0:*:*:*:*:*:*:*"
+            ],
+            "license": "LGPL",
+            "licenses": [
+                "LGPL"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/chardet",
+            "origin": "Mark Pilgrim <mark@diveintomark.org>",
+            "package": "chardet",
+            "type": "PYTHON",
+            "version": "4.0.0"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:click:click:7.1.2:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-click:click:7.1.2:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:click:7.1.2:*:*:*:*:python:*:*",
+                "cpe:2.3:a:click:click:7.1.2:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-click:click:7.1.2:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:click:7.1.2:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD-3-Clause",
+            "licenses": [
+                "BSD-3-Clause"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/click",
+            "origin": "Unknown",
+            "package": "click",
+            "type": "PYTHON",
+            "version": "7.1.2"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:cmdstanpy:cmdstanpy:0.9.5:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-cmdstanpy:cmdstanpy:0.9.5:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:cmdstanpy:0.9.5:*:*:*:*:python:*:*",
+                "cpe:2.3:a:cmdstanpy:cmdstanpy:0.9.5:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-cmdstanpy:cmdstanpy:0.9.5:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:cmdstanpy:0.9.5:*:*:*:*:*:*:*"
+            ],
+            "license": "UNKNOWN",
+            "licenses": [
+                "UNKNOWN"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/cmdstanpy",
+            "origin": "Stan Dev Team",
+            "package": "cmdstanpy",
+            "type": "PYTHON",
+            "version": "0.9.5"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:colorama:colorama:0.4.4:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-colorama:colorama:0.4.4:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:colorama:0.4.4:*:*:*:*:python:*:*",
+                "cpe:2.3:a:colorama:colorama:0.4.4:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-colorama:colorama:0.4.4:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:colorama:0.4.4:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD",
+            "licenses": [
+                "BSD"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/colorama",
+            "origin": "Jonathan Hartley <tartley@tartley.com>",
+            "package": "colorama",
+            "type": "PYTHON",
+            "version": "0.4.4"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:convertdate:convertdate:2.3.0:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-convertdate:convertdate:2.3.0:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:convertdate:2.3.0:*:*:*:*:python:*:*",
+                "cpe:2.3:a:convertdate:convertdate:2.3.0:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-convertdate:convertdate:2.3.0:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:convertdate:2.3.0:*:*:*:*:*:*:*"
+            ],
+            "license": "MIT",
+            "licenses": [
+                "MIT"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/convertdate",
+            "origin": "Neil Freeman <contact@fakeisthenewreal.org>",
+            "package": "convertdate",
+            "type": "PYTHON",
+            "version": "2.3.0"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:cryptography:cryptography:3.4.4:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-cryptography:cryptography:3.4.4:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:cryptography:3.4.4:*:*:*:*:python:*:*",
+                "cpe:2.3:a:cryptography:cryptography:3.4.4:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-cryptography:cryptography:3.4.4:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:cryptography:3.4.4:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD or Apache License, Version 2.0",
+            "licenses": [
+                "BSD",
+                "or",
+                "Apache",
+                "License,",
+                "Version",
+                "2.0"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/cryptography",
+            "origin": "The Python Cryptographic Authority and individual contributors <cryptography-dev@python.org>",
+            "package": "cryptography",
+            "type": "PYTHON",
+            "version": "3.4.4"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:cycler:cycler:0.10.0:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-cycler:cycler:0.10.0:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:cycler:0.10.0:*:*:*:*:python:*:*",
+                "cpe:2.3:a:cycler:cycler:0.10.0:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-cycler:cycler:0.10.0:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:cycler:0.10.0:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD",
+            "licenses": [
+                "BSD"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/cycler",
+            "origin": "Thomas A Caswell <matplotlib-users@python.org>",
+            "package": "cycler",
+            "type": "PYTHON",
+            "version": "0.10.0"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:dbus-python:dbus-python:1.2.4:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-dbus-python:dbus-python:1.2.4:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:dbus-python:1.2.4:*:*:*:*:python:*:*",
+                "cpe:2.3:a:dbus-python:dbus-python:1.2.4:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-dbus-python:dbus-python:1.2.4:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:dbus-python:1.2.4:*:*:*:*:*:*:*"
+            ],
+            "license": "Expat (MIT/X11)",
+            "licenses": [
+                "Expat",
+                "(MIT/X11)"
+            ],
+            "location": "/usr/lib64/python3.6/site-packages/dbus",
+            "origin": "Unknown",
+            "package": "dbus-python",
+            "type": "PYTHON",
+            "version": "1.2.4"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:decorator:decorator:4.2.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-decorator:decorator:4.2.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:decorator:4.2.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:decorator:decorator:4.2.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-decorator:decorator:4.2.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:decorator:4.2.1:*:*:*:*:*:*:*"
+            ],
+            "license": "new BSD License",
+            "licenses": [
+                "new",
+                "BSD",
+                "License"
+            ],
+            "location": "/usr/lib/python3.6/site-packages/decorator",
+            "origin": "Michele Simionato <michele.simionato@gmail.com>",
+            "package": "decorator",
+            "type": "PYTHON",
+            "version": "4.2.1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:docutils:docutils:0.16:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-docutils:docutils:0.16:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:docutils:0.16:*:*:*:*:python:*:*",
+                "cpe:2.3:a:docutils:docutils:0.16:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-docutils:docutils:0.16:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:docutils:0.16:*:*:*:*:*:*:*"
+            ],
+            "license": "public domain, Python, 2-Clause BSD, GPL 3 (see COPYING.txt)",
+            "licenses": [
+                "public",
+                "domain,",
+                "Python,",
+                "2-Clause",
+                "BSD,",
+                "GPL",
+                "3",
+                "(see",
+                "COPYING.txt)"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/docutils",
+            "origin": "David Goodger <goodger@python.org>",
+            "package": "docutils",
+            "type": "PYTHON",
+            "version": "0.16"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:ephem:ephem:3.7.7.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-ephem:ephem:3.7.7.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:ephem:3.7.7.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:ephem:ephem:3.7.7.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-ephem:ephem:3.7.7.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:ephem:3.7.7.1:*:*:*:*:*:*:*"
+            ],
+            "license": "LGPL",
+            "licenses": [
+                "LGPL"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/ephem",
+            "origin": "Brandon Rhodes <brandon@rhodesmill.org>",
+            "package": "ephem",
+            "type": "PYTHON",
+            "version": "3.7.7.1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:ethtool:ethtool:0.14:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-ethtool:ethtool:0.14:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:ethtool:0.14:*:*:*:*:python:*:*",
+                "cpe:2.3:a:ethtool:ethtool:0.14:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-ethtool:ethtool:0.14:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:ethtool:0.14:*:*:*:*:*:*:*"
+            ],
+            "license": "GPL-2.0",
+            "licenses": [
+                "GPL-2.0"
+            ],
+            "location": "/usr/lib64/python3.6/site-packages/ethtool",
+            "origin": "Harald Hoyer, Arnaldo Carvalho de Melo, David Sommerseth <davids@redhat.com>",
+            "package": "ethtool",
+            "type": "PYTHON",
+            "version": "0.14"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:fbprophet:fbprophet:0.7.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-fbprophet:fbprophet:0.7.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:fbprophet:0.7.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:fbprophet:fbprophet:0.7.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-fbprophet:fbprophet:0.7.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:fbprophet:0.7.1:*:*:*:*:*:*:*"
+            ],
+            "license": "MIT",
+            "licenses": [
+                "MIT"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/fbprophet",
+            "origin": "Sean J. Taylor <sjtz@pm.me>, Ben Letham <bletham@fb.com> <sjtz@pm.me>",
+            "package": "fbprophet",
+            "type": "PYTHON",
+            "version": "0.7.1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:gpg:gpg:1.13.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-gpg:gpg:1.13.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:gpg:1.13.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:gpg:gpg:1.13.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-gpg:gpg:1.13.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:gpg:1.13.1:*:*:*:*:*:*:*"
+            ],
+            "license": "LGPL2.1+ (the library), GPL2+ (tests and examples)",
+            "licenses": [
+                "LGPL2.1+",
+                "(the",
+                "library),",
+                "GPL2+",
+                "(tests",
+                "and",
+                "examples)"
+            ],
+            "location": "/usr/lib64/python3.6/site-packages/gpg",
+            "origin": "The GnuPG hackers <gnupg-devel@gnupg.org>",
+            "package": "gpg",
+            "type": "PYTHON",
+            "version": "1.13.1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:hijri-converter:hijri-converter:2.1.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-hijri-converter:hijri-converter:2.1.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:hijri-converter:2.1.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:hijri-converter:hijri-converter:2.1.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-hijri-converter:hijri-converter:2.1.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:hijri-converter:2.1.1:*:*:*:*:*:*:*"
+            ],
+            "license": "MIT",
+            "licenses": [
+                "MIT"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/hijri_converter",
+            "origin": "Mohammed Alshehri",
+            "package": "hijri-converter",
+            "type": "PYTHON",
+            "version": "2.1.1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:holidays:holidays:0.10.5.2:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-holidays:holidays:0.10.5.2:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:holidays:0.10.5.2:*:*:*:*:python:*:*",
+                "cpe:2.3:a:holidays:holidays:0.10.5.2:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-holidays:holidays:0.10.5.2:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:holidays:0.10.5.2:*:*:*:*:*:*:*"
+            ],
+            "license": "MIT",
+            "licenses": [
+                "MIT"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/holidays",
+            "origin": "ryanss <ryanssdev@icloud.com>",
+            "package": "holidays",
+            "type": "PYTHON",
+            "version": "0.10.5.2"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:html5lib:html5lib:1.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-html5lib:html5lib:1.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:html5lib:1.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:html5lib:html5lib:1.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-html5lib:html5lib:1.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:html5lib:1.1:*:*:*:*:*:*:*"
+            ],
+            "license": "MIT License",
+            "licenses": [
+                "MIT",
+                "License"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/bleach/_vendor/html5lib",
+            "origin": "Unknown",
+            "package": "html5lib",
+            "type": "PYTHON",
+            "version": "1.1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:idna:idna:2.10:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-idna:idna:2.10:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:idna:2.10:*:*:*:*:python:*:*",
+                "cpe:2.3:a:idna:idna:2.10:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-idna:idna:2.10:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:idna:2.10:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD-like",
+            "licenses": [
+                "BSD-like"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/idna",
+            "origin": "Kim Davies <kim@cynosure.com.au>",
+            "package": "idna",
+            "type": "PYTHON",
+            "version": "2.10"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:importlib-metadata:importlib-metadata:3.4.0:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-importlib-metadata:importlib-metadata:3.4.0:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:importlib-metadata:3.4.0:*:*:*:*:python:*:*",
+                "cpe:2.3:a:importlib-metadata:importlib-metadata:3.4.0:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-importlib-metadata:importlib-metadata:3.4.0:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:importlib-metadata:3.4.0:*:*:*:*:*:*:*"
+            ],
+            "license": "UNKNOWN",
+            "licenses": [
+                "UNKNOWN"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/importlib_metadata",
+            "origin": "Jason R. Coombs <jaraco@jaraco.com>",
+            "package": "importlib-metadata",
+            "type": "PYTHON",
+            "version": "3.4.0"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:iniparse:iniparse:0.4:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-iniparse:iniparse:0.4:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:iniparse:0.4:*:*:*:*:python:*:*",
+                "cpe:2.3:a:iniparse:iniparse:0.4:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-iniparse:iniparse:0.4:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:iniparse:0.4:*:*:*:*:*:*:*"
+            ],
+            "license": "MIT",
+            "licenses": [
+                "MIT"
+            ],
+            "location": "/usr/lib/python3.6/site-packages/iniparse",
+            "origin": "Paramjit Oberoi <param@cs.wisc.edu>",
+            "package": "iniparse",
+            "type": "PYTHON",
+            "version": "0.4"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:itsdangerous:itsdangerous:1.1.0:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-itsdangerous:itsdangerous:1.1.0:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:itsdangerous:1.1.0:*:*:*:*:python:*:*",
+                "cpe:2.3:a:itsdangerous:itsdangerous:1.1.0:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-itsdangerous:itsdangerous:1.1.0:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:itsdangerous:1.1.0:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD",
+            "licenses": [
+                "BSD"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/itsdangerous",
+            "origin": "Armin Ronacher <armin.ronacher@active-4.com>",
+            "package": "itsdangerous",
+            "type": "PYTHON",
+            "version": "1.1.0"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:jeepney:jeepney:0.6.0:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-jeepney:jeepney:0.6.0:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:jeepney:0.6.0:*:*:*:*:python:*:*",
+                "cpe:2.3:a:jeepney:jeepney:0.6.0:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-jeepney:jeepney:0.6.0:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:jeepney:0.6.0:*:*:*:*:*:*:*"
+            ],
+            "license": "UNKNOWN",
+            "licenses": [
+                "UNKNOWN"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/jeepney",
+            "origin": "Thomas Kluyver <thomas@kluyver.me.uk>",
+            "package": "jeepney",
+            "type": "PYTHON",
+            "version": "0.6.0"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:joblib:joblib:1.0.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-joblib:joblib:1.0.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:joblib:1.0.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:joblib:joblib:1.0.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-joblib:joblib:1.0.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:joblib:1.0.1:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD",
+            "licenses": [
+                "BSD"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/joblib",
+            "origin": "Gael Varoquaux <gael.varoquaux@normalesup.org>",
+            "package": "joblib",
+            "type": "PYTHON",
+            "version": "1.0.1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:keyring:keyring:22.0.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-keyring:keyring:22.0.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:keyring:22.0.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:keyring:keyring:22.0.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-keyring:keyring:22.0.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:keyring:22.0.1:*:*:*:*:*:*:*"
+            ],
+            "license": "UNKNOWN",
+            "licenses": [
+                "UNKNOWN"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/keyring",
+            "origin": "Kang Zhang <jobo.zh@gmail.com>",
+            "package": "keyring",
+            "type": "PYTHON",
+            "version": "22.0.1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:kiwisolver:kiwisolver:1.3.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-kiwisolver:kiwisolver:1.3.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:kiwisolver:1.3.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:kiwisolver:kiwisolver:1.3.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-kiwisolver:kiwisolver:1.3.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:kiwisolver:1.3.1:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD",
+            "licenses": [
+                "BSD"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/kiwisolver",
+            "origin": "The Nucleic Development Team <sccolbert@gmail.com>",
+            "package": "kiwisolver",
+            "type": "PYTHON",
+            "version": "1.3.1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:korean-lunar-calendar:korean-lunar-calendar:0.2.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-korean-lunar-calendar:korean-lunar-calendar:0.2.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:korean-lunar-calendar:0.2.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:korean-lunar-calendar:korean-lunar-calendar:0.2.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-korean-lunar-calendar:korean-lunar-calendar:0.2.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:korean-lunar-calendar:0.2.1:*:*:*:*:*:*:*"
+            ],
+            "license": "MIT",
+            "licenses": [
+                "MIT"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/korean_lunar_calendar",
+            "origin": "Jinil Lee <usingsky@gmail.com>",
+            "package": "korean-lunar-calendar",
+            "type": "PYTHON",
+            "version": "0.2.1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:matplot:matplot:0.1.9:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-matplot:matplot:0.1.9:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:matplot:0.1.9:*:*:*:*:python:*:*",
+                "cpe:2.3:a:matplot:matplot:0.1.9:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-matplot:matplot:0.1.9:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:matplot:0.1.9:*:*:*:*:*:*:*"
+            ],
+            "license": "UNKNOWN",
+            "licenses": [
+                "UNKNOWN"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/matplot",
+            "origin": "UNKNOWN <UNKNOWN>",
+            "package": "matplot",
+            "type": "PYTHON",
+            "version": "0.1.9"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:matplotlib:matplotlib:3.3.4:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-matplotlib:matplotlib:3.3.4:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:matplotlib:3.3.4:*:*:*:*:python:*:*",
+                "cpe:2.3:a:matplotlib:matplotlib:3.3.4:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-matplotlib:matplotlib:3.3.4:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:matplotlib:3.3.4:*:*:*:*:*:*:*"
+            ],
+            "license": "PSF",
+            "licenses": [
+                "PSF"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/pylab",
+            "origin": "John D. Hunter, Michael Droettboom <matplotlib-users@python.org>",
+            "package": "matplotlib",
+            "type": "PYTHON",
+            "version": "3.3.4"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:numpy:numpy:1.19.5:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-numpy:numpy:1.19.5:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:numpy:1.19.5:*:*:*:*:python:*:*",
+                "cpe:2.3:a:numpy:numpy:1.19.5:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-numpy:numpy:1.19.5:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:numpy:1.19.5:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD",
+            "licenses": [
+                "BSD"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/numpy",
+            "origin": "Travis E. Oliphant et al.",
+            "package": "numpy",
+            "type": "PYTHON",
+            "version": "1.19.5"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:packaging:packaging:20.9:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-packaging:packaging:20.9:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:packaging:20.9:*:*:*:*:python:*:*",
+                "cpe:2.3:a:packaging:packaging:20.9:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-packaging:packaging:20.9:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:packaging:20.9:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD-2-Clause or Apache-2.0",
+            "licenses": [
+                "BSD-2-Clause",
+                "or",
+                "Apache-2.0"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/packaging",
+            "origin": "Donald Stufft and individual contributors <donald@stufft.io>",
+            "package": "packaging",
+            "type": "PYTHON",
+            "version": "20.9"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:pandas:pandas:1.1.5:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-pandas:pandas:1.1.5:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:pandas:1.1.5:*:*:*:*:python:*:*",
+                "cpe:2.3:a:pandas:pandas:1.1.5:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-pandas:pandas:1.1.5:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:pandas:1.1.5:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD",
+            "licenses": [
+                "BSD"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/pandas",
+            "origin": "Unknown",
+            "package": "pandas",
+            "type": "PYTHON",
+            "version": "1.1.5"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:patsy:patsy:0.5.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-patsy:patsy:0.5.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:patsy:0.5.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:patsy:patsy:0.5.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-patsy:patsy:0.5.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:patsy:0.5.1:*:*:*:*:*:*:*"
+            ],
+            "license": "2-clause BSD",
+            "licenses": [
+                "2-clause",
+                "BSD"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/patsy",
+            "origin": "Nathaniel J. Smith <njs@pobox.com>",
+            "package": "patsy",
+            "type": "PYTHON",
+            "version": "0.5.1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:pip:pip:21.0.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-pip:pip:21.0.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:pip:21.0.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:pip:pip:21.0.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-pip:pip:21.0.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:pip:21.0.1:*:*:*:*:*:*:*"
+            ],
+            "license": "MIT",
+            "licenses": [
+                "MIT"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/pip",
+            "origin": "The pip developers <distutils-sig@python.org>",
+            "package": "pip",
+            "type": "PYTHON",
+            "version": "21.0.1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:pip:pip:9.0.3:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-pip:pip:9.0.3:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:pip:9.0.3:*:*:*:*:python:*:*",
+                "cpe:2.3:a:pip:pip:9.0.3:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-pip:pip:9.0.3:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:pip:9.0.3:*:*:*:*:*:*:*"
+            ],
+            "license": "MIT",
+            "licenses": [
+                "MIT"
+            ],
+            "location": "/usr/lib/python3.6/site-packages/pip",
+            "origin": "The pip developers <python-virtualenv@groups.google.com>",
+            "package": "pip",
+            "type": "PYTHON",
+            "version": "9.0.3"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:pkginfo:pkginfo:1.7.0:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-pkginfo:pkginfo:1.7.0:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:pkginfo:1.7.0:*:*:*:*:python:*:*",
+                "cpe:2.3:a:pkginfo:pkginfo:1.7.0:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-pkginfo:pkginfo:1.7.0:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:pkginfo:1.7.0:*:*:*:*:*:*:*"
+            ],
+            "license": "MIT",
+            "licenses": [
+                "MIT"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/pkginfo",
+            "origin": "Tres Seaver, Agendaless Consulting <tseaver@agendaless.com>",
+            "package": "pkginfo",
+            "type": "PYTHON",
+            "version": "1.7.0"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:plotly:plotly:4.14.3:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-plotly:plotly:4.14.3:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:plotly:4.14.3:*:*:*:*:python:*:*",
+                "cpe:2.3:a:plotly:plotly:4.14.3:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-plotly:plotly:4.14.3:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:plotly:4.14.3:*:*:*:*:*:*:*"
+            ],
+            "license": "MIT",
+            "licenses": [
+                "MIT"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/plotly",
+            "origin": "Chris P <chris@plot.ly>",
+            "package": "plotly",
+            "type": "PYTHON",
+            "version": "4.14.3"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:pycparser:pycparser:2.20:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-pycparser:pycparser:2.20:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:pycparser:2.20:*:*:*:*:python:*:*",
+                "cpe:2.3:a:pycparser:pycparser:2.20:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-pycparser:pycparser:2.20:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:pycparser:2.20:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD",
+            "licenses": [
+                "BSD"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/pycparser",
+            "origin": "Eli Bendersky <eliben@gmail.com>",
+            "package": "pycparser",
+            "type": "PYTHON",
+            "version": "2.20"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:pyinotify:pyinotify:0.9.6:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-pyinotify:pyinotify:0.9.6:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:pyinotify:0.9.6:*:*:*:*:python:*:*",
+                "cpe:2.3:a:pyinotify:pyinotify:0.9.6:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-pyinotify:pyinotify:0.9.6:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:pyinotify:0.9.6:*:*:*:*:*:*:*"
+            ],
+            "license": "MIT License",
+            "licenses": [
+                "MIT",
+                "License"
+            ],
+            "location": "/usr/lib/python3.6/site-packages/pyinotify",
+            "origin": "Sebastien Martini <seb@dbzteam.org>",
+            "package": "pyinotify",
+            "type": "PYTHON",
+            "version": "0.9.6"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:pyloco:pyloco:0.0.139:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-pyloco:pyloco:0.0.139:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:pyloco:0.0.139:*:*:*:*:python:*:*",
+                "cpe:2.3:a:pyloco:pyloco:0.0.139:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-pyloco:pyloco:0.0.139:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:pyloco:0.0.139:*:*:*:*:*:*:*"
+            ],
+            "license": "UNKNOWN",
+            "licenses": [
+                "UNKNOWN"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/pyloco",
+            "origin": "Youngsung Kim <grnydawn@gmail.com>",
+            "package": "pyloco",
+            "type": "PYTHON",
+            "version": "0.0.139"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:pyparsing:pyparsing:2.4.7:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-pyparsing:pyparsing:2.4.7:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:pyparsing:2.4.7:*:*:*:*:python:*:*",
+                "cpe:2.3:a:pyparsing:pyparsing:2.4.7:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-pyparsing:pyparsing:2.4.7:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:pyparsing:2.4.7:*:*:*:*:*:*:*"
+            ],
+            "license": "MIT License",
+            "licenses": [
+                "MIT",
+                "License"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/pyparsing",
+            "origin": "Paul McGuire <ptmcg@users.sourceforge.net>",
+            "package": "pyparsing",
+            "type": "PYTHON",
+            "version": "2.4.7"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:pystan:pystan:2.19.1.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-pystan:pystan:2.19.1.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:pystan:2.19.1.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:pystan:pystan:2.19.1.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-pystan:pystan:2.19.1.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:pystan:2.19.1.1:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv3",
+            "licenses": [
+                "GPLv3"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/pystan",
+            "origin": "Unknown",
+            "package": "pystan",
+            "type": "PYTHON",
+            "version": "2.19.1.1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:python-dateutil:python-dateutil:2.6.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-python-dateutil:python-dateutil:2.6.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:python-dateutil:2.6.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-dateutil:python-dateutil:2.6.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-python-dateutil:python-dateutil:2.6.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:python-dateutil:2.6.1:*:*:*:*:*:*:*"
+            ],
+            "license": "Simplified BSD",
+            "licenses": [
+                "Simplified",
+                "BSD"
+            ],
+            "location": "/usr/lib/python3.6/site-packages/dateutil",
+            "origin": "Paul Ganssle <dateutil@python.org>",
+            "package": "python-dateutil",
+            "type": "PYTHON",
+            "version": "2.6.1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:python-dateutil:python-dateutil:2.8.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-python-dateutil:python-dateutil:2.8.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:python-dateutil:2.8.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-dateutil:python-dateutil:2.8.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-python-dateutil:python-dateutil:2.8.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:python-dateutil:2.8.1:*:*:*:*:*:*:*"
+            ],
+            "license": "Dual License",
+            "licenses": [
+                "Dual",
+                "License"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/dateutil",
+            "origin": "Gustavo Niemeyer <gustavo@niemeyer.net>",
+            "package": "python-dateutil",
+            "type": "PYTHON",
+            "version": "2.8.1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:python-dmidecode:python-dmidecode:3.12.2:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-python-dmidecode:python-dmidecode:3.12.2:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:python-dmidecode:3.12.2:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-dmidecode:python-dmidecode:3.12.2:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-python-dmidecode:python-dmidecode:3.12.2:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:python-dmidecode:3.12.2:*:*:*:*:*:*:*"
+            ],
+            "license": "GPL-2",
+            "licenses": [
+                "GPL-2"
+            ],
+            "location": "/usr/lib64/python3.6/site-packages/python-dmidecode",
+            "origin": "Nima Talebi & David Sommerseth <nima@it.net.au, davids@redhat.com>",
+            "package": "python-dmidecode",
+            "type": "PYTHON",
+            "version": "3.12.2"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:pytz:pytz:2021.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-pytz:pytz:2021.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:pytz:2021.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:pytz:pytz:2021.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-pytz:pytz:2021.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:pytz:2021.1:*:*:*:*:*:*:*"
+            ],
+            "license": "MIT",
+            "licenses": [
+                "MIT"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/pytz",
+            "origin": "Stuart Bishop <stuart@stuartbishop.net>",
+            "package": "pytz",
+            "type": "PYTHON",
+            "version": "2021.1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:readme-renderer:readme-renderer:28.0:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-readme-renderer:readme-renderer:28.0:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:readme-renderer:28.0:*:*:*:*:python:*:*",
+                "cpe:2.3:a:readme-renderer:readme-renderer:28.0:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-readme-renderer:readme-renderer:28.0:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:readme-renderer:28.0:*:*:*:*:*:*:*"
+            ],
+            "license": "Apache License, Version 2.0",
+            "licenses": [
+                "Apache",
+                "License,",
+                "Version",
+                "2.0"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/readme_renderer",
+            "origin": "The Python Packaging Authority <admin@mail.pypi.org>",
+            "package": "readme-renderer",
+            "type": "PYTHON",
+            "version": "28.0"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:requests:requests:2.25.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-requests:requests:2.25.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:requests:2.25.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:requests:requests:2.25.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-requests:requests:2.25.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:requests:2.25.1:*:*:*:*:*:*:*"
+            ],
+            "license": "Apache 2.0",
+            "licenses": [
+                "Apache",
+                "2.0"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/requests",
+            "origin": "Kenneth Reitz <me@kennethreitz.org>",
+            "package": "requests",
+            "type": "PYTHON",
+            "version": "2.25.1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:requests-toolbelt:requests-toolbelt:0.9.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-requests-toolbelt:requests-toolbelt:0.9.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:requests-toolbelt:0.9.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:requests-toolbelt:requests-toolbelt:0.9.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-requests-toolbelt:requests-toolbelt:0.9.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:requests-toolbelt:0.9.1:*:*:*:*:*:*:*"
+            ],
+            "license": "Apache 2.0",
+            "licenses": [
+                "Apache",
+                "2.0"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/requests_toolbelt",
+            "origin": "Ian Cordasco, Cory Benfield <graffatcolmingov@gmail.com>",
+            "package": "requests-toolbelt",
+            "type": "PYTHON",
+            "version": "0.9.1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:retrying:retrying:1.3.3:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-retrying:retrying:1.3.3:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:retrying:1.3.3:*:*:*:*:python:*:*",
+                "cpe:2.3:a:retrying:retrying:1.3.3:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-retrying:retrying:1.3.3:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:retrying:1.3.3:*:*:*:*:*:*:*"
+            ],
+            "license": "Apache 2.0",
+            "licenses": [
+                "Apache",
+                "2.0"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/retrying",
+            "origin": "Ray Holder <UNKNOWN>",
+            "package": "retrying",
+            "type": "PYTHON",
+            "version": "1.3.3"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:rfc3986:rfc3986:1.4.0:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-rfc3986:rfc3986:1.4.0:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:rfc3986:1.4.0:*:*:*:*:python:*:*",
+                "cpe:2.3:a:rfc3986:rfc3986:1.4.0:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-rfc3986:rfc3986:1.4.0:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:rfc3986:1.4.0:*:*:*:*:*:*:*"
+            ],
+            "license": "Apache 2.0",
+            "licenses": [
+                "Apache",
+                "2.0"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/rfc3986",
+            "origin": "Ian Stapleton Cordasco <graffatcolmingov@gmail.com>",
+            "package": "rfc3986",
+            "type": "PYTHON",
+            "version": "1.4.0"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:rpm:rpm:4.14.3:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-rpm:rpm:4.14.3:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:rpm:4.14.3:*:*:*:*:python:*:*",
+                "cpe:2.3:a:rpm:rpm:4.14.3:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-rpm:rpm:4.14.3:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:rpm:4.14.3:*:*:*:*:*:*:*"
+            ],
+            "license": "UNKNOWN",
+            "licenses": [
+                "UNKNOWN"
+            ],
+            "location": "/usr/lib64/python3.6/site-packages/rpm",
+            "origin": "UNKNOWN <rpm-maint@lists.rpm.org>",
+            "package": "rpm",
+            "type": "PYTHON",
+            "version": "4.14.3"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:scikit-learn:scikit-learn:0.24.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-scikit-learn:scikit-learn:0.24.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:scikit-learn:0.24.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:scikit-learn:scikit-learn:0.24.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-scikit-learn:scikit-learn:0.24.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:scikit-learn:0.24.1:*:*:*:*:*:*:*"
+            ],
+            "license": "new BSD",
+            "licenses": [
+                "new",
+                "BSD"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/sklearn",
+            "origin": "Unknown",
+            "package": "scikit-learn",
+            "type": "PYTHON",
+            "version": "0.24.1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:scipy:scipy:1.5.4:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-scipy:scipy:1.5.4:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:scipy:1.5.4:*:*:*:*:python:*:*",
+                "cpe:2.3:a:scipy:scipy:1.5.4:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-scipy:scipy:1.5.4:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:scipy:1.5.4:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD",
+            "licenses": [
+                "BSD"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/scipy",
+            "origin": "Unknown",
+            "package": "scipy",
+            "type": "PYTHON",
+            "version": "1.5.4"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:seaborn:seaborn:0.11.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-seaborn:seaborn:0.11.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:seaborn:0.11.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:seaborn:seaborn:0.11.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-seaborn:seaborn:0.11.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:seaborn:0.11.1:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD (3-clause)",
+            "licenses": [
+                "BSD",
+                "(3-clause)"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/seaborn",
+            "origin": "Michael Waskom <mwaskom@nyu.edu>",
+            "package": "seaborn",
+            "type": "PYTHON",
+            "version": "0.11.1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:setuptools:setuptools:39.2.0:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-setuptools:setuptools:39.2.0:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:setuptools:39.2.0:*:*:*:*:python:*:*",
+                "cpe:2.3:a:setuptools:setuptools:39.2.0:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-setuptools:setuptools:39.2.0:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:setuptools:39.2.0:*:*:*:*:*:*:*"
+            ],
+            "license": "UNKNOWN",
+            "licenses": [
+                "UNKNOWN"
+            ],
+            "location": "/usr/lib/python3.6/site-packages/setuptools",
+            "origin": "Python Packaging Authority <distutils-sig@python.org>",
+            "package": "setuptools",
+            "type": "PYTHON",
+            "version": "39.2.0"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:setuptools:setuptools:39.2.0:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-setuptools:setuptools:39.2.0:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:setuptools:39.2.0:*:*:*:*:python:*:*",
+                "cpe:2.3:a:setuptools:setuptools:39.2.0:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-setuptools:setuptools:39.2.0:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:setuptools:39.2.0:*:*:*:*:*:*:*"
+            ],
+            "license": "UNKNOWN",
+            "licenses": [
+                "UNKNOWN"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/setuptools",
+            "origin": "Python Packaging Authority <distutils-sig@python.org>",
+            "package": "setuptools",
+            "type": "PYTHON",
+            "version": "39.2.0"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:setuptools-git:setuptools-git:1.2:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-setuptools-git:setuptools-git:1.2:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:setuptools-git:1.2:*:*:*:*:python:*:*",
+                "cpe:2.3:a:setuptools-git:setuptools-git:1.2:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-setuptools-git:setuptools-git:1.2:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:setuptools-git:1.2:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD",
+            "licenses": [
+                "BSD"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/setuptools_git",
+            "origin": "Marc Abramowitz <msabramo@gmail.com>",
+            "package": "setuptools-git",
+            "type": "PYTHON",
+            "version": "1.2"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:six:six:1.11.0:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-six:six:1.11.0:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:six:1.11.0:*:*:*:*:python:*:*",
+                "cpe:2.3:a:six:six:1.11.0:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-six:six:1.11.0:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:six:1.11.0:*:*:*:*:*:*:*"
+            ],
+            "license": "MIT",
+            "licenses": [
+                "MIT"
+            ],
+            "location": "/usr/lib/python3.6/site-packages/six",
+            "origin": "Benjamin Peterson <benjamin@python.org>",
+            "package": "six",
+            "type": "PYTHON",
+            "version": "1.11.0"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:six:six:1.15.0:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-six:six:1.15.0:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:six:1.15.0:*:*:*:*:python:*:*",
+                "cpe:2.3:a:six:six:1.15.0:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-six:six:1.15.0:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:six:1.15.0:*:*:*:*:*:*:*"
+            ],
+            "license": "MIT",
+            "licenses": [
+                "MIT"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/six",
+            "origin": "Benjamin Peterson <benjamin@python.org>",
+            "package": "six",
+            "type": "PYTHON",
+            "version": "1.15.0"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:soupsieve:soupsieve:2.2:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-soupsieve:soupsieve:2.2:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:soupsieve:2.2:*:*:*:*:python:*:*",
+                "cpe:2.3:a:soupsieve:soupsieve:2.2:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-soupsieve:soupsieve:2.2:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:soupsieve:2.2:*:*:*:*:*:*:*"
+            ],
+            "license": "MIT License",
+            "licenses": [
+                "MIT",
+                "License"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/soupsieve",
+            "origin": "Isaac Muse <Isaac.Muse@gmail.com>",
+            "package": "soupsieve",
+            "type": "PYTHON",
+            "version": "2.2"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:sqlparse:sqlparse:0.4.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-sqlparse:sqlparse:0.4.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:sqlparse:0.4.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:sqlparse:sqlparse:0.4.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-sqlparse:sqlparse:0.4.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:sqlparse:0.4.1:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD-3-Clause",
+            "licenses": [
+                "BSD-3-Clause"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/sqlparse",
+            "origin": "Andi Albrecht <albrecht.andi@gmail.com>",
+            "package": "sqlparse",
+            "type": "PYTHON",
+            "version": "0.4.1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:statsmodels:statsmodels:0.12.2:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-statsmodels:statsmodels:0.12.2:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:statsmodels:0.12.2:*:*:*:*:python:*:*",
+                "cpe:2.3:a:statsmodels:statsmodels:0.12.2:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-statsmodels:statsmodels:0.12.2:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:statsmodels:0.12.2:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD License",
+            "licenses": [
+                "BSD",
+                "License"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/statsmodels",
+            "origin": "Unknown",
+            "package": "statsmodels",
+            "type": "PYTHON",
+            "version": "0.12.2"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:subscription-manager:subscription-manager:1.27.16:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-subscription-manager:subscription-manager:1.27.16:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:subscription-manager:1.27.16:*:*:*:*:python:*:*",
+                "cpe:2.3:a:subscription-manager:subscription-manager:1.27.16:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-subscription-manager:subscription-manager:1.27.16:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:subscription-manager:1.27.16:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv2",
+            "licenses": [
+                "GPLv2"
+            ],
+            "location": "/usr/lib64/python3.6/site-packages/subscription_manager",
+            "origin": "Adrian Likins <alikins@redhat.com>",
+            "package": "subscription-manager",
+            "type": "PYTHON",
+            "version": "1.27.16"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:syspurpose:syspurpose:1.27.16:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-syspurpose:syspurpose:1.27.16:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:syspurpose:1.27.16:*:*:*:*:python:*:*",
+                "cpe:2.3:a:syspurpose:syspurpose:1.27.16:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-syspurpose:syspurpose:1.27.16:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:syspurpose:1.27.16:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv2",
+            "licenses": [
+                "GPLv2"
+            ],
+            "location": "/usr/lib/python3.6/site-packages/syspurpose",
+            "origin": "Chris Snyder <chainsaw@redhat.com>",
+            "package": "syspurpose",
+            "type": "PYTHON",
+            "version": "1.27.16"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:tdqm:tdqm:0.0.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-tdqm:tdqm:0.0.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:tdqm:0.0.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:tdqm:tdqm:0.0.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-tdqm:tdqm:0.0.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:tdqm:0.0.1:*:*:*:*:*:*:*"
+            ],
+            "license": "MPLv2.0",
+            "licenses": [
+                "MPLv2.0"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/tdqm",
+            "origin": "Unknown",
+            "package": "tdqm",
+            "type": "PYTHON",
+            "version": "0.0.1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:threadpoolctl:threadpoolctl:2.1.0:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-threadpoolctl:threadpoolctl:2.1.0:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:threadpoolctl:2.1.0:*:*:*:*:python:*:*",
+                "cpe:2.3:a:threadpoolctl:threadpoolctl:2.1.0:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-threadpoolctl:threadpoolctl:2.1.0:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:threadpoolctl:2.1.0:*:*:*:*:*:*:*"
+            ],
+            "license": "UNKNOWN",
+            "licenses": [
+                "UNKNOWN"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/threadpoolctl",
+            "origin": "Thomas Moreau <thomas.moreau.2010@gmail.com>",
+            "package": "threadpoolctl",
+            "type": "PYTHON",
+            "version": "2.1.0"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:tqdm:tqdm:4.56.2:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-tqdm:tqdm:4.56.2:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:tqdm:4.56.2:*:*:*:*:python:*:*",
+                "cpe:2.3:a:tqdm:tqdm:4.56.2:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-tqdm:tqdm:4.56.2:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:tqdm:4.56.2:*:*:*:*:*:*:*"
+            ],
+            "license": "MPLv2.0, MIT Licences",
+            "licenses": [
+                "MPLv2.0,",
+                "MIT",
+                "Licences"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/tqdm",
+            "origin": "Unknown",
+            "package": "tqdm",
+            "type": "PYTHON",
+            "version": "4.56.2"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:twine:twine:3.3.0:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-twine:twine:3.3.0:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:twine:3.3.0:*:*:*:*:python:*:*",
+                "cpe:2.3:a:twine:twine:3.3.0:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-twine:twine:3.3.0:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:twine:3.3.0:*:*:*:*:*:*:*"
+            ],
+            "license": "UNKNOWN",
+            "licenses": [
+                "UNKNOWN"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/twine",
+            "origin": "Donald Stufft and individual contributors <donald@stufft.io>",
+            "package": "twine",
+            "type": "PYTHON",
+            "version": "3.3.0"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:typing:typing:3.7.4.3:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-typing:typing:3.7.4.3:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:typing:3.7.4.3:*:*:*:*:python:*:*",
+                "cpe:2.3:a:typing:typing:3.7.4.3:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-typing:typing:3.7.4.3:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:typing:3.7.4.3:*:*:*:*:*:*:*"
+            ],
+            "license": "PSF",
+            "licenses": [
+                "PSF"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/typing",
+            "origin": "Guido van Rossum, Jukka Lehtosalo, \u0141ukasz Langa, Ivan Levkivskyi <jukka.lehtosalo@iki.fi>",
+            "package": "typing",
+            "type": "PYTHON",
+            "version": "3.7.4.3"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:typing-extensions:typing-extensions:3.7.4.3:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-typing-extensions:typing-extensions:3.7.4.3:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:typing-extensions:3.7.4.3:*:*:*:*:python:*:*",
+                "cpe:2.3:a:typing-extensions:typing-extensions:3.7.4.3:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-typing-extensions:typing-extensions:3.7.4.3:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:typing-extensions:3.7.4.3:*:*:*:*:*:*:*"
+            ],
+            "license": "PSF",
+            "licenses": [
+                "PSF"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/typing_extensions",
+            "origin": "Guido van Rossum, Jukka Lehtosalo, Lukasz Langa, Michael Lee <levkivskyi@gmail.com>",
+            "package": "typing-extensions",
+            "type": "PYTHON",
+            "version": "3.7.4.3"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:urllib3:urllib3:1.26.3:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-urllib3:urllib3:1.26.3:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:urllib3:1.26.3:*:*:*:*:python:*:*",
+                "cpe:2.3:a:urllib3:urllib3:1.26.3:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-urllib3:urllib3:1.26.3:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:urllib3:1.26.3:*:*:*:*:*:*:*"
+            ],
+            "license": "MIT",
+            "licenses": [
+                "MIT"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/urllib3",
+            "origin": "Andrey Petrov <andrey.petrov@shazow.net>",
+            "package": "urllib3",
+            "type": "PYTHON",
+            "version": "1.26.3"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:ushlex:ushlex:0.99.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-ushlex:ushlex:0.99.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:ushlex:0.99.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:ushlex:ushlex:0.99.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-ushlex:ushlex:0.99.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:ushlex:0.99.1:*:*:*:*:*:*:*"
+            ],
+            "license": "UNKNOWN",
+            "licenses": [
+                "UNKNOWN"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/ushlex",
+            "origin": "Eric S. Raymond, Gustavo Niemeyer, Colin Walters <no@reply.com>",
+            "package": "ushlex",
+            "type": "PYTHON",
+            "version": "0.99.1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:virtualenv:virtualenv:15.1.0:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-virtualenv:virtualenv:15.1.0:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:virtualenv:15.1.0:*:*:*:*:python:*:*",
+                "cpe:2.3:a:virtualenv:virtualenv:15.1.0:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-virtualenv:virtualenv:15.1.0:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:virtualenv:15.1.0:*:*:*:*:*:*:*"
+            ],
+            "license": "MIT",
+            "licenses": [
+                "MIT"
+            ],
+            "location": "/usr/lib/python3.6/site-packages/virtualenv",
+            "origin": "Ian Bicking <ianb@colorstudy.com>",
+            "package": "virtualenv",
+            "type": "PYTHON",
+            "version": "15.1.0"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:webencodings:webencodings:0.5.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-webencodings:webencodings:0.5.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:webencodings:0.5.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:webencodings:webencodings:0.5.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-webencodings:webencodings:0.5.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:webencodings:0.5.1:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD",
+            "licenses": [
+                "BSD"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/webencodings",
+            "origin": "Geoffrey Sneddon <me@gsnedders.com>",
+            "package": "webencodings",
+            "type": "PYTHON",
+            "version": "0.5.1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:websocket-client:websocket-client:0.57.0:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-websocket-client:websocket-client:0.57.0:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:websocket-client:0.57.0:*:*:*:*:python:*:*",
+                "cpe:2.3:a:websocket-client:websocket-client:0.57.0:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-websocket-client:websocket-client:0.57.0:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:websocket-client:0.57.0:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD",
+            "licenses": [
+                "BSD"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/websocket",
+            "origin": "liris <liris.pp@gmail.com>",
+            "package": "websocket-client",
+            "type": "PYTHON",
+            "version": "0.57.0"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:wheel:wheel:0.31.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-wheel:wheel:0.31.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:wheel:0.31.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:wheel:wheel:0.31.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-wheel:wheel:0.31.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:wheel:0.31.1:*:*:*:*:*:*:*"
+            ],
+            "license": "MIT",
+            "licenses": [
+                "MIT"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/wheel",
+            "origin": "Daniel Holth <dholth@fastmail.fm>",
+            "package": "wheel",
+            "type": "PYTHON",
+            "version": "0.31.1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:wordcloud:wordcloud:1.8.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-wordcloud:wordcloud:1.8.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:wordcloud:1.8.1:*:*:*:*:python:*:*",
+                "cpe:2.3:a:wordcloud:wordcloud:1.8.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-wordcloud:wordcloud:1.8.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:wordcloud:1.8.1:*:*:*:*:*:*:*"
+            ],
+            "license": "MIT",
+            "licenses": [
+                "MIT"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/wordcloud",
+            "origin": "Andreas Mueller <t3kcit+wordcloud@gmail.com>",
+            "package": "wordcloud",
+            "type": "PYTHON",
+            "version": "1.8.1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:zipp:zipp:3.4.0:*:*:*:*:python:*:*",
+                "cpe:2.3:a:python-zipp:zipp:3.4.0:*:*:*:*:python:*:*",
+                "cpe:2.3:a:*:zipp:3.4.0:*:*:*:*:python:*:*",
+                "cpe:2.3:a:zipp:zipp:3.4.0:*:*:*:*:*:*:*",
+                "cpe:2.3:a:python-zipp:zipp:3.4.0:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:zipp:3.4.0:*:*:*:*:*:*:*"
+            ],
+            "license": "UNKNOWN",
+            "licenses": [
+                "UNKNOWN"
+            ],
+            "location": "/opt/app-root/lib/python3.6/site-packages/zipp",
+            "origin": "Jason R. Coombs <jaraco@jaraco.com>",
+            "package": "zipp",
+            "type": "PYTHON",
+            "version": "3.4.0"
+        }
+    ],
+    "content_type": "python",
+    "imageDigest": "sha256:f0f8f385252c2af1d11da8add4ec423f06bac2d03968b85974bccce0d6ccf01c"
+}

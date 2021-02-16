@@ -1,0 +1,104 @@
+Image Digest: sha256:f0f8f385252c2af1d11da8add4ec423f06bac2d03968b85974bccce0d6ccf01c
+Full Tag: localhost:5000/python36-ai:latest
+Image ID: d2d0da998b0472ad0a149ff455f3e68ce3614bdf8f39f16bb983c3e0ab24e5f8
+Status: fail
+Last Eval: 2021-02-13T04:07:21Z
+Policy ID: 2c53a13c-1765-11e8-82ef-23527761d060
+Final Action: stop
+Final Action Reason: policy_evaluation
+
+Gate                   Trigger            Detail
+                                                                                  Status
+dockerfile             instruction        Dockerfile directive 'HEALTHCHECK' not found, matching condition 'not_exists' check                                                                         warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - binutils (CVE-2021-20197 - https://access.redhat.com/security/cve/CVE-2021-20197)                     warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - brotli (CVE-2020-8927 - https://access.redhat.com/security/cve/CVE-2020-8927)                         warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - curl (CVE-2020-8285 - https://access.redhat.com/security/cve/CVE-2020-8285)                           warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - curl (CVE-2020-8284 - https://access.redhat.com/security/cve/CVE-2020-8284)                           warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - curl (CVE-2020-8286 - https://access.redhat.com/security/cve/CVE-2020-8286)                           warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - glibc (CVE-2021-3326 - https://access.redhat.com/security/cve/CVE-2021-3326)                          warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - glibc-common (CVE-2021-3326 - https://access.redhat.com/security/cve/CVE-2021-3326)                   warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - glibc-devel (CVE-2021-3326 - https://access.redhat.com/security/cve/CVE-2021-3326)                    warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - glibc-headers (CVE-2021-3326 - https://access.redhat.com/security/cve/CVE-2021-3326)                  warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - glibc-minimal-langpack (CVE-2021-3326 - https://access.redhat.com/security/cve/CVE-2021-3326)         warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-8832 - https://access.redhat.com/security/cve/CVE-2020-8832)                 warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-12464 - https://access.redhat.com/security/cve/CVE-2020-12464)               warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-10741 - https://access.redhat.com/security/cve/CVE-2020-10741)               warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-13844 - https://access.redhat.com/security/cve/CVE-2020-13844)               warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-12114 - https://access.redhat.com/security/cve/CVE-2020-12114)               warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-14416 - https://access.redhat.com/security/cve/CVE-2020-14416)               warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-14356 - https://access.redhat.com/security/cve/CVE-2020-14356)               warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-28915 - https://access.redhat.com/security/cve/CVE-2020-28915)               warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-15802 - https://access.redhat.com/security/cve/CVE-2020-15802)               warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-25645 - https://access.redhat.com/security/cve/CVE-2020-25645)               warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-25284 - https://access.redhat.com/security/cve/CVE-2020-25284)               warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-25285 - https://access.redhat.com/security/cve/CVE-2020-25285)               warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-25212 - https://access.redhat.com/security/cve/CVE-2020-25212)               warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-27152 - https://access.redhat.com/security/cve/CVE-2020-27152)               warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-8694 - https://access.redhat.com/security/cve/CVE-2020-8694)                 warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-26541 - https://access.redhat.com/security/cve/CVE-2020-26541)               warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2021-3178 - https://access.redhat.com/security/cve/CVE-2021-3178)                 warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-25705 - https://access.redhat.com/security/cve/CVE-2020-25705)               warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-14351 - https://access.redhat.com/security/cve/CVE-2020-14351)               warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-15437 - https://access.redhat.com/security/cve/CVE-2020-15437)               warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-25704 - https://access.redhat.com/security/cve/CVE-2020-25704)               warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-16120 - https://access.redhat.com/security/cve/CVE-2020-16120)               warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-4788 - https://access.redhat.com/security/cve/CVE-2020-4788)                 warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-29660 - https://access.redhat.com/security/cve/CVE-2020-29660)               warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-27786 - https://access.redhat.com/security/cve/CVE-2020-27786)               warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-25643 - https://access.redhat.com/security/cve/CVE-2020-25643)               warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-24394 - https://access.redhat.com/security/cve/CVE-2020-24394)               warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-14314 - https://access.redhat.com/security/cve/CVE-2020-14314)               warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-27777 - https://access.redhat.com/security/cve/CVE-2020-27777)               warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2019-20794 - https://access.redhat.com/security/cve/CVE-2019-20794)               warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-35508 - https://access.redhat.com/security/cve/CVE-2020-35508)               warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-27835 - https://access.redhat.com/security/cve/CVE-2020-27835)               warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-36158 - https://access.redhat.com/security/cve/CVE-2020-36158)               warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2021-0342 - https://access.redhat.com/security/cve/CVE-2021-0342)                 warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-28974 - https://access.redhat.com/security/cve/CVE-2020-28974)               warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-0431 - https://access.redhat.com/security/cve/CVE-2020-0431)                 warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-0404 - https://access.redhat.com/security/cve/CVE-2020-0404)                 warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-0427 - https://access.redhat.com/security/cve/CVE-2020-0427)                 warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2021-20194 - https://access.redhat.com/security/cve/CVE-2021-20194)               warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - kernel-headers (CVE-2021-3348 - https://access.redhat.com/security/cve/CVE-2021-3348)                 warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - krb5-libs (CVE-2020-28196 - https://access.redhat.com/security/cve/CVE-2020-28196)                    warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - libcurl (CVE-2020-8285 - https://access.redhat.com/security/cve/CVE-2020-8285)                        warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - libcurl (CVE-2020-8284 - https://access.redhat.com/security/cve/CVE-2020-8284)                        warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - libcurl (CVE-2020-8286 - https://access.redhat.com/security/cve/CVE-2020-8286)                        warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - libxml2 (CVE-2020-24977 - https://access.redhat.com/security/cve/CVE-2020-24977)                      warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - p11-kit (CVE-2020-29363 - https://access.redhat.com/security/cve/CVE-2020-29363)                      warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - p11-kit (CVE-2020-29361 - https://access.redhat.com/security/cve/CVE-2020-29361)                      warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - p11-kit (CVE-2020-29362 - https://access.redhat.com/security/cve/CVE-2020-29362)                      warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - p11-kit-trust (CVE-2020-29363 - https://access.redhat.com/security/cve/CVE-2020-29363)                warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - p11-kit-trust (CVE-2020-29361 - https://access.redhat.com/security/cve/CVE-2020-29361)                warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - p11-kit-trust (CVE-2020-29362 - https://access.redhat.com/security/cve/CVE-2020-29362)                warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - perl-interpreter (CVE-2020-12723 - https://access.redhat.com/security/cve/CVE-2020-12723)             warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - perl-interpreter (CVE-2020-10878 - https://access.redhat.com/security/cve/CVE-2020-10878)             warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - perl-interpreter (CVE-2020-10543 - https://access.redhat.com/security/cve/CVE-2020-10543)             warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - perl-libs (CVE-2020-12723 - https://access.redhat.com/security/cve/CVE-2020-12723)                    warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - perl-libs (CVE-2020-10878 - https://access.redhat.com/security/cve/CVE-2020-10878)                    warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - perl-libs (CVE-2020-10543 - https://access.redhat.com/security/cve/CVE-2020-10543)                    warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - perl-macros (CVE-2020-12723 - https://access.redhat.com/security/cve/CVE-2020-12723)                  warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - perl-macros (CVE-2020-10878 - https://access.redhat.com/security/cve/CVE-2020-10878)                  warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - perl-macros (CVE-2020-10543 - https://access.redhat.com/security/cve/CVE-2020-10543)                  warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - platform-python (CVE-2020-26116 - https://access.redhat.com/security/cve/CVE-2020-26116)              warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - platform-python (CVE-2020-27619 - https://access.redhat.com/security/cve/CVE-2020-27619)              warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - platform-python-devel (CVE-2020-26116 - https://access.redhat.com/security/cve/CVE-2020-26116)        warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - platform-python-devel (CVE-2020-27619 - https://access.redhat.com/security/cve/CVE-2020-27619)        warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - python3-libs (CVE-2020-26116 - https://access.redhat.com/security/cve/CVE-2020-26116)                 warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - python3-libs (CVE-2020-27619 - https://access.redhat.com/security/cve/CVE-2020-27619)                 warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - python3-libxml2 (CVE-2020-24977 - https://access.redhat.com/security/cve/CVE-2020-24977)              warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - sqlite-libs (CVE-2020-13434 - https://access.redhat.com/security/cve/CVE-2020-13434)                  warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - sqlite-libs (CVE-2020-15358 - https://access.redhat.com/security/cve/CVE-2020-15358)                  warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - systemd (CVE-2020-13776 - https://access.redhat.com/security/cve/CVE-2020-13776)                      warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - systemd-libs (CVE-2020-13776 - https://access.redhat.com/security/cve/CVE-2020-13776)                 warn
+vulnerabilities        package            MEDIUM Vulnerability found in os package type (rpm) - systemd-pam (CVE-2020-13776 - https://access.redhat.com/security/cve/CVE-2020-13776)                  warn
+vulnerabilities        package            HIGH Vulnerability found in os package type (rpm) - glibc (CVE-2019-25013 - https://access.redhat.com/security/cve/CVE-2019-25013)                          stop
+vulnerabilities        package            HIGH Vulnerability found in os package type (rpm) - glibc-common (CVE-2019-25013 - https://access.redhat.com/security/cve/CVE-2019-25013)                   stop
+vulnerabilities        package            HIGH Vulnerability found in os package type (rpm) - glibc-devel (CVE-2019-25013 - https://access.redhat.com/security/cve/CVE-2019-25013)                    stop
+vulnerabilities        package            HIGH Vulnerability found in os package type (rpm) - glibc-headers (CVE-2019-25013 - https://access.redhat.com/security/cve/CVE-2019-25013)                  stop
+vulnerabilities        package            HIGH Vulnerability found in os package type (rpm) - glibc-minimal-langpack (CVE-2019-25013 - https://access.redhat.com/security/cve/CVE-2019-25013)         stop
+vulnerabilities        package            HIGH Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-29661 - https://access.redhat.com/security/cve/CVE-2020-29661)                 stop
+vulnerabilities        package            HIGH Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-28374 - https://access.redhat.com/security/cve/CVE-2020-28374)                 stop
+vulnerabilities        package            HIGH Vulnerability found in os package type (rpm) - kernel-headers (CVE-2020-0466 - https://access.redhat.com/security/cve/CVE-2020-0466)                   stop
+vulnerabilities        package            HIGH Vulnerability found in os package type (rpm) - kernel-headers (CVE-2021-3347 - https://access.redhat.com/security/cve/CVE-2021-3347)                   stop
+vulnerabilities        package            HIGH Vulnerability found in os package type (rpm) - kernel-headers (CVE-2021-26708 - https://access.redhat.com/security/cve/CVE-2021-26708)                 stop

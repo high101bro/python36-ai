@@ -1,0 +1,4748 @@
+{
+    "content": [
+        {
+            "cpes": [
+                "cpe:2.3:a:acl:acl:2.2.53-1.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:acl:2.2.53-1.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv2+",
+            "licenses": [
+                "GPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "acl",
+            "size": "203884",
+            "type": "rpm",
+            "version": "2.2.53-1.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:audit-libs:audit-libs:3.0-0.17.20191104git1c2f876.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:audit-libs:3.0-0.17.20191104git1c2f876.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "LGPLv2+",
+            "licenses": [
+                "LGPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "audit-libs",
+            "size": "283708",
+            "type": "rpm",
+            "version": "3.0-0.17.20191104git1c2f876.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:basesystem:basesystem:11-5.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:basesystem:11-5.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "Public Domain",
+            "licenses": [
+                "Public",
+                "Domain"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "basesystem",
+            "size": "0",
+            "type": "rpm",
+            "version": "11-5.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:bash:bash:4.4.19-12.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:bash:4.4.19-12.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv3+",
+            "licenses": [
+                "GPLv3+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "bash",
+            "size": "6861588",
+            "type": "rpm",
+            "version": "4.4.19-12.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:binutils:binutils:2.30-79.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:binutils:2.30-79.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv3+",
+            "licenses": [
+                "GPLv3+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "binutils",
+            "size": "24865363",
+            "type": "rpm",
+            "version": "2.30-79.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:brotli:brotli:1.0.6-2.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:brotli:1.0.6-2.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "MIT",
+            "licenses": [
+                "MIT"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "brotli",
+            "size": "1513572",
+            "type": "rpm",
+            "version": "1.0.6-2.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:bzip2-libs:bzip2-libs:1.0.6-26.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:bzip2-libs:1.0.6-26.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD",
+            "licenses": [
+                "BSD"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "bzip2-libs",
+            "size": "76645",
+            "type": "rpm",
+            "version": "1.0.6-26.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:ca-certificates:ca-certificates:2020.2.41-80.0.el8_2:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:ca-certificates:2020.2.41-80.0.el8_2:*:*:*:*:*:*:*"
+            ],
+            "license": "Public Domain",
+            "licenses": [
+                "Public",
+                "Domain"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "ca-certificates",
+            "size": "948937",
+            "type": "rpm",
+            "version": "2020.2.41-80.0.el8_2"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:chkconfig:chkconfig:1.13-2.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:chkconfig:1.13-2.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv2",
+            "licenses": [
+                "GPLv2"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "chkconfig",
+            "size": "811158",
+            "type": "rpm",
+            "version": "1.13-2.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:coreutils-single:coreutils-single:8.30-8.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:coreutils-single:8.30-8.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv3+",
+            "licenses": [
+                "GPLv3+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "coreutils-single",
+            "size": "1356241",
+            "type": "rpm",
+            "version": "8.30-8.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:cpp:cpp:8.3.1-5.1.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:cpp:8.3.1-5.1.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv3+ and GPLv3+ with exceptions and GPLv2+ with exceptions and LGPLv2+ and BSD",
+            "licenses": [
+                "GPLv3+",
+                "and",
+                "GPLv3+",
+                "with",
+                "exceptions",
+                "and",
+                "GPLv2+",
+                "with",
+                "exceptions",
+                "and",
+                "LGPLv2+",
+                "and",
+                "BSD"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "cpp",
+            "size": "28858965",
+            "type": "rpm",
+            "version": "8.3.1-5.1.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:cracklib:cracklib:2.9.6-15.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:cracklib:2.9.6-15.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "LGPLv2+",
+            "licenses": [
+                "LGPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "cracklib",
+            "size": "239047",
+            "type": "rpm",
+            "version": "2.9.6-15.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:crypto-policies:crypto-policies:20200713-1.git51d1222.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:crypto-policies:20200713-1.git51d1222.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "LGPLv2+",
+            "licenses": [
+                "LGPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "crypto-policies",
+            "size": "71862",
+            "type": "rpm",
+            "version": "20200713-1.git51d1222.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:crypto-policies-scripts:crypto-policies-scripts:20200713-1.git51d1222.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:crypto-policies-scripts:20200713-1.git51d1222.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "LGPLv2+",
+            "licenses": [
+                "LGPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "crypto-policies-scripts",
+            "size": "128260",
+            "type": "rpm",
+            "version": "20200713-1.git51d1222.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:cryptsetup-libs:cryptsetup-libs:2.3.3-2.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:cryptsetup-libs:2.3.3-2.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv2+ and LGPLv2+",
+            "licenses": [
+                "GPLv2+",
+                "and",
+                "LGPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "cryptsetup-libs",
+            "size": "2075183",
+            "type": "rpm",
+            "version": "2.3.3-2.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:curl:curl:7.61.1-14.el8_3.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:curl:7.61.1-14.el8_3.1:*:*:*:*:*:*:*"
+            ],
+            "license": "MIT",
+            "licenses": [
+                "MIT"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "curl",
+            "size": "709406",
+            "type": "rpm",
+            "version": "7.61.1-14.el8_3.1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:cyrus-sasl-lib:cyrus-sasl-lib:2.1.27-5.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:cyrus-sasl-lib:2.1.27-5.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD with advertising",
+            "licenses": [
+                "BSD",
+                "with",
+                "advertising"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "cyrus-sasl-lib",
+            "size": "726018",
+            "type": "rpm",
+            "version": "2.1.27-5.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:dbus:dbus:1.12.8-11.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:dbus:1.12.8-11.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "(GPLv2+ or AFL) and GPLv2+",
+            "licenses": [
+                "(GPLv2+",
+                "or",
+                "AFL)",
+                "and",
+                "GPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "dbus",
+            "size": "0",
+            "type": "rpm",
+            "version": "1.12.8-11.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:dbus-common:dbus-common:1.12.8-11.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:dbus-common:1.12.8-11.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "(GPLv2+ or AFL) and GPLv2+",
+            "licenses": [
+                "(GPLv2+",
+                "or",
+                "AFL)",
+                "and",
+                "GPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "dbus-common",
+            "size": "11131",
+            "type": "rpm",
+            "version": "1.12.8-11.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:dbus-daemon:dbus-daemon:1.12.8-11.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:dbus-daemon:1.12.8-11.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "(GPLv2+ or AFL) and GPLv2+",
+            "licenses": [
+                "(GPLv2+",
+                "or",
+                "AFL)",
+                "and",
+                "GPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "dbus-daemon",
+            "size": "560105",
+            "type": "rpm",
+            "version": "1.12.8-11.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:dbus-glib:dbus-glib:0.110-2.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:dbus-glib:0.110-2.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "AFL and GPLv2+",
+            "licenses": [
+                "AFL",
+                "and",
+                "GPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "dbus-glib",
+            "size": "365054",
+            "type": "rpm",
+            "version": "0.110-2.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:dbus-libs:dbus-libs:1.12.8-11.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:dbus-libs:1.12.8-11.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "(GPLv2+ or AFL) and GPLv2+",
+            "licenses": [
+                "(GPLv2+",
+                "or",
+                "AFL)",
+                "and",
+                "GPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "dbus-libs",
+            "size": "380560",
+            "type": "rpm",
+            "version": "1.12.8-11.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:dbus-tools:dbus-tools:1.12.8-11.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:dbus-tools:1.12.8-11.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "(GPLv2+ or AFL) and GPLv2+",
+            "licenses": [
+                "(GPLv2+",
+                "or",
+                "AFL)",
+                "and",
+                "GPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "dbus-tools",
+            "size": "125506",
+            "type": "rpm",
+            "version": "1.12.8-11.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:device-mapper:device-mapper:1.02.171-5.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:device-mapper:1.02.171-5.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv2",
+            "licenses": [
+                "GPLv2"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "device-mapper",
+            "size": "357089",
+            "type": "rpm",
+            "version": "1.02.171-5.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:device-mapper-libs:device-mapper-libs:1.02.171-5.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:device-mapper-libs:1.02.171-5.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "LGPLv2",
+            "licenses": [
+                "LGPLv2"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "device-mapper-libs",
+            "size": "416127",
+            "type": "rpm",
+            "version": "1.02.171-5.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:dmidecode:dmidecode:3.2-6.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:dmidecode:3.2-6.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv2+",
+            "licenses": [
+                "GPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "dmidecode",
+            "size": "222289",
+            "type": "rpm",
+            "version": "3.2-6.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:dnf:dnf:4.2.23-4.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:dnf:4.2.23-4.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv2+ and GPLv2 and GPL",
+            "licenses": [
+                "GPLv2+",
+                "and",
+                "GPLv2",
+                "and",
+                "GPL"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "dnf",
+            "size": "1918779",
+            "type": "rpm",
+            "version": "4.2.23-4.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:dnf-data:dnf-data:4.2.23-4.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:dnf-data:4.2.23-4.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv2+ and GPLv2 and GPL",
+            "licenses": [
+                "GPLv2+",
+                "and",
+                "GPLv2",
+                "and",
+                "GPL"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "dnf-data",
+            "size": "37293",
+            "type": "rpm",
+            "version": "4.2.23-4.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:dnf-plugin-subscription-manager:dnf-plugin-subscription-manager:1.27.16-1.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:dnf-plugin-subscription-manager:1.27.16-1.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv2",
+            "licenses": [
+                "GPLv2"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "dnf-plugin-subscription-manager",
+            "size": "88804",
+            "type": "rpm",
+            "version": "1.27.16-1.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:elfutils-default-yama-scope:elfutils-default-yama-scope:0.180-1.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:elfutils-default-yama-scope:0.180-1.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv2+ or LGPLv3+",
+            "licenses": [
+                "GPLv2+",
+                "or",
+                "LGPLv3+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "elfutils-default-yama-scope",
+            "size": "1810",
+            "type": "rpm",
+            "version": "0.180-1.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:elfutils-libelf:elfutils-libelf:0.180-1.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:elfutils-libelf:0.180-1.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv2+ or LGPLv3+",
+            "licenses": [
+                "GPLv2+",
+                "or",
+                "LGPLv3+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "elfutils-libelf",
+            "size": "953722",
+            "type": "rpm",
+            "version": "0.180-1.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:elfutils-libs:elfutils-libs:0.180-1.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:elfutils-libs:0.180-1.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv2+ or LGPLv3+",
+            "licenses": [
+                "GPLv2+",
+                "or",
+                "LGPLv3+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "elfutils-libs",
+            "size": "717591",
+            "type": "rpm",
+            "version": "0.180-1.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:emacs-filesystem:emacs-filesystem:26.1-5.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:emacs-filesystem:26.1-5.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv3+ and CC0-1.0",
+            "licenses": [
+                "GPLv3+",
+                "and",
+                "CC0-1.0"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "emacs-filesystem",
+            "size": "0",
+            "type": "rpm",
+            "version": "26.1-5.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:expat:expat:2.2.5-4.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:expat:2.2.5-4.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "MIT",
+            "licenses": [
+                "MIT"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "expat",
+            "size": "311228",
+            "type": "rpm",
+            "version": "2.2.5-4.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:file-libs:file-libs:5.33-16.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:file-libs:5.33-16.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD",
+            "licenses": [
+                "BSD"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "file-libs",
+            "size": "6383190",
+            "type": "rpm",
+            "version": "5.33-16.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:filesystem:filesystem:3.8-3.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:filesystem:3.8-3.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "Public Domain",
+            "licenses": [
+                "Public",
+                "Domain"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "filesystem",
+            "size": "0",
+            "type": "rpm",
+            "version": "3.8-3.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:findutils:findutils:4.6.0-20.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:findutils:4.6.0-20.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv3+",
+            "licenses": [
+                "GPLv3+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "findutils",
+            "size": "1816681",
+            "type": "rpm",
+            "version": "4.6.0-20.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:gawk:gawk:4.2.1-1.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:gawk:4.2.1-1.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv3+ and GPLv2+ and LGPLv2+ and BSD",
+            "licenses": [
+                "GPLv3+",
+                "and",
+                "GPLv2+",
+                "and",
+                "LGPLv2+",
+                "and",
+                "BSD"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "gawk",
+            "size": "2713038",
+            "type": "rpm",
+            "version": "4.2.1-1.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:gcc:gcc:8.3.1-5.1.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:gcc:8.3.1-5.1.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv3+ and GPLv3+ with exceptions and GPLv2+ with exceptions and LGPLv2+ and BSD",
+            "licenses": [
+                "GPLv3+",
+                "and",
+                "GPLv3+",
+                "with",
+                "exceptions",
+                "and",
+                "GPLv2+",
+                "with",
+                "exceptions",
+                "and",
+                "LGPLv2+",
+                "and",
+                "BSD"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "gcc",
+            "size": "60321861",
+            "type": "rpm",
+            "version": "8.3.1-5.1.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:gcc-c++:gcc-c++:8.3.1-5.1.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:gcc-c++:8.3.1-5.1.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv3+ and GPLv3+ with exceptions and GPLv2+ with exceptions and LGPLv2+ and BSD",
+            "licenses": [
+                "GPLv3+",
+                "and",
+                "GPLv3+",
+                "with",
+                "exceptions",
+                "and",
+                "GPLv2+",
+                "with",
+                "exceptions",
+                "and",
+                "LGPLv2+",
+                "and",
+                "BSD"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "gcc-c++",
+            "size": "31380745",
+            "type": "rpm",
+            "version": "8.3.1-5.1.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:gdb-gdbserver:gdb-gdbserver:8.2-12.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:gdb-gdbserver:8.2-12.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv3+ and GPLv3+ with exceptions and GPLv2+ and GPLv2+ with exceptions and GPL+ and LGPLv2+ and LGPLv3+ and BSD and Public Domain and GFDL",
+            "licenses": [
+                "GPLv3+",
+                "and",
+                "GPLv3+",
+                "with",
+                "exceptions",
+                "and",
+                "GPLv2+",
+                "and",
+                "GPLv2+",
+                "with",
+                "exceptions",
+                "and",
+                "GPL+",
+                "and",
+                "LGPLv2+",
+                "and",
+                "LGPLv3+",
+                "and",
+                "BSD",
+                "and",
+                "Public",
+                "Domain",
+                "and",
+                "GFDL"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "gdb-gdbserver",
+            "size": "657020",
+            "type": "rpm",
+            "version": "8.2-12.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:gdbm:gdbm:1.18-1.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:gdbm:1.18-1.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv3+",
+            "licenses": [
+                "GPLv3+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "gdbm",
+            "size": "399625",
+            "type": "rpm",
+            "version": "1.18-1.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:gdbm-libs:gdbm-libs:1.18-1.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:gdbm-libs:1.18-1.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv3+",
+            "licenses": [
+                "GPLv3+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "gdbm-libs",
+            "size": "134712",
+            "type": "rpm",
+            "version": "1.18-1.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:git:git:2.27.0-1.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:git:2.27.0-1.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv2",
+            "licenses": [
+                "GPLv2"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "git",
+            "size": "377031",
+            "type": "rpm",
+            "version": "2.27.0-1.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:git-core:git-core:2.27.0-1.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:git-core:2.27.0-1.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv2",
+            "licenses": [
+                "GPLv2"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "git-core",
+            "size": "34013565",
+            "type": "rpm",
+            "version": "2.27.0-1.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:git-core-doc:git-core-doc:2.27.0-1.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:git-core-doc:2.27.0-1.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv2",
+            "licenses": [
+                "GPLv2"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "git-core-doc",
+            "size": "12482794",
+            "type": "rpm",
+            "version": "2.27.0-1.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:glib2:glib2:2.56.4-8.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:glib2:2.56.4-8.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "LGPLv2+",
+            "licenses": [
+                "LGPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "glib2",
+            "size": "12272160",
+            "type": "rpm",
+            "version": "2.56.4-8.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:glibc:glibc:2.28-127.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:glibc:2.28-127.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "LGPLv2+ and LGPLv2+ with exceptions and GPLv2+ and GPLv2+ with exceptions and BSD and Inner-Net and ISC and Public Domain and GFDL",
+            "licenses": [
+                "LGPLv2+",
+                "and",
+                "LGPLv2+",
+                "with",
+                "exceptions",
+                "and",
+                "GPLv2+",
+                "and",
+                "GPLv2+",
+                "with",
+                "exceptions",
+                "and",
+                "BSD",
+                "and",
+                "Inner-Net",
+                "and",
+                "ISC",
+                "and",
+                "Public",
+                "Domain",
+                "and",
+                "GFDL"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "glibc",
+            "size": "15555551",
+            "type": "rpm",
+            "version": "2.28-127.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:glibc-common:glibc-common:2.28-127.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:glibc-common:2.28-127.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "LGPLv2+ and LGPLv2+ with exceptions and GPLv2+ and GPLv2+ with exceptions and BSD and Inner-Net and ISC and Public Domain and GFDL",
+            "licenses": [
+                "LGPLv2+",
+                "and",
+                "LGPLv2+",
+                "with",
+                "exceptions",
+                "and",
+                "GPLv2+",
+                "and",
+                "GPLv2+",
+                "with",
+                "exceptions",
+                "and",
+                "BSD",
+                "and",
+                "Inner-Net",
+                "and",
+                "ISC",
+                "and",
+                "Public",
+                "Domain",
+                "and",
+                "GFDL"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "glibc-common",
+            "size": "9232292",
+            "type": "rpm",
+            "version": "2.28-127.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:glibc-devel:glibc-devel:2.28-127.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:glibc-devel:2.28-127.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "LGPLv2+ and LGPLv2+ with exceptions and GPLv2+ and GPLv2+ with exceptions and BSD and Inner-Net and ISC and Public Domain and GFDL",
+            "licenses": [
+                "LGPLv2+",
+                "and",
+                "LGPLv2+",
+                "with",
+                "exceptions",
+                "and",
+                "GPLv2+",
+                "and",
+                "GPLv2+",
+                "with",
+                "exceptions",
+                "and",
+                "BSD",
+                "and",
+                "Inner-Net",
+                "and",
+                "ISC",
+                "and",
+                "Public",
+                "Domain",
+                "and",
+                "GFDL"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "glibc-devel",
+            "size": "1275682",
+            "type": "rpm",
+            "version": "2.28-127.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:glibc-headers:glibc-headers:2.28-127.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:glibc-headers:2.28-127.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "LGPLv2+ and LGPLv2+ with exceptions and GPLv2+ and GPLv2+ with exceptions and BSD and Inner-Net and ISC and Public Domain and GFDL",
+            "licenses": [
+                "LGPLv2+",
+                "and",
+                "LGPLv2+",
+                "with",
+                "exceptions",
+                "and",
+                "GPLv2+",
+                "and",
+                "GPLv2+",
+                "with",
+                "exceptions",
+                "and",
+                "BSD",
+                "and",
+                "Inner-Net",
+                "and",
+                "ISC",
+                "and",
+                "Public",
+                "Domain",
+                "and",
+                "GFDL"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "glibc-headers",
+            "size": "2030145",
+            "type": "rpm",
+            "version": "2.28-127.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:glibc-minimal-langpack:glibc-minimal-langpack:2.28-127.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:glibc-minimal-langpack:2.28-127.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "LGPLv2+ and LGPLv2+ with exceptions and GPLv2+ and GPLv2+ with exceptions and BSD and Inner-Net and ISC and Public Domain and GFDL",
+            "licenses": [
+                "LGPLv2+",
+                "and",
+                "LGPLv2+",
+                "with",
+                "exceptions",
+                "and",
+                "GPLv2+",
+                "and",
+                "GPLv2+",
+                "with",
+                "exceptions",
+                "and",
+                "BSD",
+                "and",
+                "Inner-Net",
+                "and",
+                "ISC",
+                "and",
+                "Public",
+                "Domain",
+                "and",
+                "GFDL"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "glibc-minimal-langpack",
+            "size": "0",
+            "type": "rpm",
+            "version": "2.28-127.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:gmp:gmp:6.1.2-10.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:gmp:6.1.2-10.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "LGPLv3+ or GPLv2+",
+            "licenses": [
+                "LGPLv3+",
+                "or",
+                "GPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "gmp",
+            "size": "1640340",
+            "type": "rpm",
+            "version": "6.1.2-10.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:gnupg2:gnupg2:2.2.20-2.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:gnupg2:2.2.20-2.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv3+",
+            "licenses": [
+                "GPLv3+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "gnupg2",
+            "size": "9922363",
+            "type": "rpm",
+            "version": "2.2.20-2.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:gnutls:gnutls:3.6.14-7.el8_3:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:gnutls:3.6.14-7.el8_3:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv3+ and LGPLv2+",
+            "licenses": [
+                "GPLv3+",
+                "and",
+                "LGPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "gnutls",
+            "size": "2990335",
+            "type": "rpm",
+            "version": "3.6.14-7.el8_3"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:gobject-introspection:gobject-introspection:1.56.1-1.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:gobject-introspection:1.56.1-1.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv2+, LGPLv2+, MIT",
+            "licenses": [
+                "GPLv2+,",
+                "LGPLv2+,",
+                "MIT"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "gobject-introspection",
+            "size": "876479",
+            "type": "rpm",
+            "version": "1.56.1-1.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:gpg-pubkey:gpg-pubkey:fd431d51-4ae0493b:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:gpg-pubkey:fd431d51-4ae0493b:*:*:*:*:*:*:*"
+            ],
+            "license": "pubkey",
+            "licenses": [
+                "pubkey"
+            ],
+            "origin": "(none)",
+            "package": "gpg-pubkey",
+            "size": "0",
+            "type": "rpm",
+            "version": "fd431d51-4ae0493b"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:gpgme:gpgme:1.13.1-3.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:gpgme:1.13.1-3.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "LGPLv2+",
+            "licenses": [
+                "LGPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "gpgme",
+            "size": "1003188",
+            "type": "rpm",
+            "version": "1.13.1-3.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:gpm-libs:gpm-libs:1.20.7-15.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:gpm-libs:1.20.7-15.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv2 and GPLv2+ with exceptions and GPLv3+ and Verbatim and Copyright only",
+            "licenses": [
+                "GPLv2",
+                "and",
+                "GPLv2+",
+                "with",
+                "exceptions",
+                "and",
+                "GPLv3+",
+                "and",
+                "Verbatim",
+                "and",
+                "Copyright",
+                "only"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "gpm-libs",
+            "size": "30320",
+            "type": "rpm",
+            "version": "1.20.7-15.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:grep:grep:3.1-6.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:grep:3.1-6.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv3+",
+            "licenses": [
+                "GPLv3+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "grep",
+            "size": "830693",
+            "type": "rpm",
+            "version": "3.1-6.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:groff-base:groff-base:1.22.3-18.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:groff-base:1.22.3-18.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv3+ and GFDL and BSD and MIT",
+            "licenses": [
+                "GPLv3+",
+                "and",
+                "GFDL",
+                "and",
+                "BSD",
+                "and",
+                "MIT"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "groff-base",
+            "size": "4274306",
+            "type": "rpm",
+            "version": "1.22.3-18.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:gzip:gzip:1.9-9.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:gzip:1.9-9.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv3+ and GFDL",
+            "licenses": [
+                "GPLv3+",
+                "and",
+                "GFDL"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "gzip",
+            "size": "429571",
+            "type": "rpm",
+            "version": "1.9-9.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:ima-evm-utils:ima-evm-utils:1.1-5.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:ima-evm-utils:1.1-5.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv2",
+            "licenses": [
+                "GPLv2"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "ima-evm-utils",
+            "size": "116898",
+            "type": "rpm",
+            "version": "1.1-5.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:info:info:6.5-6.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:info:6.5-6.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv3+",
+            "licenses": [
+                "GPLv3+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "info",
+            "size": "386333",
+            "type": "rpm",
+            "version": "6.5-6.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:iptables:iptables:1.8.4-15.el8_3.3:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:iptables:1.8.4-15.el8_3.3:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv2 and Artistic 2.0 and ISC",
+            "licenses": [
+                "GPLv2",
+                "and",
+                "Artistic",
+                "2.0",
+                "and",
+                "ISC"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "iptables",
+            "size": "1992105",
+            "type": "rpm",
+            "version": "1.8.4-15.el8_3.3"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:iptables-libs:iptables-libs:1.8.4-15.el8_3.3:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:iptables-libs:1.8.4-15.el8_3.3:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv2 and Artistic 2.0 and ISC",
+            "licenses": [
+                "GPLv2",
+                "and",
+                "Artistic",
+                "2.0",
+                "and",
+                "ISC"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "iptables-libs",
+            "size": "201992",
+            "type": "rpm",
+            "version": "1.8.4-15.el8_3.3"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:isl:isl:0.16.1-6.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:isl:0.16.1-6.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "MIT",
+            "licenses": [
+                "MIT"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "isl",
+            "size": "3258761",
+            "type": "rpm",
+            "version": "0.16.1-6.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:json-c:json-c:0.13.1-0.2.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:json-c:0.13.1-0.2.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "MIT",
+            "licenses": [
+                "MIT"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "json-c",
+            "size": "72802",
+            "type": "rpm",
+            "version": "0.13.1-0.2.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:json-glib:json-glib:1.4.4-1.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:json-glib:1.4.4-1.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "LGPLv2+",
+            "licenses": [
+                "LGPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "json-glib",
+            "size": "530243",
+            "type": "rpm",
+            "version": "1.4.4-1.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:kernel-headers:kernel-headers:4.18.0-240.10.1.el8_3:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:kernel-headers:4.18.0-240.10.1.el8_3:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv2 and Redistributable, no modification permitted",
+            "licenses": [
+                "GPLv2",
+                "and",
+                "Redistributable,",
+                "no",
+                "modification",
+                "permitted"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "kernel-headers",
+            "size": "5035207",
+            "type": "rpm",
+            "version": "4.18.0-240.10.1.el8_3"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:keyutils-libs:keyutils-libs:1.5.10-6.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:keyutils-libs:1.5.10-6.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv2+ and LGPLv2+",
+            "licenses": [
+                "GPLv2+",
+                "and",
+                "LGPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "keyutils-libs",
+            "size": "43846",
+            "type": "rpm",
+            "version": "1.5.10-6.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:kmod-libs:kmod-libs:25-16.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:kmod-libs:25-16.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "LGPLv2+",
+            "licenses": [
+                "LGPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "kmod-libs",
+            "size": "126632",
+            "type": "rpm",
+            "version": "25-16.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:krb5-libs:krb5-libs:1.18.2-5.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:krb5-libs:1.18.2-5.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "MIT",
+            "licenses": [
+                "MIT"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "krb5-libs",
+            "size": "2234718",
+            "type": "rpm",
+            "version": "1.18.2-5.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:langpacks-en:langpacks-en:1.0-12.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:langpacks-en:1.0-12.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv2+",
+            "licenses": [
+                "GPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "langpacks-en",
+            "size": "400",
+            "type": "rpm",
+            "version": "1.0-12.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:less:less:530-1.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:less:530-1.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv3+ or BSD",
+            "licenses": [
+                "GPLv3+",
+                "or",
+                "BSD"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "less",
+            "size": "341226",
+            "type": "rpm",
+            "version": "530-1.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libacl:libacl:2.2.53-1.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libacl:2.2.53-1.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "LGPLv2+",
+            "licenses": [
+                "LGPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "libacl",
+            "size": "54816",
+            "type": "rpm",
+            "version": "2.2.53-1.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libarchive:libarchive:3.3.2-9.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libarchive:3.3.2-9.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD",
+            "licenses": [
+                "BSD"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "libarchive",
+            "size": "829818",
+            "type": "rpm",
+            "version": "3.3.2-9.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libassuan:libassuan:2.5.1-3.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libassuan:2.5.1-3.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "LGPLv2+ and GPLv3+",
+            "licenses": [
+                "LGPLv2+",
+                "and",
+                "GPLv3+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "libassuan",
+            "size": "200835",
+            "type": "rpm",
+            "version": "2.5.1-3.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libattr:libattr:2.4.48-3.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libattr:2.4.48-3.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "LGPLv2+",
+            "licenses": [
+                "LGPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "libattr",
+            "size": "26834",
+            "type": "rpm",
+            "version": "2.4.48-3.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libblkid:libblkid:2.32.1-24.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libblkid:2.32.1-24.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "LGPLv2+",
+            "licenses": [
+                "LGPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "libblkid",
+            "size": "343816",
+            "type": "rpm",
+            "version": "2.32.1-24.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libcap:libcap:2.26-4.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libcap:2.26-4.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv2",
+            "licenses": [
+                "GPLv2"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "libcap",
+            "size": "129682",
+            "type": "rpm",
+            "version": "2.26-4.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libcap-ng:libcap-ng:0.7.9-5.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libcap-ng:0.7.9-5.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "LGPLv2+",
+            "licenses": [
+                "LGPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "libcap-ng",
+            "size": "56798",
+            "type": "rpm",
+            "version": "0.7.9-5.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libcom_err:libcom_err:1.45.6-1.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libcom_err:1.45.6-1.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "MIT",
+            "licenses": [
+                "MIT"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "libcom_err",
+            "size": "61921",
+            "type": "rpm",
+            "version": "1.45.6-1.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libcomps:libcomps:0.1.11-4.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libcomps:0.1.11-4.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv2+",
+            "licenses": [
+                "GPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "libcomps",
+            "size": "217067",
+            "type": "rpm",
+            "version": "0.1.11-4.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libcurl:libcurl:7.61.1-14.el8_3.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libcurl:7.61.1-14.el8_3.1:*:*:*:*:*:*:*"
+            ],
+            "license": "MIT",
+            "licenses": [
+                "MIT"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "libcurl",
+            "size": "593320",
+            "type": "rpm",
+            "version": "7.61.1-14.el8_3.1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libdb:libdb:5.3.28-39.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libdb:5.3.28-39.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD and LGPLv2 and Sleepycat",
+            "licenses": [
+                "BSD",
+                "and",
+                "LGPLv2",
+                "and",
+                "Sleepycat"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "libdb",
+            "size": "1903200",
+            "type": "rpm",
+            "version": "5.3.28-39.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libdb-utils:libdb-utils:5.3.28-39.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libdb-utils:5.3.28-39.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD and LGPLv2 and Sleepycat",
+            "licenses": [
+                "BSD",
+                "and",
+                "LGPLv2",
+                "and",
+                "Sleepycat"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "libdb-utils",
+            "size": "371711",
+            "type": "rpm",
+            "version": "5.3.28-39.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libdnf:libdnf:0.48.0-5.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libdnf:0.48.0-5.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "LGPLv2+",
+            "licenses": [
+                "LGPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "libdnf",
+            "size": "2223391",
+            "type": "rpm",
+            "version": "0.48.0-5.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libedit:libedit:3.1-23.20170329cvs.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libedit:3.1-23.20170329cvs.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD",
+            "licenses": [
+                "BSD"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "libedit",
+            "size": "244656",
+            "type": "rpm",
+            "version": "3.1-23.20170329cvs.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libfdisk:libfdisk:2.32.1-24.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libfdisk:2.32.1-24.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "LGPLv2+",
+            "licenses": [
+                "LGPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "libfdisk",
+            "size": "438658",
+            "type": "rpm",
+            "version": "2.32.1-24.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libffi:libffi:3.1-22.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libffi:3.1-22.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "MIT",
+            "licenses": [
+                "MIT"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "libffi",
+            "size": "53620",
+            "type": "rpm",
+            "version": "3.1-22.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libgcc:libgcc:8.3.1-5.1.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libgcc:8.3.1-5.1.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv3+ and GPLv3+ with exceptions and GPLv2+ with exceptions and LGPLv2+ and BSD",
+            "licenses": [
+                "GPLv3+",
+                "and",
+                "GPLv3+",
+                "with",
+                "exceptions",
+                "and",
+                "GPLv2+",
+                "with",
+                "exceptions",
+                "and",
+                "LGPLv2+",
+                "and",
+                "BSD"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "libgcc",
+            "size": "190208",
+            "type": "rpm",
+            "version": "8.3.1-5.1.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libgcrypt:libgcrypt:1.8.5-4.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libgcrypt:1.8.5-4.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "LGPLv2+",
+            "licenses": [
+                "LGPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "libgcrypt",
+            "size": "1270454",
+            "type": "rpm",
+            "version": "1.8.5-4.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libgomp:libgomp:8.3.1-5.1.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libgomp:8.3.1-5.1.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv3+ and GPLv3+ with exceptions and GPLv2+ with exceptions and LGPLv2+ and BSD",
+            "licenses": [
+                "GPLv3+",
+                "and",
+                "GPLv3+",
+                "with",
+                "exceptions",
+                "and",
+                "GPLv2+",
+                "with",
+                "exceptions",
+                "and",
+                "LGPLv2+",
+                "and",
+                "BSD"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "libgomp",
+            "size": "331153",
+            "type": "rpm",
+            "version": "8.3.1-5.1.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libgpg-error:libgpg-error:1.31-1.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libgpg-error:1.31-1.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "LGPLv2+",
+            "licenses": [
+                "LGPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "libgpg-error",
+            "size": "900810",
+            "type": "rpm",
+            "version": "1.31-1.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libidn2:libidn2:2.2.0-1.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libidn2:2.2.0-1.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "(GPLv2+ or LGPLv3+) and GPLv3+",
+            "licenses": [
+                "(GPLv2+",
+                "or",
+                "LGPLv3+)",
+                "and",
+                "GPLv3+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "libidn2",
+            "size": "284362",
+            "type": "rpm",
+            "version": "2.2.0-1.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libksba:libksba:1.3.5-7.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libksba:1.3.5-7.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "(LGPLv3+ or GPLv2+) and GPLv3+",
+            "licenses": [
+                "(LGPLv3+",
+                "or",
+                "GPLv2+)",
+                "and",
+                "GPLv3+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "libksba",
+            "size": "340967",
+            "type": "rpm",
+            "version": "1.3.5-7.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libmetalink:libmetalink:0.1.3-7.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libmetalink:0.1.3-7.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "MIT",
+            "licenses": [
+                "MIT"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "libmetalink",
+            "size": "75864",
+            "type": "rpm",
+            "version": "0.1.3-7.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libmnl:libmnl:1.0.4-6.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libmnl:1.0.4-6.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "LGPLv2+",
+            "licenses": [
+                "LGPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "libmnl",
+            "size": "53351",
+            "type": "rpm",
+            "version": "1.0.4-6.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libmodulemd:libmodulemd:2.9.4-2.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libmodulemd:2.9.4-2.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "MIT",
+            "licenses": [
+                "MIT"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "libmodulemd",
+            "size": "571697",
+            "type": "rpm",
+            "version": "2.9.4-2.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libmount:libmount:2.32.1-24.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libmount:2.32.1-24.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "LGPLv2+",
+            "licenses": [
+                "LGPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "libmount",
+            "size": "398138",
+            "type": "rpm",
+            "version": "2.32.1-24.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libmpc:libmpc:1.0.2-9.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libmpc:1.0.2-9.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "LGPLv3+ and GFDL",
+            "licenses": [
+                "LGPLv3+",
+                "and",
+                "GFDL"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "libmpc",
+            "size": "147464",
+            "type": "rpm",
+            "version": "1.0.2-9.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libnetfilter_conntrack:libnetfilter_conntrack:1.0.6-5.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libnetfilter_conntrack:1.0.6-5.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv2+",
+            "licenses": [
+                "GPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "libnetfilter_conntrack",
+            "size": "162334",
+            "type": "rpm",
+            "version": "1.0.6-5.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libnfnetlink:libnfnetlink:1.0.1-13.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libnfnetlink:1.0.1-13.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv2+",
+            "licenses": [
+                "GPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "libnfnetlink",
+            "size": "52147",
+            "type": "rpm",
+            "version": "1.0.1-13.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libnftnl:libnftnl:1.1.5-4.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libnftnl:1.1.5-4.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv2+",
+            "licenses": [
+                "GPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "libnftnl",
+            "size": "222320",
+            "type": "rpm",
+            "version": "1.1.5-4.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libnghttp2:libnghttp2:1.33.0-3.el8_2.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libnghttp2:1.33.0-3.el8_2.1:*:*:*:*:*:*:*"
+            ],
+            "license": "MIT",
+            "licenses": [
+                "MIT"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "libnghttp2",
+            "size": "168044",
+            "type": "rpm",
+            "version": "1.33.0-3.el8_2.1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libnl3:libnl3:3.5.0-1.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libnl3:3.5.0-1.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "LGPLv2",
+            "licenses": [
+                "LGPLv2"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "libnl3",
+            "size": "996144",
+            "type": "rpm",
+            "version": "3.5.0-1.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libnsl2:libnsl2:1.2.0-2.20180605git4a062cf.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libnsl2:1.2.0-2.20180605git4a062cf.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD and LGPLv2+",
+            "licenses": [
+                "BSD",
+                "and",
+                "LGPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "libnsl2",
+            "size": "142938",
+            "type": "rpm",
+            "version": "1.2.0-2.20180605git4a062cf.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libpcap:libpcap:1.9.1-4.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libpcap:1.9.1-4.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD with advertising",
+            "licenses": [
+                "BSD",
+                "with",
+                "advertising"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "libpcap",
+            "size": "376442",
+            "type": "rpm",
+            "version": "1.9.1-4.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libpkgconf:libpkgconf:1.4.2-1.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libpkgconf:1.4.2-1.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "ISC",
+            "licenses": [
+                "ISC"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "libpkgconf",
+            "size": "67085",
+            "type": "rpm",
+            "version": "1.4.2-1.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libpsl:libpsl:0.20.2-6.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libpsl:0.20.2-6.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "MIT",
+            "licenses": [
+                "MIT"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "libpsl",
+            "size": "70732",
+            "type": "rpm",
+            "version": "0.20.2-6.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libpwquality:libpwquality:1.4.0-9.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libpwquality:1.4.0-9.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD or GPLv2+",
+            "licenses": [
+                "BSD",
+                "or",
+                "GPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "libpwquality",
+            "size": "384743",
+            "type": "rpm",
+            "version": "1.4.0-9.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:librepo:librepo:1.12.0-2.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:librepo:1.12.0-2.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "LGPLv2+",
+            "licenses": [
+                "LGPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "librepo",
+            "size": "213168",
+            "type": "rpm",
+            "version": "1.12.0-2.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libreport-filesystem:libreport-filesystem:2.9.5-15.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libreport-filesystem:2.9.5-15.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv2+",
+            "licenses": [
+                "GPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "libreport-filesystem",
+            "size": "0",
+            "type": "rpm",
+            "version": "2.9.5-15.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:librhsm:librhsm:0.0.3-3.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:librhsm:0.0.3-3.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "LGPLv2+",
+            "licenses": [
+                "LGPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "librhsm",
+            "size": "86824",
+            "type": "rpm",
+            "version": "0.0.3-3.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libseccomp:libseccomp:2.4.3-1.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libseccomp:2.4.3-1.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "LGPLv2",
+            "licenses": [
+                "LGPLv2"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "libseccomp",
+            "size": "350742",
+            "type": "rpm",
+            "version": "2.4.3-1.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libselinux:libselinux:2.9-4.el8_3:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libselinux:2.9-4.el8_3:*:*:*:*:*:*:*"
+            ],
+            "license": "Public Domain",
+            "licenses": [
+                "Public",
+                "Domain"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "libselinux",
+            "size": "169632",
+            "type": "rpm",
+            "version": "2.9-4.el8_3"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libsemanage:libsemanage:2.9-3.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libsemanage:2.9-3.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "LGPLv2+",
+            "licenses": [
+                "LGPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "libsemanage",
+            "size": "307826",
+            "type": "rpm",
+            "version": "2.9-3.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libsepol:libsepol:2.9-1.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libsepol:2.9-1.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "LGPLv2+",
+            "licenses": [
+                "LGPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "libsepol",
+            "size": "792552",
+            "type": "rpm",
+            "version": "2.9-1.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libsigsegv:libsigsegv:2.11-5.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libsigsegv:2.11-5.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv2+",
+            "licenses": [
+                "GPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "libsigsegv",
+            "size": "46618",
+            "type": "rpm",
+            "version": "2.11-5.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libsmartcols:libsmartcols:2.32.1-24.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libsmartcols:2.32.1-24.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "LGPLv2+",
+            "licenses": [
+                "LGPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "libsmartcols",
+            "size": "244202",
+            "type": "rpm",
+            "version": "2.32.1-24.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libsolv:libsolv:0.7.11-1.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libsolv:0.7.11-1.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD",
+            "licenses": [
+                "BSD"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "libsolv",
+            "size": "917067",
+            "type": "rpm",
+            "version": "0.7.11-1.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libssh:libssh:0.9.4-2.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libssh:0.9.4-2.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "LGPLv2+",
+            "licenses": [
+                "LGPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "libssh",
+            "size": "517049",
+            "type": "rpm",
+            "version": "0.9.4-2.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libssh-config:libssh-config:0.9.4-2.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libssh-config:0.9.4-2.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "LGPLv2+",
+            "licenses": [
+                "LGPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "libssh-config",
+            "size": "277",
+            "type": "rpm",
+            "version": "0.9.4-2.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libstdc++:libstdc++:8.3.1-5.1.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libstdc++:8.3.1-5.1.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv3+ and GPLv3+ with exceptions and GPLv2+ with exceptions and LGPLv2+ and BSD",
+            "licenses": [
+                "GPLv3+",
+                "and",
+                "GPLv3+",
+                "with",
+                "exceptions",
+                "and",
+                "GPLv2+",
+                "with",
+                "exceptions",
+                "and",
+                "LGPLv2+",
+                "and",
+                "BSD"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "libstdc++",
+            "size": "1855671",
+            "type": "rpm",
+            "version": "8.3.1-5.1.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libstdc++-devel:libstdc++-devel:8.3.1-5.1.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libstdc++-devel:8.3.1-5.1.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv3+ and GPLv3+ with exceptions and GPLv2+ with exceptions and LGPLv2+ and BSD",
+            "licenses": [
+                "GPLv3+",
+                "and",
+                "GPLv3+",
+                "with",
+                "exceptions",
+                "and",
+                "GPLv2+",
+                "with",
+                "exceptions",
+                "and",
+                "LGPLv2+",
+                "and",
+                "BSD"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "libstdc++-devel",
+            "size": "11807826",
+            "type": "rpm",
+            "version": "8.3.1-5.1.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libtasn1:libtasn1:4.13-3.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libtasn1:4.13-3.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv3+ and LGPLv2+",
+            "licenses": [
+                "GPLv3+",
+                "and",
+                "LGPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "libtasn1",
+            "size": "167885",
+            "type": "rpm",
+            "version": "4.13-3.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libtirpc:libtirpc:1.1.4-4.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libtirpc:1.1.4-4.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "SISSL and BSD",
+            "licenses": [
+                "SISSL",
+                "and",
+                "BSD"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "libtirpc",
+            "size": "381964",
+            "type": "rpm",
+            "version": "1.1.4-4.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libunistring:libunistring:0.9.9-3.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libunistring:0.9.9-3.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv2+ or LGPLv3+",
+            "licenses": [
+                "GPLv2+",
+                "or",
+                "LGPLv3+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "libunistring",
+            "size": "1810828",
+            "type": "rpm",
+            "version": "0.9.9-3.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libusbx:libusbx:1.0.23-4.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libusbx:1.0.23-4.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "LGPLv2+",
+            "licenses": [
+                "LGPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "libusbx",
+            "size": "154147",
+            "type": "rpm",
+            "version": "1.0.23-4.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libuser:libuser:0.62-23.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libuser:0.62-23.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "LGPLv2+",
+            "licenses": [
+                "LGPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "libuser",
+            "size": "2077004",
+            "type": "rpm",
+            "version": "0.62-23.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libutempter:libutempter:1.1.6-14.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libutempter:1.1.6-14.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "LGPLv2+",
+            "licenses": [
+                "LGPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "libutempter",
+            "size": "52301",
+            "type": "rpm",
+            "version": "1.1.6-14.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libuuid:libuuid:2.32.1-24.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libuuid:2.32.1-24.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD",
+            "licenses": [
+                "BSD"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "libuuid",
+            "size": "34840",
+            "type": "rpm",
+            "version": "2.32.1-24.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libverto:libverto:0.3.0-5.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libverto:0.3.0-5.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "MIT",
+            "licenses": [
+                "MIT"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "libverto",
+            "size": "28076",
+            "type": "rpm",
+            "version": "0.3.0-5.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libxcrypt:libxcrypt:4.1.1-4.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libxcrypt:4.1.1-4.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "LGPLv2+ and BSD and Public Domain",
+            "licenses": [
+                "LGPLv2+",
+                "and",
+                "BSD",
+                "and",
+                "Public",
+                "Domain"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "libxcrypt",
+            "size": "192564",
+            "type": "rpm",
+            "version": "4.1.1-4.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libxcrypt-devel:libxcrypt-devel:4.1.1-4.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libxcrypt-devel:4.1.1-4.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "LGPLv2+ and BSD and Public Domain",
+            "licenses": [
+                "LGPLv2+",
+                "and",
+                "BSD",
+                "and",
+                "Public",
+                "Domain"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "libxcrypt-devel",
+            "size": "24771",
+            "type": "rpm",
+            "version": "4.1.1-4.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libxml2:libxml2:2.9.7-8.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libxml2:2.9.7-8.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "MIT",
+            "licenses": [
+                "MIT"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "libxml2",
+            "size": "1753346",
+            "type": "rpm",
+            "version": "2.9.7-8.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libyaml:libyaml:0.1.7-5.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libyaml:0.1.7-5.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "MIT",
+            "licenses": [
+                "MIT"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "libyaml",
+            "size": "135798",
+            "type": "rpm",
+            "version": "0.1.7-5.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:libzstd:libzstd:1.4.4-1.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:libzstd:1.4.4-1.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD and GPLv2",
+            "licenses": [
+                "BSD",
+                "and",
+                "GPLv2"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "libzstd",
+            "size": "698061",
+            "type": "rpm",
+            "version": "1.4.4-1.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:lua-libs:lua-libs:5.3.4-11.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:lua-libs:5.3.4-11.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "MIT",
+            "licenses": [
+                "MIT"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "lua-libs",
+            "size": "309104",
+            "type": "rpm",
+            "version": "5.3.4-11.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:lz4-libs:lz4-libs:1.8.3-2.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:lz4-libs:1.8.3-2.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv2+ and BSD",
+            "licenses": [
+                "GPLv2+",
+                "and",
+                "BSD"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "lz4-libs",
+            "size": "120991",
+            "type": "rpm",
+            "version": "1.8.3-2.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:mpfr:mpfr:3.1.6-1.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:mpfr:3.1.6-1.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "LGPLv3+ and GPLv3+ and GFDL",
+            "licenses": [
+                "LGPLv3+",
+                "and",
+                "GPLv3+",
+                "and",
+                "GFDL"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "mpfr",
+            "size": "594201",
+            "type": "rpm",
+            "version": "3.1.6-1.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:ncurses:ncurses:6.1-7.20180224.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:ncurses:6.1-7.20180224.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "MIT",
+            "licenses": [
+                "MIT"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "ncurses",
+            "size": "600396",
+            "type": "rpm",
+            "version": "6.1-7.20180224.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:ncurses-base:ncurses-base:6.1-7.20180224.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:ncurses-base:6.1-7.20180224.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "MIT",
+            "licenses": [
+                "MIT"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "ncurses-base",
+            "size": "290089",
+            "type": "rpm",
+            "version": "6.1-7.20180224.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:ncurses-libs:ncurses-libs:6.1-7.20180224.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:ncurses-libs:6.1-7.20180224.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "MIT",
+            "licenses": [
+                "MIT"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "ncurses-libs",
+            "size": "1120040",
+            "type": "rpm",
+            "version": "6.1-7.20180224.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:net-tools:net-tools:2.0-0.52.20160912git.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:net-tools:2.0-0.52.20160912git.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv2+",
+            "licenses": [
+                "GPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "net-tools",
+            "size": "964790",
+            "type": "rpm",
+            "version": "2.0-0.52.20160912git.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:nettle:nettle:3.4.1-2.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:nettle:3.4.1-2.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "LGPLv3+ or GPLv2+",
+            "licenses": [
+                "LGPLv3+",
+                "or",
+                "GPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "nettle",
+            "size": "572153",
+            "type": "rpm",
+            "version": "3.4.1-2.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:npth:npth:1.5-4.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:npth:1.5-4.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "LGPLv2+",
+            "licenses": [
+                "LGPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "npth",
+            "size": "47653",
+            "type": "rpm",
+            "version": "1.5-4.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:openldap:openldap:2.4.46-15.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:openldap:2.4.46-15.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "OpenLDAP",
+            "licenses": [
+                "OpenLDAP"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "openldap",
+            "size": "998188",
+            "type": "rpm",
+            "version": "2.4.46-15.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:openssh:openssh:8.0p1-5.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:openssh:8.0p1-5.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD",
+            "licenses": [
+                "BSD"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "openssh",
+            "size": "1918241",
+            "type": "rpm",
+            "version": "8.0p1-5.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:openssh-clients:openssh-clients:8.0p1-5.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:openssh-clients:8.0p1-5.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD",
+            "licenses": [
+                "BSD"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "openssh-clients",
+            "size": "2566278",
+            "type": "rpm",
+            "version": "8.0p1-5.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:openssl:openssl:1.1.1g-12.el8_3:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:openssl:1.1.1g-12.el8_3:*:*:*:*:*:*:*"
+            ],
+            "license": "OpenSSL and ASL 2.0",
+            "licenses": [
+                "OpenSSL",
+                "and",
+                "ASL",
+                "2.0"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "openssl",
+            "size": "1184006",
+            "type": "rpm",
+            "version": "1.1.1g-12.el8_3"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:openssl-libs:openssl-libs:1.1.1g-12.el8_3:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:openssl-libs:1.1.1g-12.el8_3:*:*:*:*:*:*:*"
+            ],
+            "license": "OpenSSL and ASL 2.0",
+            "licenses": [
+                "OpenSSL",
+                "and",
+                "ASL",
+                "2.0"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "openssl-libs",
+            "size": "3757184",
+            "type": "rpm",
+            "version": "1.1.1g-12.el8_3"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:p11-kit:p11-kit:0.23.14-5.el8_0:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:p11-kit:0.23.14-5.el8_0:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD",
+            "licenses": [
+                "BSD"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "p11-kit",
+            "size": "1394734",
+            "type": "rpm",
+            "version": "0.23.14-5.el8_0"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:p11-kit-trust:p11-kit-trust:0.23.14-5.el8_0:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:p11-kit-trust:0.23.14-5.el8_0:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD",
+            "licenses": [
+                "BSD"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "p11-kit-trust",
+            "size": "508547",
+            "type": "rpm",
+            "version": "0.23.14-5.el8_0"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:pam:pam:1.3.1-11.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:pam:1.3.1-11.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD and GPLv2+",
+            "licenses": [
+                "BSD",
+                "and",
+                "GPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "pam",
+            "size": "2622951",
+            "type": "rpm",
+            "version": "1.3.1-11.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:passwd:passwd:0.80-3.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:passwd:0.80-3.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD or GPL+",
+            "licenses": [
+                "BSD",
+                "or",
+                "GPL+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "passwd",
+            "size": "442589",
+            "type": "rpm",
+            "version": "0.80-3.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:pcre:pcre:8.42-4.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:pcre:8.42-4.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD",
+            "licenses": [
+                "BSD"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "pcre",
+            "size": "516355",
+            "type": "rpm",
+            "version": "8.42-4.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:pcre2:pcre2:10.32-2.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:pcre2:10.32-2.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD",
+            "licenses": [
+                "BSD"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "pcre2",
+            "size": "656478",
+            "type": "rpm",
+            "version": "10.32-2.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:perl-Carp:perl-Carp:1.42-396.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:perl-Carp:1.42-396.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPL+ or Artistic",
+            "licenses": [
+                "GPL+",
+                "or",
+                "Artistic"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "perl-Carp",
+            "size": "41849",
+            "type": "rpm",
+            "version": "1.42-396.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:perl-Data-Dumper:perl-Data-Dumper:2.167-399.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:perl-Data-Dumper:2.167-399.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPL+ or Artistic",
+            "licenses": [
+                "GPL+",
+                "or",
+                "Artistic"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "perl-Data-Dumper",
+            "size": "106441",
+            "type": "rpm",
+            "version": "2.167-399.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:perl-Digest:perl-Digest:1.17-395.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:perl-Digest:1.17-395.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPL+ or Artistic",
+            "licenses": [
+                "GPL+",
+                "or",
+                "Artistic"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "perl-Digest",
+            "size": "26681",
+            "type": "rpm",
+            "version": "1.17-395.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:perl-Digest-MD5:perl-Digest-MD5:2.55-396.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:perl-Digest-MD5:2.55-396.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "(GPL+ or Artistic) and BSD",
+            "licenses": [
+                "(GPL+",
+                "or",
+                "Artistic)",
+                "and",
+                "BSD"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "perl-Digest-MD5",
+            "size": "56630",
+            "type": "rpm",
+            "version": "2.55-396.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:perl-Encode:perl-Encode:2.97-3.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:perl-Encode:2.97-3.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "(GPL+ or Artistic) and Artistic 2.0 and UCD",
+            "licenses": [
+                "(GPL+",
+                "or",
+                "Artistic)",
+                "and",
+                "Artistic",
+                "2.0",
+                "and",
+                "UCD"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "perl-Encode",
+            "size": "10197656",
+            "type": "rpm",
+            "version": "2.97-3.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:perl-Errno:perl-Errno:1.28-416.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:perl-Errno:1.28-416.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPL+ or Artistic",
+            "licenses": [
+                "GPL+",
+                "or",
+                "Artistic"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "perl-Errno",
+            "size": "9507",
+            "type": "rpm",
+            "version": "1.28-416.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:perl-Error:perl-Error:0.17025-2.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:perl-Error:0.17025-2.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "(GPL+ or Artistic) and MIT",
+            "licenses": [
+                "(GPL+",
+                "or",
+                "Artistic)",
+                "and",
+                "MIT"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "perl-Error",
+            "size": "71562",
+            "type": "rpm",
+            "version": "0.17025-2.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:perl-Exporter:perl-Exporter:5.72-396.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:perl-Exporter:5.72-396.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPL+ or Artistic",
+            "licenses": [
+                "GPL+",
+                "or",
+                "Artistic"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "perl-Exporter",
+            "size": "55718",
+            "type": "rpm",
+            "version": "5.72-396.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:perl-File-Path:perl-File-Path:2.15-2.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:perl-File-Path:2.15-2.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPL+ or Artistic",
+            "licenses": [
+                "GPL+",
+                "or",
+                "Artistic"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "perl-File-Path",
+            "size": "64920",
+            "type": "rpm",
+            "version": "2.15-2.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:perl-File-Temp:perl-File-Temp:0.230.600-1.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:perl-File-Temp:0.230.600-1.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPL+ or Artistic",
+            "licenses": [
+                "GPL+",
+                "or",
+                "Artistic"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "perl-File-Temp",
+            "size": "164723",
+            "type": "rpm",
+            "version": "0.230.600-1.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:perl-Getopt-Long:perl-Getopt-Long:2.50-4.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:perl-Getopt-Long:2.50-4.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv2+ or Artistic",
+            "licenses": [
+                "GPLv2+",
+                "or",
+                "Artistic"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "perl-Getopt-Long",
+            "size": "139724",
+            "type": "rpm",
+            "version": "2.50-4.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:perl-Git:perl-Git:2.27.0-1.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:perl-Git:2.27.0-1.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv2",
+            "licenses": [
+                "GPLv2"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "perl-Git",
+            "size": "64826",
+            "type": "rpm",
+            "version": "2.27.0-1.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:perl-HTTP-Tiny:perl-HTTP-Tiny:0.074-1.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:perl-HTTP-Tiny:0.074-1.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPL+ or Artistic",
+            "licenses": [
+                "GPL+",
+                "or",
+                "Artistic"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "perl-HTTP-Tiny",
+            "size": "149159",
+            "type": "rpm",
+            "version": "0.074-1.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:perl-IO:perl-IO:1.38-416.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:perl-IO:1.38-416.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPL+ or Artistic",
+            "licenses": [
+                "GPL+",
+                "or",
+                "Artistic"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "perl-IO",
+            "size": "140303",
+            "type": "rpm",
+            "version": "1.38-416.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:perl-IO-Socket-IP:perl-IO-Socket-IP:0.39-5.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:perl-IO-Socket-IP:0.39-5.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPL+ or Artistic",
+            "licenses": [
+                "GPL+",
+                "or",
+                "Artistic"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "perl-IO-Socket-IP",
+            "size": "99525",
+            "type": "rpm",
+            "version": "0.39-5.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:perl-IO-Socket-SSL:perl-IO-Socket-SSL:2.066-4.module+el8.3.0+6446+594cad75:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:perl-IO-Socket-SSL:2.066-4.module+el8.3.0+6446+594cad75:*:*:*:*:*:*:*"
+            ],
+            "license": "(GPL+ or Artistic) and MPLv2.0",
+            "licenses": [
+                "(GPL+",
+                "or",
+                "Artistic)",
+                "and",
+                "MPLv2.0"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "perl-IO-Socket-SSL",
+            "size": "618705",
+            "type": "rpm",
+            "version": "2.066-4.module+el8.3.0+6446+594cad75"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:perl-MIME-Base64:perl-MIME-Base64:3.15-396.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:perl-MIME-Base64:3.15-396.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "(GPL+ or Artistic) and MIT",
+            "licenses": [
+                "(GPL+",
+                "or",
+                "Artistic)",
+                "and",
+                "MIT"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "perl-MIME-Base64",
+            "size": "41353",
+            "type": "rpm",
+            "version": "3.15-396.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:perl-Mozilla-CA:perl-Mozilla-CA:20160104-7.module+el8.3.0+6498+9eecfe51:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:perl-Mozilla-CA:20160104-7.module+el8.3.0+6498+9eecfe51:*:*:*:*:*:*:*"
+            ],
+            "license": "MPLv2.0",
+            "licenses": [
+                "MPLv2.0"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "perl-Mozilla-CA",
+            "size": "5715",
+            "type": "rpm",
+            "version": "20160104-7.module+el8.3.0+6498+9eecfe51"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:perl-Net-SSLeay:perl-Net-SSLeay:1.88-1.module+el8.3.0+6446+594cad75:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:perl-Net-SSLeay:1.88-1.module+el8.3.0+6446+594cad75:*:*:*:*:*:*:*"
+            ],
+            "license": "Artistic 2.0",
+            "licenses": [
+                "Artistic",
+                "2.0"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "perl-Net-SSLeay",
+            "size": "1325255",
+            "type": "rpm",
+            "version": "1.88-1.module+el8.3.0+6446+594cad75"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:perl-PathTools:perl-PathTools:3.74-1.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:perl-PathTools:3.74-1.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "(GPL+ or Artistic) and BSD",
+            "licenses": [
+                "(GPL+",
+                "or",
+                "Artistic)",
+                "and",
+                "BSD"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "perl-PathTools",
+            "size": "182724",
+            "type": "rpm",
+            "version": "3.74-1.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:perl-Pod-Escapes:perl-Pod-Escapes:1.07-395.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:perl-Pod-Escapes:1.07-395.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPL+ or Artistic",
+            "licenses": [
+                "GPL+",
+                "or",
+                "Artistic"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "perl-Pod-Escapes",
+            "size": "25763",
+            "type": "rpm",
+            "version": "1.07-395.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:perl-Pod-Perldoc:perl-Pod-Perldoc:3.28-396.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:perl-Pod-Perldoc:3.28-396.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPL+ or Artistic",
+            "licenses": [
+                "GPL+",
+                "or",
+                "Artistic"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "perl-Pod-Perldoc",
+            "size": "169226",
+            "type": "rpm",
+            "version": "3.28-396.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:perl-Pod-Simple:perl-Pod-Simple:3.35-395.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:perl-Pod-Simple:3.35-395.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPL+ or Artistic",
+            "licenses": [
+                "GPL+",
+                "or",
+                "Artistic"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "perl-Pod-Simple",
+            "size": "543710",
+            "type": "rpm",
+            "version": "3.35-395.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:perl-Pod-Usage:perl-Pod-Usage:1.69-395.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:perl-Pod-Usage:1.69-395.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPL+ or Artistic",
+            "licenses": [
+                "GPL+",
+                "or",
+                "Artistic"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "perl-Pod-Usage",
+            "size": "49720",
+            "type": "rpm",
+            "version": "1.69-395.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:perl-Scalar-List-Utils:perl-Scalar-List-Utils:1.49-2.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:perl-Scalar-List-Utils:1.49-2.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPL+ or Artistic",
+            "licenses": [
+                "GPL+",
+                "or",
+                "Artistic"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "perl-Scalar-List-Utils",
+            "size": "124536",
+            "type": "rpm",
+            "version": "1.49-2.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:perl-Socket:perl-Socket:2.027-3.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:perl-Socket:2.027-3.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPL+ or Artistic",
+            "licenses": [
+                "GPL+",
+                "or",
+                "Artistic"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "perl-Socket",
+            "size": "124014",
+            "type": "rpm",
+            "version": "2.027-3.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:perl-Storable:perl-Storable:3.11-3.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:perl-Storable:3.11-3.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPL+ or Artistic",
+            "licenses": [
+                "GPL+",
+                "or",
+                "Artistic"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "perl-Storable",
+            "size": "221862",
+            "type": "rpm",
+            "version": "3.11-3.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:perl-Term-ANSIColor:perl-Term-ANSIColor:4.06-396.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:perl-Term-ANSIColor:4.06-396.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPL+ or Artistic",
+            "licenses": [
+                "GPL+",
+                "or",
+                "Artistic"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "perl-Term-ANSIColor",
+            "size": "89627",
+            "type": "rpm",
+            "version": "4.06-396.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:perl-Term-Cap:perl-Term-Cap:1.17-395.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:perl-Term-Cap:1.17-395.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPL+ or Artistic",
+            "licenses": [
+                "GPL+",
+                "or",
+                "Artistic"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "perl-Term-Cap",
+            "size": "29850",
+            "type": "rpm",
+            "version": "1.17-395.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:perl-TermReadKey:perl-TermReadKey:2.37-7.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:perl-TermReadKey:2.37-7.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "(Copyright only) and (Artistic or GPL+)",
+            "licenses": [
+                "(Copyright",
+                "only)",
+                "and",
+                "(Artistic",
+                "or",
+                "GPL+)"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "perl-TermReadKey",
+            "size": "66125",
+            "type": "rpm",
+            "version": "2.37-7.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:perl-Text-ParseWords:perl-Text-ParseWords:3.30-395.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:perl-Text-ParseWords:3.30-395.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPL+ or Artistic",
+            "licenses": [
+                "GPL+",
+                "or",
+                "Artistic"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "perl-Text-ParseWords",
+            "size": "13101",
+            "type": "rpm",
+            "version": "3.30-395.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:perl-Text-Tabs+Wrap:perl-Text-Tabs+Wrap:2013.0523-395.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:perl-Text-Tabs+Wrap:2013.0523-395.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "TTWL",
+            "licenses": [
+                "TTWL"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "perl-Text-Tabs+Wrap",
+            "size": "24827",
+            "type": "rpm",
+            "version": "2013.0523-395.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:perl-Time-Local:perl-Time-Local:1.280-1.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:perl-Time-Local:1.280-1.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPL+ or Artistic",
+            "licenses": [
+                "GPL+",
+                "or",
+                "Artistic"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "perl-Time-Local",
+            "size": "59907",
+            "type": "rpm",
+            "version": "1.280-1.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:perl-URI:perl-URI:1.73-3.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:perl-URI:1.73-3.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPL+ or Artistic",
+            "licenses": [
+                "GPL+",
+                "or",
+                "Artistic"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "perl-URI",
+            "size": "216449",
+            "type": "rpm",
+            "version": "1.73-3.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:perl-Unicode-Normalize:perl-Unicode-Normalize:1.25-396.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:perl-Unicode-Normalize:1.25-396.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPL+ or Artistic",
+            "licenses": [
+                "GPL+",
+                "or",
+                "Artistic"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "perl-Unicode-Normalize",
+            "size": "637429",
+            "type": "rpm",
+            "version": "1.25-396.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:perl-constant:perl-constant:1.33-396.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:perl-constant:1.33-396.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPL+ or Artistic",
+            "licenses": [
+                "GPL+",
+                "or",
+                "Artistic"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "perl-constant",
+            "size": "27102",
+            "type": "rpm",
+            "version": "1.33-396.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:perl-interpreter:perl-interpreter:5.26.3-416.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:perl-interpreter:5.26.3-416.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "(GPL+ or Artistic) and (GPLv2+ or Artistic) and BSD and Public Domain and UCD",
+            "licenses": [
+                "(GPL+",
+                "or",
+                "Artistic)",
+                "and",
+                "(GPLv2+",
+                "or",
+                "Artistic)",
+                "and",
+                "BSD",
+                "and",
+                "Public",
+                "Domain",
+                "and",
+                "UCD"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "perl-interpreter",
+            "size": "14381608",
+            "type": "rpm",
+            "version": "5.26.3-416.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:perl-libnet:perl-libnet:3.11-3.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:perl-libnet:3.11-3.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPL+ or Artistic",
+            "licenses": [
+                "GPL+",
+                "or",
+                "Artistic"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "perl-libnet",
+            "size": "277129",
+            "type": "rpm",
+            "version": "3.11-3.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:perl-libs:perl-libs:5.26.3-416.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:perl-libs:5.26.3-416.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "(GPL+ or Artistic) and HSRL and MIT and UCD",
+            "licenses": [
+                "(GPL+",
+                "or",
+                "Artistic)",
+                "and",
+                "HSRL",
+                "and",
+                "MIT",
+                "and",
+                "UCD"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "perl-libs",
+            "size": "6122644",
+            "type": "rpm",
+            "version": "5.26.3-416.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:perl-macros:perl-macros:5.26.3-416.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:perl-macros:5.26.3-416.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPL+ or Artistic",
+            "licenses": [
+                "GPL+",
+                "or",
+                "Artistic"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "perl-macros",
+            "size": "5184",
+            "type": "rpm",
+            "version": "5.26.3-416.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:perl-parent:perl-parent:0.237-1.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:perl-parent:0.237-1.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPL+ or Artistic",
+            "licenses": [
+                "GPL+",
+                "or",
+                "Artistic"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "perl-parent",
+            "size": "9187",
+            "type": "rpm",
+            "version": "0.237-1.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:perl-podlators:perl-podlators:4.11-1.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:perl-podlators:4.11-1.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "(GPL+ or Artistic) and FSFAP",
+            "licenses": [
+                "(GPL+",
+                "or",
+                "Artistic)",
+                "and",
+                "FSFAP"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "perl-podlators",
+            "size": "287636",
+            "type": "rpm",
+            "version": "4.11-1.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:perl-threads:perl-threads:2.21-2.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:perl-threads:2.21-2.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPL+ or Artistic",
+            "licenses": [
+                "GPL+",
+                "or",
+                "Artistic"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "perl-threads",
+            "size": "109068",
+            "type": "rpm",
+            "version": "2.21-2.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:perl-threads-shared:perl-threads-shared:1.58-2.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:perl-threads-shared:1.58-2.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPL+ or Artistic",
+            "licenses": [
+                "GPL+",
+                "or",
+                "Artistic"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "perl-threads-shared",
+            "size": "78083",
+            "type": "rpm",
+            "version": "1.58-2.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:pkgconf:pkgconf:1.4.2-1.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:pkgconf:1.4.2-1.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "ISC",
+            "licenses": [
+                "ISC"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "pkgconf",
+            "size": "62847",
+            "type": "rpm",
+            "version": "1.4.2-1.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:pkgconf-m4:pkgconf-m4:1.4.2-1.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:pkgconf-m4:1.4.2-1.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv2+ with exceptions",
+            "licenses": [
+                "GPLv2+",
+                "with",
+                "exceptions"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "pkgconf-m4",
+            "size": "14187",
+            "type": "rpm",
+            "version": "1.4.2-1.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:pkgconf-pkg-config:pkgconf-pkg-config:1.4.2-1.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:pkgconf-pkg-config:1.4.2-1.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "ISC",
+            "licenses": [
+                "ISC"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "pkgconf-pkg-config",
+            "size": "3094",
+            "type": "rpm",
+            "version": "1.4.2-1.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:platform-python:platform-python:3.6.8-31.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:platform-python:3.6.8-31.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "Python",
+            "licenses": [
+                "Python"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "platform-python",
+            "size": "41094",
+            "type": "rpm",
+            "version": "3.6.8-31.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:platform-python-devel:platform-python-devel:3.6.8-31.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:platform-python-devel:3.6.8-31.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "Python",
+            "licenses": [
+                "Python"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "platform-python-devel",
+            "size": "712481",
+            "type": "rpm",
+            "version": "3.6.8-31.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:platform-python-pip:platform-python-pip:9.0.3-18.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:platform-python-pip:9.0.3-18.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "MIT and Python and ASL 2.0 and BSD and ISC and LGPLv2 and MPLv2.0 and (ASL 2.0 or BSD)",
+            "licenses": [
+                "MIT",
+                "and",
+                "Python",
+                "and",
+                "ASL",
+                "2.0",
+                "and",
+                "BSD",
+                "and",
+                "ISC",
+                "and",
+                "LGPLv2",
+                "and",
+                "MPLv2.0",
+                "and",
+                "(ASL",
+                "2.0",
+                "or",
+                "BSD)"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "platform-python-pip",
+            "size": "7480311",
+            "type": "rpm",
+            "version": "9.0.3-18.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:platform-python-setuptools:platform-python-setuptools:39.2.0-6.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:platform-python-setuptools:39.2.0-6.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "MIT",
+            "licenses": [
+                "MIT"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "platform-python-setuptools",
+            "size": "2930503",
+            "type": "rpm",
+            "version": "39.2.0-6.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:popt:popt:1.16-14.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:popt:1.16-14.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "MIT",
+            "licenses": [
+                "MIT"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "popt",
+            "size": "127950",
+            "type": "rpm",
+            "version": "1.16-14.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:publicsuffix-list-dafsa:publicsuffix-list-dafsa:20180723-1.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:publicsuffix-list-dafsa:20180723-1.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "MPLv2.0",
+            "licenses": [
+                "MPLv2.0"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "publicsuffix-list-dafsa",
+            "size": "64502",
+            "type": "rpm",
+            "version": "20180723-1.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:python-rpm-macros:python-rpm-macros:3-39.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:python-rpm-macros:3-39.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "MIT",
+            "licenses": [
+                "MIT"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "python-rpm-macros",
+            "size": "3425",
+            "type": "rpm",
+            "version": "3-39.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:python-srpm-macros:python-srpm-macros:3-39.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:python-srpm-macros:3-39.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "MIT",
+            "licenses": [
+                "MIT"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "python-srpm-macros",
+            "size": "3782",
+            "type": "rpm",
+            "version": "3-39.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:python3-dateutil:python3-dateutil:2.6.1-6.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:python3-dateutil:2.6.1-6.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD",
+            "licenses": [
+                "BSD"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "python3-dateutil",
+            "size": "596677",
+            "type": "rpm",
+            "version": "2.6.1-6.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:python3-dbus:python3-dbus:1.2.4-15.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:python3-dbus:1.2.4-15.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "MIT",
+            "licenses": [
+                "MIT"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "python3-dbus",
+            "size": "524237",
+            "type": "rpm",
+            "version": "1.2.4-15.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:python3-decorator:python3-decorator:4.2.1-2.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:python3-decorator:4.2.1-2.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD",
+            "licenses": [
+                "BSD"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "python3-decorator",
+            "size": "47871",
+            "type": "rpm",
+            "version": "4.2.1-2.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:python3-dmidecode:python3-dmidecode:3.12.2-15.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:python3-dmidecode:3.12.2-15.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv2",
+            "licenses": [
+                "GPLv2"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "python3-dmidecode",
+            "size": "301490",
+            "type": "rpm",
+            "version": "3.12.2-15.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:python3-dnf:python3-dnf:4.2.23-4.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:python3-dnf:4.2.23-4.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv2+ and GPLv2 and GPL",
+            "licenses": [
+                "GPLv2+",
+                "and",
+                "GPLv2",
+                "and",
+                "GPL"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "python3-dnf",
+            "size": "1845286",
+            "type": "rpm",
+            "version": "4.2.23-4.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:python3-dnf-plugins-core:python3-dnf-plugins-core:4.0.17-5.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:python3-dnf-plugins-core:4.0.17-5.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv2+",
+            "licenses": [
+                "GPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "python3-dnf-plugins-core",
+            "size": "744520",
+            "type": "rpm",
+            "version": "4.0.17-5.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:python3-ethtool:python3-ethtool:0.14-3.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:python3-ethtool:0.14-3.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv2",
+            "licenses": [
+                "GPLv2"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "python3-ethtool",
+            "size": "93697",
+            "type": "rpm",
+            "version": "0.14-3.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:python3-gobject-base:python3-gobject-base:3.28.3-2.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:python3-gobject-base:3.28.3-2.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "LGPLv2+ and MIT",
+            "licenses": [
+                "LGPLv2+",
+                "and",
+                "MIT"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "python3-gobject-base",
+            "size": "1101277",
+            "type": "rpm",
+            "version": "3.28.3-2.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:python3-gpg:python3-gpg:1.13.1-3.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:python3-gpg:1.13.1-3.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "LGPLv2+",
+            "licenses": [
+                "LGPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "python3-gpg",
+            "size": "1401922",
+            "type": "rpm",
+            "version": "1.13.1-3.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:python3-hawkey:python3-hawkey:0.48.0-5.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:python3-hawkey:0.48.0-5.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "LGPLv2+",
+            "licenses": [
+                "LGPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "python3-hawkey",
+            "size": "292776",
+            "type": "rpm",
+            "version": "0.48.0-5.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:python3-iniparse:python3-iniparse:0.4-31.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:python3-iniparse:0.4-31.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "MIT and Python",
+            "licenses": [
+                "MIT",
+                "and",
+                "Python"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "python3-iniparse",
+            "size": "108846",
+            "type": "rpm",
+            "version": "0.4-31.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:python3-inotify:python3-inotify:0.9.6-13.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:python3-inotify:0.9.6-13.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "MIT",
+            "licenses": [
+                "MIT"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "python3-inotify",
+            "size": "248598",
+            "type": "rpm",
+            "version": "0.9.6-13.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:python3-libcomps:python3-libcomps:0.1.11-4.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:python3-libcomps:0.1.11-4.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv2+",
+            "licenses": [
+                "GPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "python3-libcomps",
+            "size": "147027",
+            "type": "rpm",
+            "version": "0.1.11-4.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:python3-libdnf:python3-libdnf:0.48.0-5.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:python3-libdnf:0.48.0-5.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "LGPLv2+",
+            "licenses": [
+                "LGPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "python3-libdnf",
+            "size": "3967521",
+            "type": "rpm",
+            "version": "0.48.0-5.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:python3-librepo:python3-librepo:1.12.0-2.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:python3-librepo:1.12.0-2.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "LGPLv2+",
+            "licenses": [
+                "LGPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "python3-librepo",
+            "size": "176034",
+            "type": "rpm",
+            "version": "1.12.0-2.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:python3-libs:python3-libs:3.6.8-31.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:python3-libs:3.6.8-31.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "Python",
+            "licenses": [
+                "Python"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "python3-libs",
+            "size": "32215767",
+            "type": "rpm",
+            "version": "3.6.8-31.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:python3-libxml2:python3-libxml2:2.9.7-8.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:python3-libxml2:2.9.7-8.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "MIT",
+            "licenses": [
+                "MIT"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "python3-libxml2",
+            "size": "1358535",
+            "type": "rpm",
+            "version": "2.9.7-8.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:python3-pip:python3-pip:9.0.3-18.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:python3-pip:9.0.3-18.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "MIT and Python and ASL 2.0 and BSD and ISC and LGPLv2 and MPLv2.0 and (ASL 2.0 or BSD)",
+            "licenses": [
+                "MIT",
+                "and",
+                "Python",
+                "and",
+                "ASL",
+                "2.0",
+                "and",
+                "BSD",
+                "and",
+                "ISC",
+                "and",
+                "LGPLv2",
+                "and",
+                "MPLv2.0",
+                "and",
+                "(ASL",
+                "2.0",
+                "or",
+                "BSD)"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "python3-pip",
+            "size": "2856",
+            "type": "rpm",
+            "version": "9.0.3-18.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:python3-pip-wheel:python3-pip-wheel:9.0.3-18.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:python3-pip-wheel:9.0.3-18.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "MIT and Python and ASL 2.0 and BSD and ISC and LGPLv2 and MPLv2.0 and (ASL 2.0 or BSD)",
+            "licenses": [
+                "MIT",
+                "and",
+                "Python",
+                "and",
+                "ASL",
+                "2.0",
+                "and",
+                "BSD",
+                "and",
+                "ISC",
+                "and",
+                "LGPLv2",
+                "and",
+                "MPLv2.0",
+                "and",
+                "(ASL",
+                "2.0",
+                "or",
+                "BSD)"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "python3-pip-wheel",
+            "size": "1109771",
+            "type": "rpm",
+            "version": "9.0.3-18.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:python3-rpm:python3-rpm:4.14.3-4.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:python3-rpm:4.14.3-4.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv2+",
+            "licenses": [
+                "GPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "python3-rpm",
+            "size": "430929",
+            "type": "rpm",
+            "version": "4.14.3-4.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:python3-rpm-generators:python3-rpm-generators:5-6.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:python3-rpm-generators:5-6.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv2+",
+            "licenses": [
+                "GPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "python3-rpm-generators",
+            "size": "56585",
+            "type": "rpm",
+            "version": "5-6.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:python3-rpm-macros:python3-rpm-macros:3-39.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:python3-rpm-macros:3-39.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "MIT",
+            "licenses": [
+                "MIT"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "python3-rpm-macros",
+            "size": "1888",
+            "type": "rpm",
+            "version": "3-39.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:python3-setuptools:python3-setuptools:39.2.0-6.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:python3-setuptools:39.2.0-6.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "MIT",
+            "licenses": [
+                "MIT"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "python3-setuptools",
+            "size": "460967",
+            "type": "rpm",
+            "version": "39.2.0-6.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:python3-setuptools-wheel:python3-setuptools-wheel:39.2.0-6.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:python3-setuptools-wheel:39.2.0-6.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "MIT",
+            "licenses": [
+                "MIT"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "python3-setuptools-wheel",
+            "size": "347720",
+            "type": "rpm",
+            "version": "39.2.0-6.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:python3-six:python3-six:1.11.0-8.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:python3-six:1.11.0-8.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "MIT",
+            "licenses": [
+                "MIT"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "python3-six",
+            "size": "100282",
+            "type": "rpm",
+            "version": "1.11.0-8.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:python3-subscription-manager-rhsm:python3-subscription-manager-rhsm:1.27.16-1.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:python3-subscription-manager-rhsm:1.27.16-1.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv2",
+            "licenses": [
+                "GPLv2"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "python3-subscription-manager-rhsm",
+            "size": "406669",
+            "type": "rpm",
+            "version": "1.27.16-1.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:python3-syspurpose:python3-syspurpose:1.27.16-1.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:python3-syspurpose:1.27.16-1.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv2",
+            "licenses": [
+                "GPLv2"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "python3-syspurpose",
+            "size": "138792",
+            "type": "rpm",
+            "version": "1.27.16-1.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:python3-virtualenv:python3-virtualenv:15.1.0-19.module+el8.1.0+3514+14e79d98:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:python3-virtualenv:15.1.0-19.module+el8.1.0+3514+14e79d98:*:*:*:*:*:*:*"
+            ],
+            "license": "MIT",
+            "licenses": [
+                "MIT"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "python3-virtualenv",
+            "size": "315535",
+            "type": "rpm",
+            "version": "15.1.0-19.module+el8.1.0+3514+14e79d98"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:python3-wheel-wheel:python3-wheel-wheel:0.31.1-2.module+el8.1.0+3724+3c097090:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:python3-wheel-wheel:0.31.1-2.module+el8.1.0+3724+3c097090:*:*:*:*:*:*:*"
+            ],
+            "license": "MIT",
+            "licenses": [
+                "MIT"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "python3-wheel-wheel",
+            "size": "34054",
+            "type": "rpm",
+            "version": "0.31.1-2.module+el8.1.0+3724+3c097090"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:python36:python36:3.6.8-2.module+el8.1.0+3334+5cb623d7:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:python36:3.6.8-2.module+el8.1.0+3334+5cb623d7:*:*:*:*:*:*:*"
+            ],
+            "license": "Python",
+            "licenses": [
+                "Python"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "python36",
+            "size": "13131",
+            "type": "rpm",
+            "version": "3.6.8-2.module+el8.1.0+3334+5cb623d7"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:python36-devel:python36-devel:3.6.8-2.module+el8.1.0+3334+5cb623d7:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:python36-devel:3.6.8-2.module+el8.1.0+3334+5cb623d7:*:*:*:*:*:*:*"
+            ],
+            "license": "Python",
+            "licenses": [
+                "Python"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "python36-devel",
+            "size": "13131",
+            "type": "rpm",
+            "version": "3.6.8-2.module+el8.1.0+3334+5cb623d7"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:readline:readline:7.0-10.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:readline:7.0-10.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv3+",
+            "licenses": [
+                "GPLv3+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "readline",
+            "size": "462801",
+            "type": "rpm",
+            "version": "7.0-10.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:redhat-release:redhat-release:8.3-1.0.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:redhat-release:8.3-1.0.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv2",
+            "licenses": [
+                "GPLv2"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "redhat-release",
+            "size": "53754",
+            "type": "rpm",
+            "version": "8.3-1.0.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:rootfiles:rootfiles:8.1-22.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:rootfiles:8.1-22.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "Public Domain",
+            "licenses": [
+                "Public",
+                "Domain"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "rootfiles",
+            "size": "599",
+            "type": "rpm",
+            "version": "8.1-22.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:rpm:rpm:4.14.3-4.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:rpm:4.14.3-4.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv2+",
+            "licenses": [
+                "GPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "rpm",
+            "size": "2087308",
+            "type": "rpm",
+            "version": "4.14.3-4.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:rpm-build-libs:rpm-build-libs:4.14.3-4.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:rpm-build-libs:4.14.3-4.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv2+ and LGPLv2+ with exceptions",
+            "licenses": [
+                "GPLv2+",
+                "and",
+                "LGPLv2+",
+                "with",
+                "exceptions"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "rpm-build-libs",
+            "size": "215848",
+            "type": "rpm",
+            "version": "4.14.3-4.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:rpm-libs:rpm-libs:4.14.3-4.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:rpm-libs:4.14.3-4.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv2+ and LGPLv2+ with exceptions",
+            "licenses": [
+                "GPLv2+",
+                "and",
+                "LGPLv2+",
+                "with",
+                "exceptions"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "rpm-libs",
+            "size": "722320",
+            "type": "rpm",
+            "version": "4.14.3-4.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:sed:sed:4.5-2.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:sed:4.5-2.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv3+",
+            "licenses": [
+                "GPLv3+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "sed",
+            "size": "765126",
+            "type": "rpm",
+            "version": "4.5-2.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:setup:setup:2.12.2-6.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:setup:2.12.2-6.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "Public Domain",
+            "licenses": [
+                "Public",
+                "Domain"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "setup",
+            "size": "724837",
+            "type": "rpm",
+            "version": "2.12.2-6.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:shadow-utils:shadow-utils:4.6-11.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:shadow-utils:4.6-11.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD and GPLv2+",
+            "licenses": [
+                "BSD",
+                "and",
+                "GPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "shadow-utils",
+            "size": "4004976",
+            "type": "rpm",
+            "version": "4.6-11.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:sqlite-libs:sqlite-libs:3.26.0-11.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:sqlite-libs:3.26.0-11.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "Public Domain",
+            "licenses": [
+                "Public",
+                "Domain"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "sqlite-libs",
+            "size": "1166385",
+            "type": "rpm",
+            "version": "3.26.0-11.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:subscription-manager:subscription-manager:1.27.16-1.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:subscription-manager:1.27.16-1.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv2",
+            "licenses": [
+                "GPLv2"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "subscription-manager",
+            "size": "4475321",
+            "type": "rpm",
+            "version": "1.27.16-1.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:subscription-manager-rhsm-certificates:subscription-manager-rhsm-certificates:1.27.16-1.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:subscription-manager-rhsm-certificates:1.27.16-1.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv2",
+            "licenses": [
+                "GPLv2"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "subscription-manager-rhsm-certificates",
+            "size": "9716",
+            "type": "rpm",
+            "version": "1.27.16-1.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:systemd:systemd:239-41.el8_3.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:systemd:239-41.el8_3.1:*:*:*:*:*:*:*"
+            ],
+            "license": "LGPLv2+ and MIT and GPLv2+",
+            "licenses": [
+                "LGPLv2+",
+                "and",
+                "MIT",
+                "and",
+                "GPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "systemd",
+            "size": "11197400",
+            "type": "rpm",
+            "version": "239-41.el8_3.1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:systemd-libs:systemd-libs:239-41.el8_3.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:systemd-libs:239-41.el8_3.1:*:*:*:*:*:*:*"
+            ],
+            "license": "LGPLv2+ and MIT",
+            "licenses": [
+                "LGPLv2+",
+                "and",
+                "MIT"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "systemd-libs",
+            "size": "4502238",
+            "type": "rpm",
+            "version": "239-41.el8_3.1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:systemd-pam:systemd-pam:239-41.el8_3.1:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:systemd-pam:239-41.el8_3.1:*:*:*:*:*:*:*"
+            ],
+            "license": "LGPLv2+ and MIT and GPLv2+",
+            "licenses": [
+                "LGPLv2+",
+                "and",
+                "MIT",
+                "and",
+                "GPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "systemd-pam",
+            "size": "906728",
+            "type": "rpm",
+            "version": "239-41.el8_3.1"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:tar:tar:1.30-5.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:tar:1.30-5.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv3+",
+            "licenses": [
+                "GPLv3+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "tar",
+            "size": "2876729",
+            "type": "rpm",
+            "version": "1.30-5.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:tzdata:tzdata:2021a-1.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:tzdata:2021a-1.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "Public Domain",
+            "licenses": [
+                "Public",
+                "Domain"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "tzdata",
+            "size": "1911281",
+            "type": "rpm",
+            "version": "2021a-1.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:unzip:unzip:6.0-43.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:unzip:6.0-43.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD",
+            "licenses": [
+                "BSD"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "unzip",
+            "size": "424317",
+            "type": "rpm",
+            "version": "6.0-43.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:usermode:usermode:1.113-1.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:usermode:1.113-1.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv2+",
+            "licenses": [
+                "GPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "usermode",
+            "size": "857048",
+            "type": "rpm",
+            "version": "1.113-1.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:util-linux:util-linux:2.32.1-24.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:util-linux:2.32.1-24.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv2 and GPLv2+ and LGPLv2+ and BSD with advertising and Public Domain",
+            "licenses": [
+                "GPLv2",
+                "and",
+                "GPLv2+",
+                "and",
+                "LGPLv2+",
+                "and",
+                "BSD",
+                "with",
+                "advertising",
+                "and",
+                "Public",
+                "Domain"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "util-linux",
+            "size": "11559590",
+            "type": "rpm",
+            "version": "2.32.1-24.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:vim-common:vim-common:8.0.1763-15.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:vim-common:8.0.1763-15.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "Vim and MIT",
+            "licenses": [
+                "Vim",
+                "and",
+                "MIT"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "vim-common",
+            "size": "28371952",
+            "type": "rpm",
+            "version": "8.0.1763-15.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:vim-enhanced:vim-enhanced:8.0.1763-15.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:vim-enhanced:8.0.1763-15.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "Vim and MIT",
+            "licenses": [
+                "Vim",
+                "and",
+                "MIT"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "vim-enhanced",
+            "size": "3066331",
+            "type": "rpm",
+            "version": "8.0.1763-15.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:vim-filesystem:vim-filesystem:8.0.1763-15.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:vim-filesystem:8.0.1763-15.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "Vim and MIT",
+            "licenses": [
+                "Vim",
+                "and",
+                "MIT"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "vim-filesystem",
+            "size": "40",
+            "type": "rpm",
+            "version": "8.0.1763-15.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:vim-minimal:vim-minimal:8.0.1763-15.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:vim-minimal:8.0.1763-15.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "Vim and MIT",
+            "licenses": [
+                "Vim",
+                "and",
+                "MIT"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "vim-minimal",
+            "size": "1187268",
+            "type": "rpm",
+            "version": "8.0.1763-15.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:virt-what:virt-what:1.18-6.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:virt-what:1.18-6.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv2+",
+            "licenses": [
+                "GPLv2+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "virt-what",
+            "size": "48327",
+            "type": "rpm",
+            "version": "1.18-6.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:wget:wget:1.19.5-10.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:wget:1.19.5-10.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv3+",
+            "licenses": [
+                "GPLv3+"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "wget",
+            "size": "2895448",
+            "type": "rpm",
+            "version": "1.19.5-10.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:which:which:2.21-12.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:which:2.21-12.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv3",
+            "licenses": [
+                "GPLv3"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "which",
+            "size": "83205",
+            "type": "rpm",
+            "version": "2.21-12.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:xz-libs:xz-libs:5.2.4-3.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:xz-libs:5.2.4-3.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "Public Domain",
+            "licenses": [
+                "Public",
+                "Domain"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "xz-libs",
+            "size": "194791",
+            "type": "rpm",
+            "version": "5.2.4-3.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:yum:yum:4.2.23-4.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:yum:4.2.23-4.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "GPLv2+ and GPLv2 and GPL",
+            "licenses": [
+                "GPLv2+",
+                "and",
+                "GPLv2",
+                "and",
+                "GPL"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "yum",
+            "size": "72000",
+            "type": "rpm",
+            "version": "4.2.23-4.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:zip:zip:3.0-23.el8:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:zip:3.0-23.el8:*:*:*:*:*:*:*"
+            ],
+            "license": "BSD",
+            "licenses": [
+                "BSD"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "zip",
+            "size": "842877",
+            "type": "rpm",
+            "version": "3.0-23.el8"
+        },
+        {
+            "cpes": [
+                "cpe:2.3:a:zlib:zlib:1.2.11-16.el8_2:*:*:*:*:*:*:*",
+                "cpe:2.3:a:*:zlib:1.2.11-16.el8_2:*:*:*:*:*:*:*"
+            ],
+            "license": "zlib and Boost",
+            "licenses": [
+                "zlib",
+                "and",
+                "Boost"
+            ],
+            "origin": "Red Hat, Inc.",
+            "package": "zlib",
+            "size": "195719",
+            "type": "rpm",
+            "version": "1.2.11-16.el8_2"
+        }
+    ],
+    "content_type": "os",
+    "imageDigest": "sha256:f0f8f385252c2af1d11da8add4ec423f06bac2d03968b85974bccce0d6ccf01c"
+}

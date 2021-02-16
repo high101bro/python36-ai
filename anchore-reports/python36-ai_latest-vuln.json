@@ -1,0 +1,3313 @@
+{
+    "imageDigest": "sha256:f0f8f385252c2af1d11da8add4ec423f06bac2d03968b85974bccce0d6ccf01c",
+    "vulnerabilities": [
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [],
+            "package": "binutils-2.30-79.el8",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "binutils",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "2.30-79.el8",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2021-20197",
+            "vendor_data": [],
+            "vuln": "CVE-2021-20197"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 6.4,
+                        "exploitability_score": 10.0,
+                        "impact_score": 4.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 6.5,
+                        "exploitability_score": 3.9,
+                        "impact_score": 2.5
+                    },
+                    "id": "CVE-2020-8927"
+                }
+            ],
+            "package": "brotli-1.0.6-2.el8",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "brotli",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "1.0.6-2.el8",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-8927",
+            "vendor_data": [],
+            "vuln": "CVE-2020-8927"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 5.0,
+                        "exploitability_score": 10.0,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 7.5,
+                        "exploitability_score": 3.9,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2020-8285"
+                }
+            ],
+            "package": "curl-7.61.1-14.el8_3.1",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "curl",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "7.61.1-14.el8_3.1",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-8285",
+            "vendor_data": [],
+            "vuln": "CVE-2020-8285"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 4.3,
+                        "exploitability_score": 8.6,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 3.7,
+                        "exploitability_score": 2.2,
+                        "impact_score": 1.4
+                    },
+                    "id": "CVE-2020-8284"
+                }
+            ],
+            "package": "curl-7.61.1-14.el8_3.1",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "curl",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "7.61.1-14.el8_3.1",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-8284",
+            "vendor_data": [],
+            "vuln": "CVE-2020-8284"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 5.0,
+                        "exploitability_score": 10.0,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 7.5,
+                        "exploitability_score": 3.9,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2020-8231"
+                }
+            ],
+            "package": "curl-7.61.1-14.el8_3.1",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "curl",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "7.61.1-14.el8_3.1",
+            "severity": "Low",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-8231",
+            "vendor_data": [],
+            "vuln": "CVE-2020-8231"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 5.0,
+                        "exploitability_score": 10.0,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 7.5,
+                        "exploitability_score": 3.9,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2020-8286"
+                }
+            ],
+            "package": "curl-7.61.1-14.el8_3.1",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "curl",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "7.61.1-14.el8_3.1",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-8286",
+            "vendor_data": [],
+            "vuln": "CVE-2020-8286"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [],
+            "package": "dbus-1.12.8-11.el8",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "dbus",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "1.12.8-11.el8",
+            "severity": "Low",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-35512",
+            "vendor_data": [],
+            "vuln": "CVE-2020-35512"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [],
+            "package": "dbus-common-1.12.8-11.el8",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "dbus-common",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "1.12.8-11.el8",
+            "severity": "Low",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-35512",
+            "vendor_data": [],
+            "vuln": "CVE-2020-35512"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [],
+            "package": "dbus-daemon-1.12.8-11.el8",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "dbus-daemon",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "1.12.8-11.el8",
+            "severity": "Low",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-35512",
+            "vendor_data": [],
+            "vuln": "CVE-2020-35512"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [],
+            "package": "dbus-libs-1.12.8-11.el8",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "dbus-libs",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "1.12.8-11.el8",
+            "severity": "Low",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-35512",
+            "vendor_data": [],
+            "vuln": "CVE-2020-35512"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [],
+            "package": "dbus-tools-1.12.8-11.el8",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "dbus-tools",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "1.12.8-11.el8",
+            "severity": "Low",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-35512",
+            "vendor_data": [],
+            "vuln": "CVE-2020-35512"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [],
+            "package": "glibc-2.28-127.el8",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "glibc",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "2.28-127.el8",
+            "severity": "Low",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-27618",
+            "vendor_data": [],
+            "vuln": "CVE-2020-27618"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 7.1,
+                        "exploitability_score": 8.6,
+                        "impact_score": 6.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 5.9,
+                        "exploitability_score": 2.2,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2019-25013"
+                }
+            ],
+            "package": "glibc-2.28-127.el8",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "glibc",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "2.28-127.el8",
+            "severity": "High",
+            "url": "https://access.redhat.com/security/cve/CVE-2019-25013",
+            "vendor_data": [],
+            "vuln": "CVE-2019-25013"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 5.0,
+                        "exploitability_score": 10.0,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 7.5,
+                        "exploitability_score": 3.9,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2021-3326"
+                }
+            ],
+            "package": "glibc-2.28-127.el8",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "glibc",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "2.28-127.el8",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2021-3326",
+            "vendor_data": [],
+            "vuln": "CVE-2021-3326"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [],
+            "package": "glibc-common-2.28-127.el8",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "glibc-common",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "2.28-127.el8",
+            "severity": "Low",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-27618",
+            "vendor_data": [],
+            "vuln": "CVE-2020-27618"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 7.1,
+                        "exploitability_score": 8.6,
+                        "impact_score": 6.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 5.9,
+                        "exploitability_score": 2.2,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2019-25013"
+                }
+            ],
+            "package": "glibc-common-2.28-127.el8",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "glibc-common",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "2.28-127.el8",
+            "severity": "High",
+            "url": "https://access.redhat.com/security/cve/CVE-2019-25013",
+            "vendor_data": [],
+            "vuln": "CVE-2019-25013"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 5.0,
+                        "exploitability_score": 10.0,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 7.5,
+                        "exploitability_score": 3.9,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2021-3326"
+                }
+            ],
+            "package": "glibc-common-2.28-127.el8",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "glibc-common",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "2.28-127.el8",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2021-3326",
+            "vendor_data": [],
+            "vuln": "CVE-2021-3326"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [],
+            "package": "glibc-devel-2.28-127.el8",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "glibc-devel",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "2.28-127.el8",
+            "severity": "Low",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-27618",
+            "vendor_data": [],
+            "vuln": "CVE-2020-27618"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 7.1,
+                        "exploitability_score": 8.6,
+                        "impact_score": 6.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 5.9,
+                        "exploitability_score": 2.2,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2019-25013"
+                }
+            ],
+            "package": "glibc-devel-2.28-127.el8",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "glibc-devel",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "2.28-127.el8",
+            "severity": "High",
+            "url": "https://access.redhat.com/security/cve/CVE-2019-25013",
+            "vendor_data": [],
+            "vuln": "CVE-2019-25013"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 5.0,
+                        "exploitability_score": 10.0,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 7.5,
+                        "exploitability_score": 3.9,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2021-3326"
+                }
+            ],
+            "package": "glibc-devel-2.28-127.el8",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "glibc-devel",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "2.28-127.el8",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2021-3326",
+            "vendor_data": [],
+            "vuln": "CVE-2021-3326"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [],
+            "package": "glibc-headers-2.28-127.el8",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "glibc-headers",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "2.28-127.el8",
+            "severity": "Low",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-27618",
+            "vendor_data": [],
+            "vuln": "CVE-2020-27618"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 7.1,
+                        "exploitability_score": 8.6,
+                        "impact_score": 6.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 5.9,
+                        "exploitability_score": 2.2,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2019-25013"
+                }
+            ],
+            "package": "glibc-headers-2.28-127.el8",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "glibc-headers",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "2.28-127.el8",
+            "severity": "High",
+            "url": "https://access.redhat.com/security/cve/CVE-2019-25013",
+            "vendor_data": [],
+            "vuln": "CVE-2019-25013"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 5.0,
+                        "exploitability_score": 10.0,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 7.5,
+                        "exploitability_score": 3.9,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2021-3326"
+                }
+            ],
+            "package": "glibc-headers-2.28-127.el8",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "glibc-headers",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "2.28-127.el8",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2021-3326",
+            "vendor_data": [],
+            "vuln": "CVE-2021-3326"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [],
+            "package": "glibc-minimal-langpack-2.28-127.el8",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "glibc-minimal-langpack",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "2.28-127.el8",
+            "severity": "Low",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-27618",
+            "vendor_data": [],
+            "vuln": "CVE-2020-27618"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 7.1,
+                        "exploitability_score": 8.6,
+                        "impact_score": 6.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 5.9,
+                        "exploitability_score": 2.2,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2019-25013"
+                }
+            ],
+            "package": "glibc-minimal-langpack-2.28-127.el8",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "glibc-minimal-langpack",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "2.28-127.el8",
+            "severity": "High",
+            "url": "https://access.redhat.com/security/cve/CVE-2019-25013",
+            "vendor_data": [],
+            "vuln": "CVE-2019-25013"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 5.0,
+                        "exploitability_score": 10.0,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 7.5,
+                        "exploitability_score": 3.9,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2021-3326"
+                }
+            ],
+            "package": "glibc-minimal-langpack-2.28-127.el8",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "glibc-minimal-langpack",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "2.28-127.el8",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2021-3326",
+            "vendor_data": [],
+            "vuln": "CVE-2021-3326"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 4.7,
+                        "exploitability_score": 3.4,
+                        "impact_score": 6.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 4.7,
+                        "exploitability_score": 1.0,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2019-15807"
+                }
+            ],
+            "package": "kernel-headers-4.18.0-240.10.1.el8_3",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "kernel-headers",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "4.18.0-240.10.1.el8_3",
+            "severity": "Low",
+            "url": "https://access.redhat.com/security/cve/CVE-2019-15807",
+            "vendor_data": [],
+            "vuln": "CVE-2019-15807"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 4.9,
+                        "exploitability_score": 3.9,
+                        "impact_score": 6.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 4.6,
+                        "exploitability_score": 0.9,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2019-15219"
+                }
+            ],
+            "package": "kernel-headers-4.18.0-240.10.1.el8_3",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "kernel-headers",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "4.18.0-240.10.1.el8_3",
+            "severity": "Low",
+            "url": "https://access.redhat.com/security/cve/CVE-2019-15219",
+            "vendor_data": [],
+            "vuln": "CVE-2019-15219"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 2.1,
+                        "exploitability_score": 3.9,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 5.5,
+                        "exploitability_score": 1.8,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2020-8832"
+                }
+            ],
+            "package": "kernel-headers-4.18.0-240.10.1.el8_3",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "kernel-headers",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "4.18.0-240.10.1.el8_3",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-8832",
+            "vendor_data": [],
+            "vuln": "CVE-2020-8832"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 7.2,
+                        "exploitability_score": 3.9,
+                        "impact_score": 10.0
+                    },
+                    "cvss_v3": {
+                        "base_score": 6.7,
+                        "exploitability_score": 0.8,
+                        "impact_score": 5.9
+                    },
+                    "id": "CVE-2020-12464"
+                }
+            ],
+            "package": "kernel-headers-4.18.0-240.10.1.el8_3",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "kernel-headers",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "4.18.0-240.10.1.el8_3",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-12464",
+            "vendor_data": [],
+            "vuln": "CVE-2020-12464"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 4.9,
+                        "exploitability_score": 3.9,
+                        "impact_score": 6.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 5.5,
+                        "exploitability_score": 1.8,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2019-20095"
+                }
+            ],
+            "package": "kernel-headers-4.18.0-240.10.1.el8_3",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "kernel-headers",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "4.18.0-240.10.1.el8_3",
+            "severity": "Low",
+            "url": "https://access.redhat.com/security/cve/CVE-2019-20095",
+            "vendor_data": [],
+            "vuln": "CVE-2019-20095"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": -1.0,
+                        "exploitability_score": -1.0,
+                        "impact_score": -1.0
+                    },
+                    "cvss_v3": {
+                        "base_score": -1.0,
+                        "exploitability_score": -1.0,
+                        "impact_score": -1.0
+                    },
+                    "id": "CVE-2020-10741"
+                }
+            ],
+            "package": "kernel-headers-4.18.0-240.10.1.el8_3",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "kernel-headers",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "4.18.0-240.10.1.el8_3",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-10741",
+            "vendor_data": [],
+            "vuln": "CVE-2020-10741"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 2.1,
+                        "exploitability_score": 3.9,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 5.5,
+                        "exploitability_score": 1.8,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2020-13844"
+                }
+            ],
+            "package": "kernel-headers-4.18.0-240.10.1.el8_3",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "kernel-headers",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "4.18.0-240.10.1.el8_3",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-13844",
+            "vendor_data": [],
+            "vuln": "CVE-2020-13844"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 1.9,
+                        "exploitability_score": 3.4,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 4.7,
+                        "exploitability_score": 1.0,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2020-12114"
+                }
+            ],
+            "package": "kernel-headers-4.18.0-240.10.1.el8_3",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "kernel-headers",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "4.18.0-240.10.1.el8_3",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-12114",
+            "vendor_data": [],
+            "vuln": "CVE-2020-12114"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 4.7,
+                        "exploitability_score": 3.4,
+                        "impact_score": 6.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 4.2,
+                        "exploitability_score": 0.6,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2020-14416"
+                }
+            ],
+            "package": "kernel-headers-4.18.0-240.10.1.el8_3",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "kernel-headers",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "4.18.0-240.10.1.el8_3",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-14416",
+            "vendor_data": [],
+            "vuln": "CVE-2020-14416"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 4.9,
+                        "exploitability_score": 3.9,
+                        "impact_score": 6.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 4.3,
+                        "exploitability_score": 0.7,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2020-11608"
+                }
+            ],
+            "package": "kernel-headers-4.18.0-240.10.1.el8_3",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "kernel-headers",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "4.18.0-240.10.1.el8_3",
+            "severity": "Low",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-11608",
+            "vendor_data": [],
+            "vuln": "CVE-2020-11608"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 7.2,
+                        "exploitability_score": 3.9,
+                        "impact_score": 10.0
+                    },
+                    "cvss_v3": {
+                        "base_score": 7.8,
+                        "exploitability_score": 1.8,
+                        "impact_score": 5.9
+                    },
+                    "id": "CVE-2020-14356"
+                }
+            ],
+            "package": "kernel-headers-4.18.0-240.10.1.el8_3",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "kernel-headers",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "4.18.0-240.10.1.el8_3",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-14356",
+            "vendor_data": [],
+            "vuln": "CVE-2020-14356"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 6.1,
+                        "exploitability_score": 3.9,
+                        "impact_score": 8.5
+                    },
+                    "cvss_v3": {
+                        "base_score": 5.8,
+                        "exploitability_score": 0.3,
+                        "impact_score": 5.5
+                    },
+                    "id": "CVE-2020-28915"
+                }
+            ],
+            "package": "kernel-headers-4.18.0-240.10.1.el8_3",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "kernel-headers",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "4.18.0-240.10.1.el8_3",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-28915",
+            "vendor_data": [],
+            "vuln": "CVE-2020-28915"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 4.3,
+                        "exploitability_score": 8.6,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 5.9,
+                        "exploitability_score": 2.2,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2020-15802"
+                }
+            ],
+            "package": "kernel-headers-4.18.0-240.10.1.el8_3",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "kernel-headers",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "4.18.0-240.10.1.el8_3",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-15802",
+            "vendor_data": [],
+            "vuln": "CVE-2020-15802"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 4.6,
+                        "exploitability_score": 3.9,
+                        "impact_score": 6.4
+                    },
+                    "cvss_v3": {
+                        "base_score": 5.6,
+                        "exploitability_score": 0.8,
+                        "impact_score": 4.7
+                    },
+                    "id": "CVE-2020-14390"
+                }
+            ],
+            "package": "kernel-headers-4.18.0-240.10.1.el8_3",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "kernel-headers",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "4.18.0-240.10.1.el8_3",
+            "severity": "Low",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-14390",
+            "vendor_data": [],
+            "vuln": "CVE-2020-14390"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 5.0,
+                        "exploitability_score": 10.0,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 7.5,
+                        "exploitability_score": 3.9,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2020-25645"
+                }
+            ],
+            "package": "kernel-headers-4.18.0-240.10.1.el8_3",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "kernel-headers",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "4.18.0-240.10.1.el8_3",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-25645",
+            "vendor_data": [],
+            "vuln": "CVE-2020-25645"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 1.9,
+                        "exploitability_score": 3.4,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 4.1,
+                        "exploitability_score": 0.5,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2020-25284"
+                }
+            ],
+            "package": "kernel-headers-4.18.0-240.10.1.el8_3",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "kernel-headers",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "4.18.0-240.10.1.el8_3",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-25284",
+            "vendor_data": [],
+            "vuln": "CVE-2020-25284"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 4.4,
+                        "exploitability_score": 3.4,
+                        "impact_score": 6.4
+                    },
+                    "cvss_v3": {
+                        "base_score": 6.4,
+                        "exploitability_score": 0.5,
+                        "impact_score": 5.9
+                    },
+                    "id": "CVE-2020-25285"
+                }
+            ],
+            "package": "kernel-headers-4.18.0-240.10.1.el8_3",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "kernel-headers",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "4.18.0-240.10.1.el8_3",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-25285",
+            "vendor_data": [],
+            "vuln": "CVE-2020-25285"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 4.4,
+                        "exploitability_score": 3.4,
+                        "impact_score": 6.4
+                    },
+                    "cvss_v3": {
+                        "base_score": 7.0,
+                        "exploitability_score": 1.0,
+                        "impact_score": 5.9
+                    },
+                    "id": "CVE-2020-25212"
+                }
+            ],
+            "package": "kernel-headers-4.18.0-240.10.1.el8_3",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "kernel-headers",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "4.18.0-240.10.1.el8_3",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-25212",
+            "vendor_data": [],
+            "vuln": "CVE-2020-25212"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 2.1,
+                        "exploitability_score": 3.9,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 5.5,
+                        "exploitability_score": 1.8,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2020-27152"
+                }
+            ],
+            "package": "kernel-headers-4.18.0-240.10.1.el8_3",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "kernel-headers",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "4.18.0-240.10.1.el8_3",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-27152",
+            "vendor_data": [],
+            "vuln": "CVE-2020-27152"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 2.1,
+                        "exploitability_score": 3.9,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 5.5,
+                        "exploitability_score": 1.8,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2020-8694"
+                }
+            ],
+            "package": "kernel-headers-4.18.0-240.10.1.el8_3",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "kernel-headers",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "4.18.0-240.10.1.el8_3",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-8694",
+            "vendor_data": [],
+            "vuln": "CVE-2020-8694"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 6.9,
+                        "exploitability_score": 3.4,
+                        "impact_score": 10.0
+                    },
+                    "cvss_v3": {
+                        "base_score": 6.5,
+                        "exploitability_score": 0.6,
+                        "impact_score": 5.9
+                    },
+                    "id": "CVE-2020-26541"
+                }
+            ],
+            "package": "kernel-headers-4.18.0-240.10.1.el8_3",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "kernel-headers",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "4.18.0-240.10.1.el8_3",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-26541",
+            "vendor_data": [],
+            "vuln": "CVE-2020-26541"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 5.5,
+                        "exploitability_score": 8.0,
+                        "impact_score": 4.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 6.5,
+                        "exploitability_score": 1.2,
+                        "impact_score": 5.2
+                    },
+                    "id": "CVE-2021-3178"
+                }
+            ],
+            "package": "kernel-headers-4.18.0-240.10.1.el8_3",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "kernel-headers",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "4.18.0-240.10.1.el8_3",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2021-3178",
+            "vendor_data": [],
+            "vuln": "CVE-2021-3178"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 5.8,
+                        "exploitability_score": 8.6,
+                        "impact_score": 4.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 7.4,
+                        "exploitability_score": 2.2,
+                        "impact_score": 5.2
+                    },
+                    "id": "CVE-2020-25705"
+                }
+            ],
+            "package": "kernel-headers-4.18.0-240.10.1.el8_3",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "kernel-headers",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "4.18.0-240.10.1.el8_3",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-25705",
+            "vendor_data": [],
+            "vuln": "CVE-2020-25705"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 4.6,
+                        "exploitability_score": 3.9,
+                        "impact_score": 6.4
+                    },
+                    "cvss_v3": {
+                        "base_score": 7.8,
+                        "exploitability_score": 1.8,
+                        "impact_score": 5.9
+                    },
+                    "id": "CVE-2020-14351"
+                }
+            ],
+            "package": "kernel-headers-4.18.0-240.10.1.el8_3",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "kernel-headers",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "4.18.0-240.10.1.el8_3",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-14351",
+            "vendor_data": [],
+            "vuln": "CVE-2020-14351"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 4.9,
+                        "exploitability_score": 3.9,
+                        "impact_score": 6.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 4.4,
+                        "exploitability_score": 0.8,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2020-15437"
+                }
+            ],
+            "package": "kernel-headers-4.18.0-240.10.1.el8_3",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "kernel-headers",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "4.18.0-240.10.1.el8_3",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-15437",
+            "vendor_data": [],
+            "vuln": "CVE-2020-15437"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 4.9,
+                        "exploitability_score": 3.9,
+                        "impact_score": 6.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 5.5,
+                        "exploitability_score": 1.8,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2020-25704"
+                }
+            ],
+            "package": "kernel-headers-4.18.0-240.10.1.el8_3",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "kernel-headers",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "4.18.0-240.10.1.el8_3",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-25704",
+            "vendor_data": [],
+            "vuln": "CVE-2020-25704"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [],
+            "package": "kernel-headers-4.18.0-240.10.1.el8_3",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "kernel-headers",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "4.18.0-240.10.1.el8_3",
+            "severity": "Low",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-27820",
+            "vendor_data": [],
+            "vuln": "CVE-2020-27820"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": -1.0,
+                        "exploitability_score": -1.0,
+                        "impact_score": -1.0
+                    },
+                    "cvss_v3": {
+                        "base_score": -1.0,
+                        "exploitability_score": -1.0,
+                        "impact_score": -1.0
+                    },
+                    "id": "CVE-2020-16120"
+                }
+            ],
+            "package": "kernel-headers-4.18.0-240.10.1.el8_3",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "kernel-headers",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "4.18.0-240.10.1.el8_3",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-16120",
+            "vendor_data": [],
+            "vuln": "CVE-2020-16120"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 1.9,
+                        "exploitability_score": 3.4,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 4.7,
+                        "exploitability_score": 1.0,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2020-4788"
+                }
+            ],
+            "package": "kernel-headers-4.18.0-240.10.1.el8_3",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "kernel-headers",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "4.18.0-240.10.1.el8_3",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-4788",
+            "vendor_data": [],
+            "vuln": "CVE-2020-4788"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 7.2,
+                        "exploitability_score": 3.9,
+                        "impact_score": 10.0
+                    },
+                    "cvss_v3": {
+                        "base_score": 7.8,
+                        "exploitability_score": 1.8,
+                        "impact_score": 5.9
+                    },
+                    "id": "CVE-2020-29661"
+                }
+            ],
+            "package": "kernel-headers-4.18.0-240.10.1.el8_3",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "kernel-headers",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "4.18.0-240.10.1.el8_3",
+            "severity": "High",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-29661",
+            "vendor_data": [],
+            "vuln": "CVE-2020-29661"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 2.1,
+                        "exploitability_score": 3.9,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 4.4,
+                        "exploitability_score": 0.8,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2020-29660"
+                }
+            ],
+            "package": "kernel-headers-4.18.0-240.10.1.el8_3",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "kernel-headers",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "4.18.0-240.10.1.el8_3",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-29660",
+            "vendor_data": [],
+            "vuln": "CVE-2020-29660"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 7.2,
+                        "exploitability_score": 3.9,
+                        "impact_score": 10.0
+                    },
+                    "cvss_v3": {
+                        "base_score": 7.8,
+                        "exploitability_score": 1.8,
+                        "impact_score": 5.9
+                    },
+                    "id": "CVE-2020-27786"
+                }
+            ],
+            "package": "kernel-headers-4.18.0-240.10.1.el8_3",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "kernel-headers",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "4.18.0-240.10.1.el8_3",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-27786",
+            "vendor_data": [],
+            "vuln": "CVE-2020-27786"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 7.5,
+                        "exploitability_score": 6.8,
+                        "impact_score": 8.5
+                    },
+                    "cvss_v3": {
+                        "base_score": 7.2,
+                        "exploitability_score": 1.2,
+                        "impact_score": 5.9
+                    },
+                    "id": "CVE-2020-25643"
+                }
+            ],
+            "package": "kernel-headers-4.18.0-240.10.1.el8_3",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "kernel-headers",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "4.18.0-240.10.1.el8_3",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-25643",
+            "vendor_data": [],
+            "vuln": "CVE-2020-25643"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 3.6,
+                        "exploitability_score": 3.9,
+                        "impact_score": 4.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 7.1,
+                        "exploitability_score": 1.8,
+                        "impact_score": 5.2
+                    },
+                    "id": "CVE-2020-24394"
+                }
+            ],
+            "package": "kernel-headers-4.18.0-240.10.1.el8_3",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "kernel-headers",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "4.18.0-240.10.1.el8_3",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-24394",
+            "vendor_data": [],
+            "vuln": "CVE-2020-24394"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 2.1,
+                        "exploitability_score": 3.9,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 5.5,
+                        "exploitability_score": 1.8,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2020-14314"
+                }
+            ],
+            "package": "kernel-headers-4.18.0-240.10.1.el8_3",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "kernel-headers",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "4.18.0-240.10.1.el8_3",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-14314",
+            "vendor_data": [],
+            "vuln": "CVE-2020-14314"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 7.2,
+                        "exploitability_score": 3.9,
+                        "impact_score": 10.0
+                    },
+                    "cvss_v3": {
+                        "base_score": 6.7,
+                        "exploitability_score": 0.8,
+                        "impact_score": 5.9
+                    },
+                    "id": "CVE-2020-27777"
+                }
+            ],
+            "package": "kernel-headers-4.18.0-240.10.1.el8_3",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "kernel-headers",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "4.18.0-240.10.1.el8_3",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-27777",
+            "vendor_data": [],
+            "vuln": "CVE-2020-27777"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 4.7,
+                        "exploitability_score": 3.4,
+                        "impact_score": 6.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 4.7,
+                        "exploitability_score": 1.0,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2019-20794"
+                }
+            ],
+            "package": "kernel-headers-4.18.0-240.10.1.el8_3",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "kernel-headers",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "4.18.0-240.10.1.el8_3",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2019-20794",
+            "vendor_data": [],
+            "vuln": "CVE-2019-20794"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [],
+            "package": "kernel-headers-4.18.0-240.10.1.el8_3",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "kernel-headers",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "4.18.0-240.10.1.el8_3",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-35508",
+            "vendor_data": [],
+            "vuln": "CVE-2020-35508"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 4.9,
+                        "exploitability_score": 3.9,
+                        "impact_score": 6.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 4.4,
+                        "exploitability_score": 0.8,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2020-27835"
+                }
+            ],
+            "package": "kernel-headers-4.18.0-240.10.1.el8_3",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "kernel-headers",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "4.18.0-240.10.1.el8_3",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-27835",
+            "vendor_data": [],
+            "vuln": "CVE-2020-27835"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 7.2,
+                        "exploitability_score": 3.9,
+                        "impact_score": 10.0
+                    },
+                    "cvss_v3": {
+                        "base_score": 6.7,
+                        "exploitability_score": 0.8,
+                        "impact_score": 5.9
+                    },
+                    "id": "CVE-2020-36158"
+                }
+            ],
+            "package": "kernel-headers-4.18.0-240.10.1.el8_3",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "kernel-headers",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "4.18.0-240.10.1.el8_3",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-36158",
+            "vendor_data": [],
+            "vuln": "CVE-2020-36158"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 5.5,
+                        "exploitability_score": 8.0,
+                        "impact_score": 4.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 8.1,
+                        "exploitability_score": 2.8,
+                        "impact_score": 5.2
+                    },
+                    "id": "CVE-2020-28374"
+                }
+            ],
+            "package": "kernel-headers-4.18.0-240.10.1.el8_3",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "kernel-headers",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "4.18.0-240.10.1.el8_3",
+            "severity": "High",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-28374",
+            "vendor_data": [],
+            "vuln": "CVE-2020-28374"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 4.6,
+                        "exploitability_score": 3.9,
+                        "impact_score": 6.4
+                    },
+                    "cvss_v3": {
+                        "base_score": 6.7,
+                        "exploitability_score": 0.8,
+                        "impact_score": 5.9
+                    },
+                    "id": "CVE-2021-0342"
+                }
+            ],
+            "package": "kernel-headers-4.18.0-240.10.1.el8_3",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "kernel-headers",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "4.18.0-240.10.1.el8_3",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2021-0342",
+            "vendor_data": [],
+            "vuln": "CVE-2021-0342"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 6.1,
+                        "exploitability_score": 3.9,
+                        "impact_score": 8.5
+                    },
+                    "cvss_v3": {
+                        "base_score": 5.0,
+                        "exploitability_score": 0.3,
+                        "impact_score": 4.7
+                    },
+                    "id": "CVE-2020-28974"
+                }
+            ],
+            "package": "kernel-headers-4.18.0-240.10.1.el8_3",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "kernel-headers",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "4.18.0-240.10.1.el8_3",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-28974",
+            "vendor_data": [],
+            "vuln": "CVE-2020-28974"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 4.6,
+                        "exploitability_score": 3.9,
+                        "impact_score": 6.4
+                    },
+                    "cvss_v3": {
+                        "base_score": 6.7,
+                        "exploitability_score": 0.8,
+                        "impact_score": 5.9
+                    },
+                    "id": "CVE-2020-0431"
+                }
+            ],
+            "package": "kernel-headers-4.18.0-240.10.1.el8_3",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "kernel-headers",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "4.18.0-240.10.1.el8_3",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-0431",
+            "vendor_data": [],
+            "vuln": "CVE-2020-0431"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 7.2,
+                        "exploitability_score": 3.9,
+                        "impact_score": 10.0
+                    },
+                    "cvss_v3": {
+                        "base_score": 7.8,
+                        "exploitability_score": 1.8,
+                        "impact_score": 5.9
+                    },
+                    "id": "CVE-2020-0466"
+                }
+            ],
+            "package": "kernel-headers-4.18.0-240.10.1.el8_3",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "kernel-headers",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "4.18.0-240.10.1.el8_3",
+            "severity": "High",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-0466",
+            "vendor_data": [],
+            "vuln": "CVE-2020-0466"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 4.9,
+                        "exploitability_score": 3.9,
+                        "impact_score": 6.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 5.5,
+                        "exploitability_score": 1.8,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2020-0404"
+                }
+            ],
+            "package": "kernel-headers-4.18.0-240.10.1.el8_3",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "kernel-headers",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "4.18.0-240.10.1.el8_3",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-0404",
+            "vendor_data": [],
+            "vuln": "CVE-2020-0404"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 7.2,
+                        "exploitability_score": 3.9,
+                        "impact_score": 10.0
+                    },
+                    "cvss_v3": {
+                        "base_score": 7.8,
+                        "exploitability_score": 1.8,
+                        "impact_score": 5.9
+                    },
+                    "id": "CVE-2021-3347"
+                }
+            ],
+            "package": "kernel-headers-4.18.0-240.10.1.el8_3",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "kernel-headers",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "4.18.0-240.10.1.el8_3",
+            "severity": "High",
+            "url": "https://access.redhat.com/security/cve/CVE-2021-3347",
+            "vendor_data": [],
+            "vuln": "CVE-2021-3347"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 2.1,
+                        "exploitability_score": 3.9,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 5.5,
+                        "exploitability_score": 1.8,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2020-0427"
+                }
+            ],
+            "package": "kernel-headers-4.18.0-240.10.1.el8_3",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "kernel-headers",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "4.18.0-240.10.1.el8_3",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-0427",
+            "vendor_data": [],
+            "vuln": "CVE-2020-0427"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 6.9,
+                        "exploitability_score": 3.4,
+                        "impact_score": 10.0
+                    },
+                    "cvss_v3": {
+                        "base_score": 7.0,
+                        "exploitability_score": 1.0,
+                        "impact_score": 5.9
+                    },
+                    "id": "CVE-2021-26708"
+                }
+            ],
+            "package": "kernel-headers-4.18.0-240.10.1.el8_3",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "kernel-headers",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "4.18.0-240.10.1.el8_3",
+            "severity": "High",
+            "url": "https://access.redhat.com/security/cve/CVE-2021-26708",
+            "vendor_data": [],
+            "vuln": "CVE-2021-26708"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [],
+            "package": "kernel-headers-4.18.0-240.10.1.el8_3",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "kernel-headers",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "4.18.0-240.10.1.el8_3",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2021-20194",
+            "vendor_data": [],
+            "vuln": "CVE-2021-20194"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 2.1,
+                        "exploitability_score": 3.9,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 5.5,
+                        "exploitability_score": 1.8,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2021-3348"
+                }
+            ],
+            "package": "kernel-headers-4.18.0-240.10.1.el8_3",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "kernel-headers",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "4.18.0-240.10.1.el8_3",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2021-3348",
+            "vendor_data": [],
+            "vuln": "CVE-2021-3348"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 5.0,
+                        "exploitability_score": 10.0,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 7.5,
+                        "exploitability_score": 3.9,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2020-28196"
+                }
+            ],
+            "package": "krb5-libs-1.18.2-5.el8",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "krb5-libs",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "1.18.2-5.el8",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-28196",
+            "vendor_data": [],
+            "vuln": "CVE-2020-28196"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 5.0,
+                        "exploitability_score": 10.0,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 7.5,
+                        "exploitability_score": 3.9,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2020-8285"
+                }
+            ],
+            "package": "libcurl-7.61.1-14.el8_3.1",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "libcurl",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "7.61.1-14.el8_3.1",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-8285",
+            "vendor_data": [],
+            "vuln": "CVE-2020-8285"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 4.3,
+                        "exploitability_score": 8.6,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 3.7,
+                        "exploitability_score": 2.2,
+                        "impact_score": 1.4
+                    },
+                    "id": "CVE-2020-8284"
+                }
+            ],
+            "package": "libcurl-7.61.1-14.el8_3.1",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "libcurl",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "7.61.1-14.el8_3.1",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-8284",
+            "vendor_data": [],
+            "vuln": "CVE-2020-8284"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 5.0,
+                        "exploitability_score": 10.0,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 7.5,
+                        "exploitability_score": 3.9,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2020-8231"
+                }
+            ],
+            "package": "libcurl-7.61.1-14.el8_3.1",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "libcurl",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "7.61.1-14.el8_3.1",
+            "severity": "Low",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-8231",
+            "vendor_data": [],
+            "vuln": "CVE-2020-8231"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 5.0,
+                        "exploitability_score": 10.0,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 7.5,
+                        "exploitability_score": 3.9,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2020-8286"
+                }
+            ],
+            "package": "libcurl-7.61.1-14.el8_3.1",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "libcurl",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "7.61.1-14.el8_3.1",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-8286",
+            "vendor_data": [],
+            "vuln": "CVE-2020-8286"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 4.3,
+                        "exploitability_score": 8.6,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 5.9,
+                        "exploitability_score": 2.2,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2020-16135"
+                }
+            ],
+            "package": "libssh-0.9.4-2.el8",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "libssh",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "0.9.4-2.el8",
+            "severity": "Low",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-16135",
+            "vendor_data": [],
+            "vuln": "CVE-2020-16135"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 4.3,
+                        "exploitability_score": 8.6,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 5.9,
+                        "exploitability_score": 2.2,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2020-16135"
+                }
+            ],
+            "package": "libssh-config-0.9.4-2.el8",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "libssh-config",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "0.9.4-2.el8",
+            "severity": "Low",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-16135",
+            "vendor_data": [],
+            "vuln": "CVE-2020-16135"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 6.4,
+                        "exploitability_score": 10.0,
+                        "impact_score": 4.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 6.5,
+                        "exploitability_score": 3.9,
+                        "impact_score": 2.5
+                    },
+                    "id": "CVE-2020-24977"
+                }
+            ],
+            "package": "libxml2-2.9.7-8.el8",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "libxml2",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "2.9.7-8.el8",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-24977",
+            "vendor_data": [],
+            "vuln": "CVE-2020-24977"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 5.0,
+                        "exploitability_score": 10.0,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 5.3,
+                        "exploitability_score": 3.9,
+                        "impact_score": 1.4
+                    },
+                    "id": "CVE-2020-24370"
+                }
+            ],
+            "package": "lua-libs-5.3.4-11.el8",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "lua-libs",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "5.3.4-11.el8",
+            "severity": "Low",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-24370",
+            "vendor_data": [],
+            "vuln": "CVE-2020-24370"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 5.0,
+                        "exploitability_score": 10.0,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 7.5,
+                        "exploitability_score": 3.9,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2020-29363"
+                }
+            ],
+            "package": "p11-kit-0.23.14-5.el8_0",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "p11-kit",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "0.23.14-5.el8_0",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-29363",
+            "vendor_data": [],
+            "vuln": "CVE-2020-29363"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 5.0,
+                        "exploitability_score": 10.0,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 7.5,
+                        "exploitability_score": 3.9,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2020-29361"
+                }
+            ],
+            "package": "p11-kit-0.23.14-5.el8_0",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "p11-kit",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "0.23.14-5.el8_0",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-29361",
+            "vendor_data": [],
+            "vuln": "CVE-2020-29361"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 5.0,
+                        "exploitability_score": 10.0,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 5.3,
+                        "exploitability_score": 3.9,
+                        "impact_score": 1.4
+                    },
+                    "id": "CVE-2020-29362"
+                }
+            ],
+            "package": "p11-kit-0.23.14-5.el8_0",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "p11-kit",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "0.23.14-5.el8_0",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-29362",
+            "vendor_data": [],
+            "vuln": "CVE-2020-29362"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 5.0,
+                        "exploitability_score": 10.0,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 7.5,
+                        "exploitability_score": 3.9,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2020-29363"
+                }
+            ],
+            "package": "p11-kit-trust-0.23.14-5.el8_0",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "p11-kit-trust",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "0.23.14-5.el8_0",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-29363",
+            "vendor_data": [],
+            "vuln": "CVE-2020-29363"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 5.0,
+                        "exploitability_score": 10.0,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 7.5,
+                        "exploitability_score": 3.9,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2020-29361"
+                }
+            ],
+            "package": "p11-kit-trust-0.23.14-5.el8_0",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "p11-kit-trust",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "0.23.14-5.el8_0",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-29361",
+            "vendor_data": [],
+            "vuln": "CVE-2020-29361"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 5.0,
+                        "exploitability_score": 10.0,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 5.3,
+                        "exploitability_score": 3.9,
+                        "impact_score": 1.4
+                    },
+                    "id": "CVE-2020-29362"
+                }
+            ],
+            "package": "p11-kit-trust-0.23.14-5.el8_0",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "p11-kit-trust",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "0.23.14-5.el8_0",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-29362",
+            "vendor_data": [],
+            "vuln": "CVE-2020-29362"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 5.0,
+                        "exploitability_score": 10.0,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 7.5,
+                        "exploitability_score": 3.9,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2020-12723"
+                }
+            ],
+            "package": "perl-interpreter-5.26.3-416.el8",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "perl-interpreter",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "5.26.3-416.el8",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-12723",
+            "vendor_data": [],
+            "vuln": "CVE-2020-12723"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 7.5,
+                        "exploitability_score": 10.0,
+                        "impact_score": 6.4
+                    },
+                    "cvss_v3": {
+                        "base_score": 8.6,
+                        "exploitability_score": 3.9,
+                        "impact_score": 4.7
+                    },
+                    "id": "CVE-2020-10878"
+                }
+            ],
+            "package": "perl-interpreter-5.26.3-416.el8",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "perl-interpreter",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "5.26.3-416.el8",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-10878",
+            "vendor_data": [],
+            "vuln": "CVE-2020-10878"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 6.4,
+                        "exploitability_score": 10.0,
+                        "impact_score": 4.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 8.2,
+                        "exploitability_score": 3.9,
+                        "impact_score": 4.2
+                    },
+                    "id": "CVE-2020-10543"
+                }
+            ],
+            "package": "perl-interpreter-5.26.3-416.el8",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "perl-interpreter",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "5.26.3-416.el8",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-10543",
+            "vendor_data": [],
+            "vuln": "CVE-2020-10543"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 5.0,
+                        "exploitability_score": 10.0,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 7.5,
+                        "exploitability_score": 3.9,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2020-12723"
+                }
+            ],
+            "package": "perl-libs-5.26.3-416.el8",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "perl-libs",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "5.26.3-416.el8",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-12723",
+            "vendor_data": [],
+            "vuln": "CVE-2020-12723"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 7.5,
+                        "exploitability_score": 10.0,
+                        "impact_score": 6.4
+                    },
+                    "cvss_v3": {
+                        "base_score": 8.6,
+                        "exploitability_score": 3.9,
+                        "impact_score": 4.7
+                    },
+                    "id": "CVE-2020-10878"
+                }
+            ],
+            "package": "perl-libs-5.26.3-416.el8",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "perl-libs",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "5.26.3-416.el8",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-10878",
+            "vendor_data": [],
+            "vuln": "CVE-2020-10878"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 6.4,
+                        "exploitability_score": 10.0,
+                        "impact_score": 4.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 8.2,
+                        "exploitability_score": 3.9,
+                        "impact_score": 4.2
+                    },
+                    "id": "CVE-2020-10543"
+                }
+            ],
+            "package": "perl-libs-5.26.3-416.el8",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "perl-libs",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "5.26.3-416.el8",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-10543",
+            "vendor_data": [],
+            "vuln": "CVE-2020-10543"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 5.0,
+                        "exploitability_score": 10.0,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 7.5,
+                        "exploitability_score": 3.9,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2020-12723"
+                }
+            ],
+            "package": "perl-macros-5.26.3-416.el8",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "perl-macros",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "5.26.3-416.el8",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-12723",
+            "vendor_data": [],
+            "vuln": "CVE-2020-12723"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 7.5,
+                        "exploitability_score": 10.0,
+                        "impact_score": 6.4
+                    },
+                    "cvss_v3": {
+                        "base_score": 8.6,
+                        "exploitability_score": 3.9,
+                        "impact_score": 4.7
+                    },
+                    "id": "CVE-2020-10878"
+                }
+            ],
+            "package": "perl-macros-5.26.3-416.el8",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "perl-macros",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "5.26.3-416.el8",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-10878",
+            "vendor_data": [],
+            "vuln": "CVE-2020-10878"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 6.4,
+                        "exploitability_score": 10.0,
+                        "impact_score": 4.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 8.2,
+                        "exploitability_score": 3.9,
+                        "impact_score": 4.2
+                    },
+                    "id": "CVE-2020-10543"
+                }
+            ],
+            "package": "perl-macros-5.26.3-416.el8",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "perl-macros",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "5.26.3-416.el8",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-10543",
+            "vendor_data": [],
+            "vuln": "CVE-2020-10543"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 6.4,
+                        "exploitability_score": 10.0,
+                        "impact_score": 4.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 7.2,
+                        "exploitability_score": 3.9,
+                        "impact_score": 2.7
+                    },
+                    "id": "CVE-2020-26116"
+                }
+            ],
+            "package": "platform-python-3.6.8-31.el8",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "platform-python",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "3.6.8-31.el8",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-26116",
+            "vendor_data": [],
+            "vuln": "CVE-2020-26116"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 7.5,
+                        "exploitability_score": 10.0,
+                        "impact_score": 6.4
+                    },
+                    "cvss_v3": {
+                        "base_score": 9.8,
+                        "exploitability_score": 3.9,
+                        "impact_score": 5.9
+                    },
+                    "id": "CVE-2020-27619"
+                }
+            ],
+            "package": "platform-python-3.6.8-31.el8",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "platform-python",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "3.6.8-31.el8",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-27619",
+            "vendor_data": [],
+            "vuln": "CVE-2020-27619"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 6.4,
+                        "exploitability_score": 10.0,
+                        "impact_score": 4.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 7.2,
+                        "exploitability_score": 3.9,
+                        "impact_score": 2.7
+                    },
+                    "id": "CVE-2020-26116"
+                }
+            ],
+            "package": "platform-python-devel-3.6.8-31.el8",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "platform-python-devel",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "3.6.8-31.el8",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-26116",
+            "vendor_data": [],
+            "vuln": "CVE-2020-26116"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 7.5,
+                        "exploitability_score": 10.0,
+                        "impact_score": 6.4
+                    },
+                    "cvss_v3": {
+                        "base_score": 9.8,
+                        "exploitability_score": 3.9,
+                        "impact_score": 5.9
+                    },
+                    "id": "CVE-2020-27619"
+                }
+            ],
+            "package": "platform-python-devel-3.6.8-31.el8",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "platform-python-devel",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "3.6.8-31.el8",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-27619",
+            "vendor_data": [],
+            "vuln": "CVE-2020-27619"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 6.4,
+                        "exploitability_score": 10.0,
+                        "impact_score": 4.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 7.2,
+                        "exploitability_score": 3.9,
+                        "impact_score": 2.7
+                    },
+                    "id": "CVE-2020-26116"
+                }
+            ],
+            "package": "python3-libs-3.6.8-31.el8",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "python3-libs",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "3.6.8-31.el8",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-26116",
+            "vendor_data": [],
+            "vuln": "CVE-2020-26116"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 7.5,
+                        "exploitability_score": 10.0,
+                        "impact_score": 6.4
+                    },
+                    "cvss_v3": {
+                        "base_score": 9.8,
+                        "exploitability_score": 3.9,
+                        "impact_score": 5.9
+                    },
+                    "id": "CVE-2020-27619"
+                }
+            ],
+            "package": "python3-libs-3.6.8-31.el8",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "python3-libs",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "3.6.8-31.el8",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-27619",
+            "vendor_data": [],
+            "vuln": "CVE-2020-27619"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 6.4,
+                        "exploitability_score": 10.0,
+                        "impact_score": 4.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 6.5,
+                        "exploitability_score": 3.9,
+                        "impact_score": 2.5
+                    },
+                    "id": "CVE-2020-24977"
+                }
+            ],
+            "package": "python3-libxml2-2.9.7-8.el8",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "python3-libxml2",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "2.9.7-8.el8",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-24977",
+            "vendor_data": [],
+            "vuln": "CVE-2020-24977"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 2.1,
+                        "exploitability_score": 3.9,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 5.5,
+                        "exploitability_score": 1.8,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2020-13434"
+                }
+            ],
+            "package": "sqlite-libs-3.26.0-11.el8",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "sqlite-libs",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "3.26.0-11.el8",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-13434",
+            "vendor_data": [],
+            "vuln": "CVE-2020-13434"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 2.1,
+                        "exploitability_score": 3.9,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 5.5,
+                        "exploitability_score": 1.8,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2020-15358"
+                }
+            ],
+            "package": "sqlite-libs-3.26.0-11.el8",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "sqlite-libs",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "3.26.0-11.el8",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-15358",
+            "vendor_data": [],
+            "vuln": "CVE-2020-15358"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 6.2,
+                        "exploitability_score": 1.9,
+                        "impact_score": 10.0
+                    },
+                    "cvss_v3": {
+                        "base_score": 6.7,
+                        "exploitability_score": 0.8,
+                        "impact_score": 5.9
+                    },
+                    "id": "CVE-2020-13776"
+                }
+            ],
+            "package": "systemd-239-41.el8_3.1",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "systemd",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "239-41.el8_3.1",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-13776",
+            "vendor_data": [],
+            "vuln": "CVE-2020-13776"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 6.2,
+                        "exploitability_score": 1.9,
+                        "impact_score": 10.0
+                    },
+                    "cvss_v3": {
+                        "base_score": 6.7,
+                        "exploitability_score": 0.8,
+                        "impact_score": 5.9
+                    },
+                    "id": "CVE-2020-13776"
+                }
+            ],
+            "package": "systemd-libs-239-41.el8_3.1",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "systemd-libs",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "239-41.el8_3.1",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-13776",
+            "vendor_data": [],
+            "vuln": "CVE-2020-13776"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "rhel:8",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 6.2,
+                        "exploitability_score": 1.9,
+                        "impact_score": 10.0
+                    },
+                    "cvss_v3": {
+                        "base_score": 6.7,
+                        "exploitability_score": 0.8,
+                        "impact_score": 5.9
+                    },
+                    "id": "CVE-2020-13776"
+                }
+            ],
+            "package": "systemd-pam-239-41.el8_3.1",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "systemd-pam",
+            "package_path": "pkgdb",
+            "package_type": "rpm",
+            "package_version": "239-41.el8_3.1",
+            "severity": "Medium",
+            "url": "https://access.redhat.com/security/cve/CVE-2020-13776",
+            "vendor_data": [],
+            "vuln": "CVE-2020-13776"
+        }
+    ],
+    "vulnerability_type": "all"
+}
