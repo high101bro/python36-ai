@@ -46,8 +46,27 @@ RUN python3.6 -m pip install --upgrade --no-index --find-links /tmp/repo pip && 
         django \
         flask
 
+USER root
+
 # clean up
 RUN rm -rf /tmp/repo
+
+# Compliance Modification
+RUN rm -rf /usr/share/doc/perl-IO-Socket-SSL/certs/ && \
+    rm -rf /usr/share/doc/perl-IO-Socket-SSL/example/ && \
+    rm -rf /usr/share/doc/perl-IO-Socket-SSL/example/ && \
+    chmod g-s /usr/libexec/openssh/ssh-keysign  && \
+    python3.6 -m pip uninstall -y click && \ 
+    yum remove -y \
+        binutils \
+        glibc-devel \
+        glibc-headers \
+        kernel-headers \
+        perl-interpreter \
+        perl-libs \
+        perl-macros
+
+USER default
 
 HEALTHCHECK --interval=10s --timeout=1s CMD python.3.6 -c 'print("up")' || exit 1
 
