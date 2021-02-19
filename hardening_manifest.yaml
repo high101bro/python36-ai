@@ -365,11 +365,6 @@ resources:
   validation:
     type: sha256
     value: 37e107fa11299090ed90f93c7172162b850c28fd09999937b971926813e887c5
-- filename: tdqm-0.0.1.tar.gz
-  url: https://files.pythonhosted.org/packages/5a/38/58c9e22b95e98666fe29f35e217ab6126a03798dadf3f4f8f3e5f898510b/tdqm-0.0.1.tar.gz
-  validation:
-    type: sha256
-    value: f050004a76b1d22f70b78209b48781353c82440215b6ba7d22b1f499b05a0101
 - filename: threadpoolctl-2.1.0-py3-none-any.whl
   url: https://files.pythonhosted.org/packages/f7/12/ec3f2e203afa394a149911729357aa48affc59c20e2c1c8297a60f33f133/threadpoolctl-2.1.0-py3-none-any.whl
   validation:
@@ -425,6 +420,18 @@ resources:
   validation:
     type: sha256
     value: 102c24ef8f171fd729d46599845e95c7ab894a4cf45f5de11a44cc7444fb1108
+- filename: llvmlite-0.35.0-cp36-cp36m-manylinux2010_x86_64.whl
+  url: https://files.pythonhosted.org/packages/9f/94/f05040ee3ec199c827a38426d78d0af9274c1e18ec9a592bb40954c952c8/llvmlite-0.35.0-cp36-cp36m-manylinux2010_x86_64.whl
+  validation:
+    type: sha256
+    value: 10f444ab648fb4b0ca266d0dcd201892aa8051db11f5dc98dc79631fc6bbf528
+- filename: numba-0.52.0-cp36-cp36m-manylinux2014_x86_64.whl
+  url: https://files.pythonhosted.org/packages/60/a5/a065e1e23a5ced6da6628bba7efec4de98f8970a59e034bb0639866631da/numba-0.52.0-cp36-cp36m-manylinux2014_x86_64.whl
+  validation:
+    type: sha256
+    value: a19e543a254caca74acd494438ca30292854e0291e5e91a2e54b50714b4428c3
+
+
 
 
 # List of project maintainers

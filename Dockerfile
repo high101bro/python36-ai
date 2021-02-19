@@ -15,14 +15,16 @@ RUN yum update -y && \
     yum upgrade -y && \
     yum clean all -y && \
     yum install -y \
-        git \
         vim \
         zip \
         unzip \
         wget \
         net-tools\
         # gcc is needed for fbprophet
-        gcc-c++
+        gcc-c++ \
+        sudo \
+        git
+
 
 # changing from root to default user 
 USER default
@@ -33,6 +35,7 @@ RUN python3.6 -m pip install --upgrade --no-index --find-links /tmp/repo pip && 
         pandas \
         matplot \
         seaborn \
+        numba \
         numpy \
         scipy \
         #import sklearn
@@ -50,6 +53,9 @@ RUN python3.6 -m pip install --upgrade --no-index --find-links /tmp/repo pip && 
         flask
 
 USER root
+
+# Allows Matplotlib to write to the directory. It is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing, otherwise it'll create a temporary config/cache direcotyr at /tmp/matplotlib-_ovd7aly.
+RUN chown default /opt/app-root/src/
 
 ### Compliance Modification ###
 # Upgrading to the version that was installed in pytho36 base
@@ -86,13 +92,15 @@ RUN yum remove -y \
     #High - The maximum impact of this vulnerability is a crash, and it relies on processing untrusted input in an uncommon encoding (EUC-KR). When this encoding is not used, the vulnerability can not be triggered.
     glibc-langpack-en \
     #High
-    kernel-headers \
-    #Medium - To mitigate this flaw, developers should not allow untrusted regular expressions to be compiled by the Perl regular expression compiler.
-    perl-interpreter \
-    #Medium - To mitigate this flaw, developers should not allow untrusted regular expressions to be compiled by the Perl regular expression compiler.
-    perl-libs \
-    #Medium - To mitigate this flaw, developers should not allow untrusted regular expressions to be compiled by the Perl regular expression compiler.
-    perl-macros
+    kernel-headers
+
+#    # git requires perl to be installed for it's functionality
+#    #Medium - To mitigate this flaw, developers should not allow untrusted regular expressions to be compiled by the Perl regular expression compiler.
+#    perl-interpreter \
+#    #Medium - To mitigate this flaw, developers should not allow untrusted regular expressions to be compiled by the Perl regular expression compiler.
+#    perl-libs \
+#    #Medium - To mitigate this flaw, developers should not allow untrusted regular expressions to be compiled by the Perl regular expression compiler.
+#    perl-macros
 
 
 # clean up
