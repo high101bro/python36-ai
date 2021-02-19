@@ -48,23 +48,52 @@ RUN python3.6 -m pip install --upgrade --no-index --find-links /tmp/repo pip && 
 
 USER root
 
-# clean up
-RUN rm -rf /tmp/repo
+### Compliance Modification ###
+# Upgrading to the version that was installed in pytho36 base
+RUN yum upgrade -y \
+    glibc-2.28-127.el8_3.2.x86_64 \
+    glibc-common-2.28-127.el8_3.2.x86_64 \
+    glibc-minimal-langpack-2.28-127.el8_3.2.x86_64
 
-# Compliance Modification
+# Upgrading click to patched version
+RUN python3.6 -m pip uninstall click -y && \
+    rm -f /tmp/repo/click-7.1.2-py2.py3-none-any.whl && \
+    python3.6 -m pip install --no-index --find-links /tmp/repo click
+
+
+# Removing identified secret and SUID files
 RUN rm -rf /usr/share/doc/perl-IO-Socket-SSL/certs/ && \
     rm -rf /usr/share/doc/perl-IO-Socket-SSL/example/ && \
     rm -rf /usr/share/doc/perl-IO-Socket-SSL/example/ && \
-    chmod g-s /usr/libexec/openssh/ssh-keysign  && \
-    python3.6 -m pip uninstall -y click && \ 
-    yum remove -y \
-        binutils \
-        glibc-devel \
-        glibc-headers \
-        kernel-headers \
-        perl-interpreter \
-        perl-libs \
-        perl-macros
+    rm -rf /usr/share/doc/perl-Net-SSLeay/examples/server_key.pem && \
+    chmod g-s /usr/libexec/openssh/ssh-keysign  
+
+# NOTE: gcc
+# gcc 8.3.1-5.1.el8 shows to be vulnerable when scanned, but is included in the base python36 image
+
+RUN yum remove -y \
+    #Medium - No Description available [6Jan21]
+    binutils \
+    #High - The maximum impact of this vulnerability is a crash, and it relies on processing untrusted input in an uncommon encoding (EUC-KR). When this encoding is not used, the vulnerability can not be triggered.
+            #Mitigation for this issue is either not available or the currently available options do not meet the Red Hat Product Security criteria comprising ease of use and deployment, applicability to widespread installation base or stability.
+    glibc-devel \
+    #High - The maximum impact of this vulnerability is a crash, and it relies on processing untrusted input in an uncommon encoding (EUC-KR). When this encoding is not used, the vulnerability can not be triggered.
+            #Mitigation for this issue is either not available or the currently available options do not meet the Red Hat Product Security criteria comprising ease of use and deployment, applicability to widespread installation base or stability.
+    glibc-headers \
+    #High - The maximum impact of this vulnerability is a crash, and it relies on processing untrusted input in an uncommon encoding (EUC-KR). When this encoding is not used, the vulnerability can not be triggered.
+    glibc-langpack-en \
+    #High
+    kernel-headers \
+    #Medium - To mitigate this flaw, developers should not allow untrusted regular expressions to be compiled by the Perl regular expression compiler.
+    perl-interpreter \
+    #Medium - To mitigate this flaw, developers should not allow untrusted regular expressions to be compiled by the Perl regular expression compiler.
+    perl-libs \
+    #Medium - To mitigate this flaw, developers should not allow untrusted regular expressions to be compiled by the Perl regular expression compiler.
+    perl-macros
+
+
+# clean up
+RUN rm -rf /tmp/repo
 
 USER default
 
