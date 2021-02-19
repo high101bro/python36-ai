@@ -35,11 +35,14 @@ RUN python3.6 -m pip install --upgrade --no-index --find-links /tmp/repo pip && 
         seaborn \
         numpy \
         scipy \
+        #import sklearn
         scikit-learn \
-        tdqm \
+        tqdm \
         urllib3 \
         requests \
+        #from bs4 import BeautifulSoup
         beautifulsoup4 \
+        #from wordcloud import WordCloud
         wordcloud \
         statsmodels \
         fbprophet  \
